@@ -6,17 +6,9 @@
 
 ## Integrantes
 
-- **José Luis Peñaloza Yaurivilca** — investigador / autor principal del framework y de la tesis.
+- **José Luis Peñaloza Yaurivilca** — [GitHub: @jpenalozay](https://github.com/jpenalozay) — investigador / autor principal del framework y de la tesis.
 
-*(Añade aquí a otros integrantes oficiales del curso, si aplica.)*
-
-## Último entregable de tesis consolidado
-
-El compendio LaTeX más reciente bajo el árbol `tesis/todo/` es:
-
-- [`tesis/todo/TESIS_TODO_EN_UNO.tex`](tesis/todo/TESIS_TODO_EN_UNO.tex) — tesis en un solo archivo fuente (compilar con LaTeX según tu flujo; ver también `TESIS_COMPLETA.tex` en el mismo directorio si usas otra variante).
-
-Capítulos y borradores adicionales están en `tesis/capitulo1/`, `tesis/capitulo2/`, `tesis/capitulo3y4/`, etc.
+*(Añade correo u otros integrantes oficiales del curso, si aplica.)*
 
 ## Dataset confirmado (evaluación)
 
@@ -29,11 +21,10 @@ Capítulos y borradores adicionales están en `tesis/capitulo1/`, `tesis/capitul
 | Ruta | Contenido |
 |------|------------|
 | `agentes/` | Framework multi-agente v3, Docker, gRPC, tests. |
-| `data/raw/` | JSONL de benchmarks y `manifest_v0.json` (regenerable). |
+| `data/raw/` | Manifiesto `manifest_v0.json` y documentación; JSONL regenerables con el script de ingesta. |
 | `notebooks/` | EDA y experimentos. |
 | `src/` | Scripts de ingesta y utilidades; p. ej. `ingest_datasets_v0.py`. |
-| `tesis/` | Fuentes LaTeX/Markdown de la tesis. |
-| `docs/PLAN_EJECUCION_RECUPERACION.md` | Correcciones y cronograma breve (Track B). |
+| `docs/PLAN_EJECUCION_RECUPERACION.md` | Plan de recuperación: correcciones (semana 1) y cronograma (Track B). |
 
 ## Inicio rápido (datos)
 
