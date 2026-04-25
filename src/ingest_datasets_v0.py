@@ -15,6 +15,7 @@ from pathlib import Path
 # Raíz del repositorio (Tesis/): un nivel arriba de src/
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = REPO_ROOT / "data" / "raw"
+LOGS_DIR = REPO_ROOT / "logs"
 MANIFEST_PATH = RAW_DIR / "manifest_v0.json"
 
 
@@ -46,12 +47,27 @@ def _export_split(ds, out_path: Path) -> int:
     return n
 
 
-def main() -> int:
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s | %(levelname)s | %(message)s",
+def _configure_logging() -> None:
+    LOGS_DIR.mkdir(parents=True, exist_ok=True)
+    logfile = LOGS_DIR / "ingesta.log"
+    fmt = logging.Formatter(
+        "%(asctime)s | %(levelname)s | %(message)s",
         datefmt="%Y-%m-%dT%H:%M:%S%z",
     )
+    root = logging.getLogger()
+    root.setLevel(logging.INFO)
+    for h in list(root.handlers):
+        root.removeHandler(h)
+    sh = logging.StreamHandler(sys.stdout)
+    sh.setFormatter(fmt)
+    fh = logging.FileHandler(logfile, encoding="utf-8")
+    fh.setFormatter(fmt)
+    root.addHandler(sh)
+    root.addHandler(fh)
+
+
+def main() -> int:
+    _configure_logging()
     started = datetime.now(timezone.utc)
     logging.info("Inicio de ingesta v0. Fecha/hora (UTC): %s", started.isoformat())
 

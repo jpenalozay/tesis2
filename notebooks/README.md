@@ -1,5 +1,8 @@
-# Notebooks
+# `notebooks/`
 
-Aquí irán análisis exploratorios (EDA) y experimentos de evaluación sobre los datos en `../data/raw/`, importando lógica reutilizable desde `../src/`.
+- Análisis exploratorio y experimentos sobre `data/raw` y, más adelante, `data/processed/`.
+- Nombres sugeridos (misma lógica que en el repositorio de referencia: EDA y baseline por separado):
+  - `EDA_basico.ipynb` (o `01_eda_humaneval_mbpp.ipynb`)
+  - `Baseline_basico.ipynb` (cuando definas un baseline acorde a tu tarea)
 
-Sugerencia de nombre para el primero: `01_eda_humaneval_mbpp.ipynb`.
+Importar utilidades desde `../src/` cuando apliquen.

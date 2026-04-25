@@ -4,11 +4,14 @@
 !/.gitattributes
 !/README.md
 !/requirements.txt
+!/pyproject.toml
 !/agentes/
 !/data/
 !/docs/
 !/notebooks/
 !/src/
+!/logs/
+!/slides/
 
 # Exclusiones dentro de lo permitido
 **/.mypy_cache/
@@ -29,6 +32,9 @@ Thumbs.db
 # Datos regenerables (el script los vuelve a crear)
 data/raw/humaneval/
 data/raw/mbpp/
+
+# Logs de ejecución (la carpeta se versiona; el archivo se regenera)
+logs/*.log
 
 # IDE / Cursor local (si existiera bajo el repo)
 **/.cursor/

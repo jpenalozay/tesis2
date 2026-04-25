@@ -1,5 +1,7 @@
 # Framework multi-agente con gestión dinámica de criticidad y HITL adaptativo
 
+Estructura de repositorio alineada con el [ejemplo de árbol y documentos del curso](https://github.com/GlenRodriguez/EjemploProyecto) (carpetas, scripts y secciones del `README`); el dominio del proyecto (multi-agente, benchmarks de código) es distinto, pero el esqueleto es el mismo.
+
 ## Título y descripción breve
 
 - **Proyecto:** framework multi-agente con gestión dinámica de criticidad y supervisión humana adaptativa (HITL), orientado a desarrollo de software asistido por modelos de lenguaje, con orquestación, evaluación de riesgo y trazabilidad.
@@ -14,44 +16,67 @@
 
 | Aspecto | Detalle |
 |--------|---------|
-| **Fuente** | [HumanEval](https://huggingface.co/datasets/openai_humaneval) y [MBPP](https://huggingface.co/datasets/mbpp) en Hugging Face. |
-| **Descripción** | HumanEval: 164 tareas de programación en Python (prompt, solución de referencia, tests, `entry_point`). MBPP: split de evaluación con problemas de Python en lenguaje natural, código de referencia y listas de tests (p. ej. `task_id`, `text`, `code`, `test_list`). Conteos y rutas concretas tras la ingesta: ver `data/raw/README.md`. |
-| **Versión / integridad** | Tras cada ingesta se genera `data/raw/manifest_v0.json` con fecha y hora de ejecución (UTC), tamaño en bytes y hash **SHA-256** de cada artefacto JSONL. |
+| **Fuente** | [HumanEval](https://huggingface.co/datasets/openai_humaneval) y [MBPP](https://huggingface.co/datasets/mbpp) (Hugging Face). |
+| **Descripción** | Registros, variables y convención de archivos: [`data/raw/README.md`](data/raw/README.md). |
+| **Versión / integridad** | `data/raw/manifest_v0.json` (fecha UTC, tamaños, SHA-256) tras `python src/ingest_datasets_v0.py`. |
 
 ## Requisitos
+
+Con `pip` (recomendado para reproducir):
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Dependencias adicionales del código del framework (Redis, gRPC, etc.): `agentes/requirements.txt`.
+Dependencias del módulo del framework: `agentes/requirements.txt`.
+
+*Opcional (metadatos del proyecto, como en el ejemplo con `pyproject.toml`):* puedes instalar o empaquetar con herramientas que lean [`pyproject.toml`](pyproject.toml); las versiones fijadas siguen en `requirements.txt`.
 
 ## Estructura del repositorio
 
-| Ruta | Rol |
-|------|-----|
-| `agentes/` | Framework multi-agente: coordinador, agentes especializados, gRPC, configuración, tests, Docker. |
-| `data/raw/` | Datos de benchmarks (generados por ingesta) y manifiesto de integridad. |
-| `docs/` | Documentación complementaria (p. ej. planificación de iteraciones). |
-| `notebooks/` | Análisis exploratorio y experimentos. |
-| `src/` | Scripts reutilizables; ingesta y preparación de datos. |
+Árbol lógico (el ejemplo usa el mismo patrón `data/raw` → `processed`, `src`, `notebooks`, `logs`, `slides`):
 
-## Cómo correr el pipeline (datos)
+```
+.
+├── data/
+│   ├── raw/           # orígenes y manifiesto (ingesta)
+│   ├── interim/      # intermedio (opcional)
+│   └── processed/    # listos para modelado / análisis
+├── logs/             # trazas de pipeline (p. ej. salida de ingesta)
+├── notebooks/        # EDA, baselines, experimentos
+├── slides/           # presentaciones
+├── src/              # ingesta, preprocesamiento, utilidades
+├── agentes/          # framework multi-agente (código principal)
+├── docs/             # documentación adicional
+├── README.md
+├── pyproject.toml
+├── requirements.txt
+└── .gitignore
+```
 
-1. Instalar dependencias (sección [Requisitos](#requisitos)).
-2. Descargar y materializar los conjuntos en formato usable (JSONL) y actualizar el manifiesto:
+## Cómo ejecutar el pipeline (datos)
+
+1. **Ingesta** — descarga o materializa el dataset y el manifiesto.
 
 ```bash
 python src/ingest_datasets_v0.py
 ```
 
-3. Revisar salida en consola (logs con instante de ejecución) y archivos bajo `data/raw/` según `data/raw/README.md`.
+2. **Preprocesamiento** (cuando esté implementado) — de `data/raw` hacia `data/interim` / `data/processed`.
 
-## Resultados esperados (mínimos)
+```bash
+python src/preprocesamiento.py
+```
 
-- Archivos JSONL bajo `data/raw/humaneval/` y `data/raw/mbpp/` (nombres descritos en `data/raw/README.md`).
-- `data/raw/manifest_v0.json` con conteos de filas, huellas SHA-256 y marcas de tiempo.
-- Tras un clone limpio, el mismo flujo vuelve a generar salidas verificables contra el manifiesto.
+3. **Exploración** — abrir o crear notebooks bajo `notebooks/` (ver `notebooks/README.md`).
+
+4. **Trazas** — revisar consola y, si aplica, `logs/ingesta.log` (el archivo de log no se sube a Git; se regenera al ejecutar).
+
+## Resultados esperados (mínimos, etapa actual)
+
+- JSONL bajo `data/raw/…` y `data/raw/manifest_v0.json` coherentes.
+- Registro de la ingesta en `logs/ingesta.log` (local).
+- Preparación de `data/processed/` cuando el preprocesamiento esté conectado.
 
 ## Desarrollo del framework
 
@@ -59,8 +84,14 @@ python src/ingest_datasets_v0.py
 cd agentes
 ```
 
-Instrucciones detalladas de arranque, configuración y pruebas: `agentes/README.md` y `agentes/README_FINAL.md`.
+Detalle: `agentes/README.md`, `agentes/README_FINAL.md`.
 
----
+## Roadmap
 
-*Proyecto de investigación (maestría en inteligencia artificial).*
+- Avanzar preprocesamiento y notebooks de EDA / línea base (métricas acordes al tipo de tarea).
+- Integrar evaluación con el orquestador en `agentes/`.
+- Sincronizar presentaciones y resultados bajo `slides/` y `logs/`.
+
+## Licencia
+
+Uso académico — tesis de maestría (marco del programa).

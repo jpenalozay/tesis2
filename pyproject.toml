@@ -1,0 +1,12 @@
+# Metadatos mínimos (equivalente funcional a tener pyproject + requirements, como en el ejemplo del curso).
+[project]
+name = "tesis-framework"
+version = "0.1.0"
+description = "Framework multi-agente (tesis) — estructura alineada con EjemploProyecto"
+readme = "README.md"
+requires-python = ">=3.10"
+# Dependencias detalladas: requirements.txt (raíz) y agentes/requirements.txt
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
