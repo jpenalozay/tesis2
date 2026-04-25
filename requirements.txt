@@ -2,3 +2,6 @@
 datasets>=2.16.0
 huggingface-hub>=0.20.0
 tqdm>=4.66.0
+pandas>=2.0.0
+jupyter>=1.0.0
+ipykernel>=6.0.0

@@ -63,7 +63,7 @@ python src/ingest_datasets_v0.py
 python src/preprocesamiento.py
 ```
 
-3. **Exploración** — abrir o crear notebooks bajo `notebooks/` (ver `notebooks/README.md`).
+3. **Exploración** — abrir `notebooks/EDA_basico.ipynb` (ver `notebooks/README.md`); requiere `jupyter` y datos generados en el paso 1.
 
 4. **Trazas** — revisar consola y, si aplica, `logs/ingesta.log`.
 
