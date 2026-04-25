@@ -1,7 +1,5 @@
 # Framework multi-agente con gestión dinámica de criticidad y HITL adaptativo
 
-Estructura de repositorio alineada con el [ejemplo de árbol y documentos del curso](https://github.com/GlenRodriguez/EjemploProyecto) (carpetas, scripts y secciones del `README`); el dominio del proyecto (multi-agente, benchmarks de código) es distinto, pero el esqueleto es el mismo.
-
 ## Título y descripción breve
 
 - **Proyecto:** framework multi-agente con gestión dinámica de criticidad y supervisión humana adaptativa (HITL), orientado a desarrollo de software asistido por modelos de lenguaje, con orquestación, evaluación de riesgo y trazabilidad.
