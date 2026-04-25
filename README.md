@@ -2,8 +2,7 @@
 
 ## Título y descripción breve
 
-- **Proyecto:** framework multi-agente con gestión dinámica de criticidad y supervisión humana adaptativa (HITL), orientado a desarrollo de software asistido por modelos de lenguaje, con orquestación, evaluación de riesgo y trazabilidad.
-
+- **Proyecto:** framework multi-agente con gestión dinámica de criticidad y supervisión humana adaptativa (HITL), orientado a desarrollo de software.
 ## Autor
 
 - **José Luis Peñaloza Yaurivilca** — [GitHub: jpenalozay](https://github.com/jpenalozay)
@@ -28,11 +27,9 @@ pip install -r requirements.txt
 
 Dependencias del módulo del framework: `agentes/requirements.txt`.
 
-*Opcional (metadatos del proyecto, como en el ejemplo con `pyproject.toml`):* puedes instalar o empaquetar con herramientas que lean [`pyproject.toml`](pyproject.toml); las versiones fijadas siguen en `requirements.txt`.
-
 ## Estructura del repositorio
 
-Árbol lógico (el ejemplo usa el mismo patrón `data/raw` → `processed`, `src`, `notebooks`, `logs`, `slides`):
+Árbol lógico:
 
 ```
 .
@@ -68,11 +65,11 @@ python src/preprocesamiento.py
 
 3. **Exploración** — abrir o crear notebooks bajo `notebooks/` (ver `notebooks/README.md`).
 
-4. **Trazas** — revisar consola y, si aplica, `logs/ingesta.log` (el archivo de log no se sube a Git; se regenera al ejecutar).
+4. **Trazas** — revisar consola y, si aplica, `logs/ingesta.log`.
 
 ## Resultados esperados (mínimos, etapa actual)
 
-- JSONL bajo `data/raw/…` y `data/raw/manifest_v0.json` coherentes.
+- JSONL bajo `data/raw/…` y `data/raw/manifest_v0.json`.
 - Registro de la ingesta en `logs/ingesta.log` (local).
 - Preparación de `data/processed/` cuando el preprocesamiento esté conectado.
 
