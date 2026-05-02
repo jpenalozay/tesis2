@@ -44,7 +44,7 @@ cd data/criticidad_cases && python -m jupyter nbconvert --to notebook --execute 
 | [`agentes/core/coordinator_v3_gated.py`](agentes/core/coordinator_v3_gated.py) | Orquestador que adjunta el resultado de EarlyGate. |
 | [`docs/PIPELINE_CRITICIDAD_Y_GATE_TEMPRANO.md`](docs/PIPELINE_CRITICIDAD_Y_GATE_TEMPRANO.md) | Diseño del pipeline y del gate. |
 | [`scripts/eval_early_gate_corpus.py`](scripts/eval_early_gate_corpus.py) | Evalúa `EarlyGate.decide` frente a `gold_mode` en el JSONL (métricas, CSV, figuras en `reports/`, no versionado). |
-| [`notebooks/eval_early_gate_vs_gold.ipynb`](notebooks/eval_early_gate_vs_gold.ipynb) | Misma evaluación con salida interactiva. |
+| [`notebooks/eval_early_gate_vs_gold.ipynb`](notebooks/eval_early_gate_vs_gold.ipynb) | **Corrida con salidas guardadas** (tablas + figuras) usando [`docs/expo_early_gate_eval_300/`](docs/expo_early_gate_eval_300/README.md); **no usa API**. |
 
 Configuración: copiar [`.env.example`](.env.example) a `.env` y definir `DEEPSEEK_API_KEY` (no subir `.env` al repositorio). Entorno Python: `python -m venv .venv` y `pip install -r requirements.txt`.
 
