@@ -9,7 +9,7 @@ Conjunto formal para evaluar la **clasificación de criticidad** (modos `play` /
 | `casos_gold_criticidad_v1.jsonl` | Piloto **n=36** (12 por clase); IDs prefijo `CRT-`. |
 | `casos_gold_criticidad_v2.jsonl` | **n=300** (**100 por clase**); versión extendida del conjunto de trabajo; IDs prefijo `CRT-`. La procedencia operativa de los textos no se detalla en este repositorio. |
 | `PROTOCOLO_ETIQUETADO.md` | Criterios de etiquetado y referencias metodológicas. |
-| `EDA_criticidad_casos.ipynb` | EDA para presentación: **estadísticas descriptivas**, **distribuciones** (gold, longitudes, plantillas, densidad léxica), **riesgos** (desbalance con χ² de referencia, leakage léxico por keywords, drift en corpus estático). Cada figura incluye título y texto interpretativo. |
+| `EDA_criticidad_casos.ipynb` | EDA: **estadísticas descriptivas**, **distribuciones** (gold, longitudes, plantillas, densidad léxica), **riesgos** (desbalance con χ² de referencia, leakage léxico por keywords, drift en corpus estático). Cada figura incluye título y texto interpretativo. |
 
 ## Tamaño muestral (literatura)
 
