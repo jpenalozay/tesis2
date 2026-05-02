@@ -39,7 +39,7 @@ cd data/criticidad_cases && python -m jupyter nbconvert --to notebook --execute 
 | [`agentes/core/coordinator_v3_gated.py`](agentes/core/coordinator_v3_gated.py) | Coordinador con resultado del gate. |
 | [`docs/PIPELINE_CRITICIDAD_Y_GATE_TEMPRANO.md`](docs/PIPELINE_CRITICIDAD_Y_GATE_TEMPRANO.md) | Diseño del pipeline. |
 | [`scripts/eval_early_gate_corpus.py`](scripts/eval_early_gate_corpus.py) | Evaluación contra gold (salidas en `reports/`, ignoradas por git). |
-| [`notebooks/eval_early_gate_vs_gold.ipynb`](notebooks/eval_early_gate_vs_gold.ipynb) | Vista para exposición (usa artefactos en [`docs/expo_early_gate_eval_300/`](docs/expo_early_gate_eval_300/README.md)). |
+| [`notebooks/eval_early_gate_vs_gold.ipynb`](notebooks/eval_early_gate_vs_gold.ipynb) (usa artefactos en [`docs/expo_early_gate_eval_300/`](docs/expo_early_gate_eval_300/README.md)). |
 
 Configuración LLM: copiar [`.env.example`](.env.example) → `.env` con `DEEPSEEK_API_KEY` (no versionar `.env`).
 
