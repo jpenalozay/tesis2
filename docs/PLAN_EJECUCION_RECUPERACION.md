@@ -13,12 +13,4 @@ Documento de respuesta al requisito: correcciones frente a retroalimentación y 
 
 *Si en tu sección aún no hubo comentarios formales, este bloque actúa como registro de decisiones técnicas alineadas a la rúbrica del curso.*
 
-## 2. Cronograma breve (próximas semanas)
 
-| Semana | Meta concreta |
-|--------|-----------------|
-| **Semana 2 (actual)** | Repo público, datos documentados, ingesta v0; exploración en `notebooks/` (estadísticos básicos de longitud de prompts, conteo de tareas). |
-| **Semana 3** | **Preprocesado listo:** normalización de esquemas (si se unifican salidas), particiones fijas y seeds para evaluación; borrador de pipeline que consuma `data/raw` desde el framework en `agentes/`. |
-| **Semana 4+** | Integración con un primer experimento (subconjunto) y trazas de orquestación; avance de capítulos de metodología en paralelo. |
-
-Fecha de actualización: 24 de abril de 2026.
