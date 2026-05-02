@@ -1,16 +1,16 @@
-# Protocolo de etiquetado gold (play / pausa / stop)
+# Protocolo de etiquetado (play / pausa / stop)
 
 ## Contexto
 
 Conjunto para evaluar la **política de criticidad** del sistema multi-agente (Sentinel y políticas asociadas) frente a **etiquetas humanas de referencia**, en línea con estudios de **acuerdo entre anotadores** (p. ej. reglas orientativas para **Cohen’s kappa** y tamaño muestral en [PMC tutorial sobre tamaño muestral para estudios de acuerdo](https://pmc.ncbi.nlm.nih.gov/articles/PMC12935580/)): suele citarse **50–100** casos como punto de partida razonable para κ según categorías y prevalencias; conjuntos **exploratorios** pueden ser más pequeños si se declaran **limitaciones**.
 
-## Definiciones de modo (gold)
+## Definiciones de modo
 
 | Etiqueta | Significado operativo | Criterios orientativos |
 |----------|----------------------|-------------------------|
 | **play** | Automatización defendible sin punto de aprobación obligatorio | Herramienta local/offline, sin datos personales ni producción, cambios reversibles y alcance acotado. |
-| **pausa** | Supervisión intermedia antes de materializar cambios | Integraciones no triviales (API internas, BD de desarrollo), varios módulos, sin datos altamente sensibles ni producción crítica. |
-| **stop** | Control humano fuerte antes de ejecutar | Producción, pagos, autenticación masiva, datos personales/salud/finanzas, migraciones irreversibles o alto blast radius. |
+| **pausa** | Supervisión intermedia antes de materializar cambios | Integraciones no triviales (Procesos nuevos, modificación de procesos, API internas, BD de desarrollo), varios módulos, sin datos altamente sensibles ni producción crítica. |
+| **stop** | Control humano fuerte antes de ejecutar | Producción, variación de la arquitectura del sistema, pagos, autenticación masiva, datos personales/salud/finanzas, migraciones irreversibles. |
 
 ## Reglas para evitar leakage en el texto
 
