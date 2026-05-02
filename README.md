@@ -1,7 +1,5 @@
 # Framework multi-agente con gestión dinámica de criticidad y HITL adaptativo
 
-**Este `README.md` en la raíz es la guía principal del repositorio** ([versión en GitHub](https://github.com/jpenalozay/tesis2)).
-
 ## Autor
 
 - **José Luis Peñaloza Yaurivilca** — [GitHub: jpenalozay](https://github.com/jpenalozay)
