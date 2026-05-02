@@ -12,6 +12,10 @@
 !/src/
 !/logs/
 !/slides/
+!/scripts/
+
+# Salidas regenerables de evaluaciones (EarlyGate, etc.)
+reports/
 
 # Exclusiones dentro de lo permitido
 **/.mypy_cache/
