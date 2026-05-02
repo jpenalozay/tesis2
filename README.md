@@ -88,7 +88,3 @@ También: [`agentes/requirements.txt`](agentes/requirements.txt) para el paquete
 
 - Baselines adicionales (p. ej. TF-IDF + regresión logística vs EarlyGate).
 - Calibración de umbrales del gate para la clase `pausa`.
-
-## Licencia
-
-Uso académico — tesis de maestría (marco del programa).
