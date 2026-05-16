@@ -15,6 +15,22 @@
 | **`scripts/`** | [`eval_early_gate_corpus.py`](scripts/eval_early_gate_corpus.py) — métricas vs gold (requiere API para corrida nueva). |
 | **`notebooks/`** | [`eval_early_gate_vs_gold.ipynb`](notebooks/eval_early_gate_vs_gold.ipynb) — tablas y figuras embebidas leyendo `docs/expo_early_gate_eval_300/` (**sin API**). |
 
+## Semana 5 (entregables): A/B vs baseline + validación
+
+Para la rúbrica de “experimentos ejecutados (A/B), resultados comparables, split correcto y validación”, ver:
+
+- **Artefactos**: [`docs/experiments/week5/`](docs/experiments/week5/README.md)
+- **Script**: [`scripts/run_week5_experiments.py`](scripts/run_week5_experiments.py) (baseline ML TF‑IDF + LogisticRegression, Var1/Var2 con un cambio por vez)
+- **Tabla + gráfico**: `docs/experiments/week5/results.csv` y `docs/experiments/week5/comparison_f1_macro.png`
+- **Logs**: `logs/week5/*.jsonl` (parámetros + métricas + tiempo)
+
+Ejecutar:
+
+```bash
+pip install -r requirements.txt
+python scripts/run_week5_experiments.py
+```
+
 ## Dataset (HF + corpus propio)
 
 | Aspecto | Detalle |
