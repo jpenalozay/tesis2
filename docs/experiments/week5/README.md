@@ -15,8 +15,8 @@ Script: [`scripts/run_week5_experiments.py`](../../../scripts/run_week5_experime
 ## Resultados comparables (tabla + 1 gráfico)
 
 - **Tabla estándar**: [`results.csv`](results.csv)  
-- **Resumen en Markdown**: [`week5_report.md`](week5_report.md)  
-- **Gráfico clave** (F1‑macro baseline vs variantes): [`comparison_f1_macro.png`](comparison_f1_macro.png)
+- **Resumen en Markdown**: [`week5_report.md`](week5_report.md) — incluye objetivo, validación, tabla redondeada y **lectura** de resultados (por qué el holdout puede ir a 1.0 y por qué priorizar GKF por plantilla).  
+- **Gráfico clave** (F1‑macro holdout vs media GKF con **barras de error σ** entre folds): [`comparison_f1_macro.png`](comparison_f1_macro.png)
 
 La métrica principal reportada es **F1‑macro** (multiclase). Secundarias: **accuracy** y tiempo.
 

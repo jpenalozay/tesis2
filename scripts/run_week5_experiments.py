@@ -160,7 +160,7 @@ def main() -> int:
     experiments: list[ExperimentConfig] = [
         ExperimentConfig(
             name="baseline",
-            description="TF-IDF word unigrams + LogisticRegression (ovr).",
+            description="TF-IDF word unigrams + LogisticRegression (multiclase, solver=lbfgs).",
             vectorizer={"analyzer": "word", "ngram_range": (1, 1), "min_df": 1},
             classifier=base_clf,
         ),
@@ -227,39 +227,110 @@ def main() -> int:
     df_table = pd.DataFrame(table).sort_values("exp")
     df_table.to_csv(OUT_DIR / "results.csv", index=False)
 
-    # Gráfico clave: F1-macro (holdout y group-kfold)
-    fig, ax = plt.subplots(figsize=(7.5, 4.0))
+    # Gráfico clave: F1-macro (holdout y media GKF ± desv. estándar entre folds)
+    fig, ax = plt.subplots(figsize=(8.0, 4.2))
     x = np.arange(len(df_table))
-    ax.bar(x - 0.18, df_table["holdout_f1_macro"], width=0.36, label="Holdout F1-macro")
-    ax.bar(x + 0.18, df_table["gkf_f1_macro_mean"], width=0.36, label="GroupKFold F1-macro (mean)")
+    w = 0.36
+    ax.bar(
+        x - 0.18,
+        df_table["holdout_f1_macro"],
+        width=w,
+        label="Holdout F1-macro",
+        color="#4C72B0",
+    )
+    ax.bar(
+        x + 0.18,
+        df_table["gkf_f1_macro_mean"],
+        width=w,
+        yerr=df_table["gkf_f1_macro_std"],
+        capsize=4,
+        label="GroupKFold F1-macro (media ± σ)",
+        color="#55A868",
+    )
     ax.set_xticks(x)
     ax.set_xticklabels(df_table["exp"].tolist())
-    ax.set_ylim(0, 1.05)
+    ax.set_ylim(0, 1.08)
     ax.set_ylabel("F1-macro")
     ax.set_title("Semana 5 — Baseline vs Var1/Var2 (criticidad)")
-    ax.legend()
+    ax.legend(loc="lower right", fontsize=9)
+    ax.grid(axis="y", linestyle="--", alpha=0.35)
     plt.tight_layout()
     fig_path = OUT_DIR / "comparison_f1_macro.png"
     plt.savefig(fig_path, dpi=150)
     plt.close(fig)
 
-    # Resumen en Markdown
-    md = []
+    # Resumen en Markdown (legible para entrega; métricas redondeadas en tabla)
+    n_samples = int(len(df))
+    md_table = df_table.copy()
+    num_cols = [c for c in md_table.columns if c != "exp"]
+    md_table[num_cols] = md_table[num_cols].round(4)
+
+    md: list[str] = []
     md.append("# Semana 5 — Experimentos A/B vs baseline\n")
+    md.append("## Objetivo y diseño\n")
+    md.append(
+        "Clasificar el modo de criticidad (`gold_mode`: play / pausa / stop) a partir del texto "
+        "del campo `requirement`, con un **baseline ML** (sin LLM) y **dos variantes** que cambian "
+        "**solo** la representación TF-IDF frente al baseline, para comparación controlada.\n"
+    )
+    md.append(
+        "- **Baseline:** TF-IDF *word* unigramas + `LogisticRegression`.\n"
+        "- **Var1:** único cambio → TF-IDF *word* n-gramas (1, 2).\n"
+        "- **Var2:** único cambio → TF-IDF *char* n-gramas (3, 5).\n"
+    )
+    md.append(
+        f"- **Clasificador (igual en los tres):** `solver=lbfgs`, `max_iter=2000`, `random_state={args.seed}`.\n"
+    )
+    md.append("\n## Metadatos de la corrida\n")
     md.append(f"- **Run id:** `{run_id}`\n")
-    md.append(f"- **Dataset:** `{CASES_FILE.relative_to(REPO_ROOT).as_posix()}`\n")
-    md.append(f"- **Holdout:** test_size={args.test_size}, seed={args.seed}\n")
-    md.append(f"- **Cross-validation:** GroupKFold(k={args.group_k}) por `template_index` (reduce leakage por plantilla)\n")
+    md.append(f"- **Dataset:** `{CASES_FILE.relative_to(REPO_ROOT).as_posix()}` (`n={n_samples}`)\n")
+    md.append("\n## Validación\n")
+    md.append(
+        f"- **Holdout:** `StratifiedShuffleSplit` (un split), `test_size={args.test_size}`, `random_state={args.seed}` "
+        "(estratificado por `gold_mode`).\n"
+    )
+    md.append(
+        f"- **CV por grupos:** `GroupKFold(n_splits={args.group_k})` con `groups=template_index` "
+        "(ningún fold mezcla la misma plantilla entre train y test).\n"
+    )
+    md.append(
+        "- **Métrica principal:** F1-macro (multiclase). **Secundarias:** accuracy y tiempo de ajuste+predicción "
+        "en holdout / tiempo total en los k folds para GKF.\n"
+    )
     md.append("\n## Tabla comparable\n")
-    md.append(df_table.to_markdown(index=False))
-    md.append("\n\n## Gráfico clave\n")
-    md.append(f"- `{fig_path.relative_to(REPO_ROOT).as_posix()}`\n")
-    md.append("\n## Feature set y split (auditoría)\n")
-    md.append("- **Features usadas:** `requirement` (texto). TF-IDF según variante.\n")
-    md.append("- **Transformaciones:** tokenización TF-IDF (word o char n-grams). `fit` solo en train por construcción del pipeline.\n")
-    md.append("- **Split/leakage:** además de holdout estratificado, se reporta GroupKFold por `template_index` para evitar que la misma plantilla aparezca en train y test.\n")
-    md.append("\n## Logs\n")
-    md.append(f"- `{log_path.relative_to(REPO_ROOT).as_posix()}` (una línea JSON por experimento)\n")
+    md.append(md_table.to_markdown(index=False))
+    md.append("\n\n## Lectura de resultados\n")
+    md.append(
+        "- El **holdout** puede mostrar **F1-macro = 1.0** con un test pequeño y un problema relativamente "
+        "separable; no implica ausencia de error en generalización.\n"
+    )
+    md.append(
+        "- La evaluación **GroupKFold por plantilla** es la referencia más conservadora frente a **fuga por "
+        "plantilla** (misma estructura de caso en train y test). Ahí se observa variación entre folds "
+        "(barras de error en el gráfico).\n"
+    )
+    md.append(
+        "- **Coste/tiempo:** Var2 (char n-grams) aumenta claramente el tiempo frente a Var1 y baseline; "
+        "el trade-off conveniencia vs. ganancia marginal en F1 depende del despliegue.\n"
+    )
+    md.append("\n## Gráfico clave\n")
+    md.append(
+        f"- Archivo: `{fig_path.relative_to(REPO_ROOT).as_posix()}` (F1-macro holdout vs media GKF con σ).\n"
+    )
+    md.append("\n## Feature set y pipeline (auditoría de leakage)\n")
+    md.append("- **Features:** solo texto `requirement`.\n")
+    md.append("- **Transformación:** `TfidfVectorizer` (word o char; rango de n-gramas según experimento). `min_df=1`.\n")
+    md.append(
+        "- **Sin leakage por ajuste del vectorizador:** el vectorizador vive dentro de un `Pipeline` de sklearn; "
+        "en cada split se llama a `fit` solo con filas de entrenamiento.\n"
+    )
+    md.append(
+        "- **Etiqueta y agrupación:** `y = gold_mode`; grupos para GKF = `template_index` (relleno -1 si falta).\n"
+    )
+    md.append("\n## Logs reproducibles\n")
+    md.append(
+        f"- `{log_path.relative_to(REPO_ROOT).as_posix()}` — una línea JSON por experimento (config + métricas).\n"
+    )
     (OUT_DIR / "week5_report.md").write_text("\n".join(md) + "\n", encoding="utf-8")
 
     print("OK — semana 5 artefactos generados:")
