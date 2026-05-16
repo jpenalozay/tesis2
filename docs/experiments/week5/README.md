@@ -2,6 +2,8 @@
 
 Este directorio contiene los artefactos **comparables** solicitados para la semana 5: **baseline + 2 variantes** (un cambio por vez), **validación (holdout + CV)**, **tabla** y **gráfico clave**, más **logs** reproducibles.
 
+Para **presentar en clase** todo en un solo Jupyter: [`notebooks/week5_experimentos_ab_completo.ipynb`](../../../notebooks/week5_experimentos_ab_completo.ipynb) (lee CSV, PNG y JSONL generados aquí).
+
 ## Qué se ejecutó (A/B)
 
 Script: [`scripts/run_week5_experiments.py`](../../../scripts/run_week5_experiments.py)
