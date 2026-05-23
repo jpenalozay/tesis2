@@ -32,6 +32,24 @@ pip install -r requirements.txt
 python scripts/run_week5_experiments.py
 ```
 
+## Semana 6 (entregables): A/B criticidad + variables del módulo
+
+Misma línea metodológica que la semana 5 (holdout + GroupKFold por `template_index`), con referencia **EarlyGate léxico** (sin API) y notebook de variables del módulo.
+
+- **Artefactos**: [`docs/experiments/week6/`](docs/experiments/week6/README.md)
+- **Notebook entrega**: [`notebooks/semana6_entrega_criticidad_ab.ipynb`](notebooks/semana6_entrega_criticidad_ab.ipynb)
+- **Notebook variables**: [`notebooks/variables_modulo_criticidad.ipynb`](notebooks/variables_modulo_criticidad.ipynb)
+- **Script**: [`scripts/run_week6_experiments.py`](scripts/run_week6_experiments.py)
+- **Tabla + gráfico**: `docs/experiments/week6/results.csv`, `summary.json`, `f1_por_clase_baseline_vs_mejor.png`
+
+Ejecutar (desde la raíz del repo, con venv):
+
+```bash
+pip install -r requirements.txt
+python scripts/run_week6_experiments.py --copy-to-reports
+jupyter nbconvert --execute notebooks/semana6_entrega_criticidad_ab.ipynb --inplace
+```
+
 ## Dataset (HF + corpus propio)
 
 | Aspecto | Detalle |

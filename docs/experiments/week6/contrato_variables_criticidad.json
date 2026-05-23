@@ -1,0 +1,61 @@
+{
+  "modulo": "criticidad_operativa",
+  "etiquetas": [
+    "play",
+    "pausa",
+    "stop"
+  ],
+  "entrada_obligatoria": [
+    "requirement"
+  ],
+  "entrada_opcional": [
+    "context"
+  ],
+  "corpus_obligatorio": [
+    "id",
+    "gold_mode",
+    "requirement"
+  ],
+  "corpus_metadatos_eval": [
+    "template_index",
+    "difficulty_hint",
+    "schema_version"
+  ],
+  "corpus_no_usar_como_feature": [
+    "id",
+    "tags",
+    "rationale_gold"
+  ],
+  "salida_early_gate": [
+    "gold_mode",
+    "confidence",
+    "doubt",
+    "source",
+    "lexical_scores",
+    "llm_hint",
+    "early_gate_version",
+    "llm_detail"
+  ],
+  "features_auxiliares_analisis": [
+    "n_chars",
+    "n_words",
+    "lex_stop",
+    "lex_pausa",
+    "lex_play",
+    "lex_margin",
+    "lex_entropy"
+  ],
+  "capa_distinta_sentinel": {
+    "entrada": "blueprint",
+    "salida": [
+      "RiskScore",
+      "RiskLevel",
+      "criticality"
+    ]
+  },
+  "patrones_lexicos": {
+    "stop": 2,
+    "pausa": 2,
+    "play": 2
+  }
+}
