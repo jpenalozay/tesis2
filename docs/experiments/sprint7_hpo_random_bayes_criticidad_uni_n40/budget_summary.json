@@ -1,0 +1,24 @@
+{
+  "n_trials_per_method": 80,
+  "total_trials": 160,
+  "cv_folds": 5,
+  "pruner": "MedianPruner",
+  "pruner_config": {
+    "n_startup_trials": 10,
+    "n_warmup_steps": 1,
+    "interval_steps": 1
+  },
+  "samplers": {
+    "random": "RandomSampler",
+    "bayes": "TPESampler"
+  },
+  "seed": 42,
+  "elapsed_seconds": 7.06,
+  "random_completed": 37,
+  "random_pruned": 43,
+  "bayes_completed": 60,
+  "bayes_pruned": 20,
+  "no_llm_calls": true,
+  "calibration_scope": "train-only n=600",
+  "test_eval_n": 40
+}

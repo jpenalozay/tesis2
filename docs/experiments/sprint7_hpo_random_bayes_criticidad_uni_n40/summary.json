@@ -1,0 +1,102 @@
+{
+  "timestamp_utc": "2026-06-06T00:03:05.721984+00:00",
+  "experiment_id": "sprint7_hpo_random_bayes_criticidad_uni_n40",
+  "sprint6_source": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/docs/experiments/sprint6_metagpt_multiagente_uni_n40",
+  "out_dir": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/docs/experiments/sprint7_hpo_random_bayes_criticidad_uni_n40",
+  "budget": {
+    "n_trials_per_method": 80,
+    "total_trials": 160,
+    "cv_folds": 5,
+    "pruner": "MedianPruner",
+    "pruner_config": {
+      "n_startup_trials": 10,
+      "n_warmup_steps": 1,
+      "interval_steps": 1
+    },
+    "samplers": {
+      "random": "RandomSampler",
+      "bayes": "TPESampler"
+    },
+    "seed": 42,
+    "elapsed_seconds": 7.06,
+    "random_completed": 37,
+    "random_pruned": 43,
+    "bayes_completed": 60,
+    "bayes_pruned": 20,
+    "no_llm_calls": true,
+    "calibration_scope": "train-only n=600",
+    "test_eval_n": 40
+  },
+  "winning_config": {
+    "selected_method": "bayes",
+    "trial_number": 68,
+    "objective_cv": 0.8844282615629986,
+    "params": {
+      "weights": {
+        "base": 0.286902432989298,
+        "risk": 0.23052429958817053,
+        "p_stop": 0.10332395538353709,
+        "uncertainty": 0.1422249502458552,
+        "rag_gap": 0.052460633052286126,
+        "fuzzy_stop": 0.18456372874085303
+      },
+      "threshold_stop": 0.64,
+      "threshold_pausa": 0.2,
+      "risk_stop_floor": 0.4,
+      "p_stop_floor": 0.52,
+      "stop_cost_threshold": 0.45999999999999996,
+      "pause_uncertainty": 0.38,
+      "mode": "stop_heavy"
+    },
+    "test_metrics": {
+      "Modelo": "best_bayes_test",
+      "n": 40,
+      "F1-Macro": 0.7012,
+      "F1-STOP": 0.8148,
+      "Accuracy": 0.725,
+      "Kappa": 0.5857,
+      "PolicyCost": 0.129,
+      "Lat.mean.ms": 0.0,
+      "Lat.p95.ms": 0.0
+    },
+    "baseline_sprint6_var2": {
+      "params": {
+        "weights": {
+          "base": 0.34,
+          "risk": 0.24,
+          "p_stop": 0.14,
+          "uncertainty": 0.1,
+          "rag_gap": 0.06,
+          "fuzzy_stop": 0.12
+        },
+        "threshold_stop": 0.54,
+        "threshold_pausa": 0.24,
+        "risk_stop_floor": 0.2,
+        "p_stop_floor": 0.4,
+        "stop_cost_threshold": 0.38,
+        "pause_uncertainty": 0.48,
+        "mode": "stop_heavy"
+      },
+      "test_metrics": {
+        "Modelo": "sprint6_var2_baseline",
+        "n": 40,
+        "F1-Macro": 0.6072,
+        "F1-STOP": 0.8148,
+        "Accuracy": 0.675,
+        "Kappa": 0.508,
+        "PolicyCost": 0.119,
+        "Lat.mean.ms": 0.0,
+        "Lat.p95.ms": 0.0
+      }
+    },
+    "improvement_vs_baseline": {
+      "delta_f1_macro": 0.094,
+      "delta_f1_stop": 0.0,
+      "delta_policy_cost": 0.01,
+      "delta_accuracy": 0.05
+    },
+    "decision_rationale": "Se elige bayes por mayor F1-Macro en test n=40 (0.7012 vs baseline sprint6 0.6072). HPO optimiza solo política criticidad post-RAG; no re-calibra MetaGPT/LLM."
+  },
+  "best_random_cv": 0.7697298097251586,
+  "best_bayes_cv": 0.8844282615629986
+}

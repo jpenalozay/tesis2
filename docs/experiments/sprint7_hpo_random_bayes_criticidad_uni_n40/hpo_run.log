@@ -1,0 +1,2 @@
+2026-06-05 19:02:58,045 INFO Dataset cargado: calib=600 test=40 baseline Var2 F1-Macro=0.6072 PolicyCost=0.119
+2026-06-05 19:03:05,722 INFO HPO completado en 7.1s. Ganador=bayes F1-Macro test=0.7012
