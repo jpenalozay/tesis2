@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-06-12T23:22:52.059133+00:00",
+  "seed": 42,
+  "n_eval": 400,
+  "n_piloto_crewai": 40,
+  "calibracion": {
+    "metodo_primario": "isotonic",
+    "metodo_secundario": "platt",
+    "n_bins_ece": 10,
+    "fit_split": "train_holdout_70"
+  },
+  "ablacion_componentes": [
+    "sin_gate_b",
+    "sin_fuzzy",
+    "sin_senal_rag",
+    "sin_eje_I_sec",
+    "sin_eje_I_db"
+  ],
+  "upstream_refs": {
+    "eval": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/0_etl_ingesta_preprocesamiento/8_conjunto_evaluacion_experimento_n400.csv",
+    "train": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/0_etl_ingesta_preprocesamiento/5_conjunto_entrenamiento_holdout_70.csv",
+    "holdout": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/0_etl_ingesta_preprocesamiento/6_conjunto_prueba_holdout_30.csv",
+    "rag_hibrido": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/1_ingenieria_atributos_y_recuperacion_rag/7_tabla_recuperacion_hibrida_rrf_top5.csv",
+    "senales": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/2_modulo_criticidad_gobernanza_adaptativa/2_tabla_senales_por_ticket_n400.csv",
+    "gate_a": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/2_modulo_criticidad_gobernanza_adaptativa/3_tabla_decisiones_politica_play_pausa_stop_n400.csv",
+    "pred_baseline": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/3_protocolo_experimental_variantes/3_tabla_predicciones_baseline_amnesico_n400.csv",
+    "pred_var1": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/3_protocolo_experimental_variantes/4_tabla_predicciones_var1_crewai_rag_n400.csv",
+    "pred_var2": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/3_protocolo_experimental_variantes/5_tabla_predicciones_var2_middleware_intercepta_n400.csv",
+    "metricas_paso3": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/3_protocolo_experimental_variantes/7_tabla_metricas_set_minimo_seis_por_variante.csv",
+    "winning_config": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/docs/experiments/sprint7_hpo_random_bayes_criticidad_uni_n40/winning_config.json",
+    "plugins_paso2": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/2_modulo_criticidad_gobernanza_adaptativa/plugins",
+    "paso3_config": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/3_protocolo_experimental_variantes/0_configuracion_protocolo_experimental.yaml"
+  },
+  "honesty_notes": [
+    "Var1 = 10% CrewAI real (piloto D5) + 90% abstención pausa (Chow 1970) — diseño intencional.",
+    "No escalar CrewAI a n=400 antes de IA06: costo API y evidencia desfavorable en piloto; Var2 demuestra valor middleware.",
+    "Sub-análisis n=40 documenta capacidad agente sin invalidar protocolo n=400.",
+    "Calibración post-hoc sobre predicciones cacheadas PASO 3 — sin re-API."
+  ]
+}

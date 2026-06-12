@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-06-12T20:22:45.586753+00:00",
+  "seed": 42,
+  "svd_dim": 64,
+  "top_k": 5,
+  "history_n_max": 6000,
+  "classes": [
+    "play",
+    "pausa",
+    "stop"
+  ],
+  "inputs": {
+    "train": "5_conjunto_entrenamiento_holdout_70.csv",
+    "eval": "8_conjunto_evaluacion_experimento_n400.csv",
+    "corpus": "2_corpus_limpio_bugsrepo.csv"
+  },
+  "history_meta": {
+    "pool_excl_eval_n": 87608,
+    "history_n": 6000,
+    "history_n_max": 6000,
+    "sampling": "stratified_fixed_seed",
+    "eval_hash_overlap": 0,
+    "chunk_policy": "chunk_size_1_full_document"
+  },
+  "fit_meta": {
+    "vectorizer_fit_rows": 280,
+    "eval_rows_in_fit": 0,
+    "history_rows_in_fit": 0,
+    "svd_fit_rows": 280,
+    "svd_dim_requested": 64,
+    "svd_dim_effective": 64,
+    "vocabulary_size": 307,
+    "mrl_note": "TruncatedSVD 64 como reducción dimensional estilo MRL"
+  },
+  "retrieval_backend": "tfidf_lexical+svd_dense_local+pgvector_sql→rrf→rerank",
+  "pgvector_status": {
+    "pg_config": {
+      "host": "127.0.0.1",
+      "port": 5432,
+      "dbname": "irene",
+      "user": "postgres",
+      "password": "root",
+      "password_present": true
+    },
+    "available": true,
+    "schema": "entregable_rag",
+    "tables": [
+      "entregable_rag.chunks",
+      "entregable_rag.run_meta"
+    ],
+    "driver": "psycopg2",
+    "vector_version": "0.8.2",
+    "schema_exists": true,
+    "ping": true,
+    "reason": "ok"
+  },
+  "pgvector_schema": "entregable_rag",
+  "pgvector_tables": [
+    "chunks",
+    "run_meta"
+  ],
+  "sota_techniques": {
+    "hybrid": "TF-IDF léxico + denso SVD + pgvector con fusión RRF (k=60)",
+    "chunking": "chunk_size=1 (bug report completo; textos cortos)",
+    "mrl_dim": "TruncatedSVD 64 como reducción dimensional (estilo MRL)",
+    "rerank": "coseno - penalización distancia + boost clase mayoritaria",
+    "hyde": "futuro — requiere LLM para hipótesis de documento"
+  },
+  "reuse_notes": {
+    "pgvector_module": "rag_pgvector_entregable.py (namespace entregable_rag, sin sprint6)",
+    "crewai": "Activación en PASO 2 (Var1); ver 0_instrucciones_crewai.md"
+  }
+}

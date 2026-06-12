@@ -1,0 +1,1469 @@
+2026-06-12 15:43:01,745 INFO Inicio PASO 3 mode=api-incremental run_api=True deepseek_key=True max_api_bl=400
+2026-06-12 15:43:02,229 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:03,594 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:04,746 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:06,103 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:07,296 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:08,529 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:09,709 INFO Progreso 10/400 | api_bl=6 cache_bl=4 fallback_bl=0 api_err={}
+2026-06-12 15:43:09,710 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:11,126 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:12,607 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:13,767 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:14,897 INFO Progreso 20/400 | api_bl=10 cache_bl=10 fallback_bl=0 api_err={}
+2026-06-12 15:43:14,898 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:15,880 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:16,984 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:18,248 INFO Progreso 30/400 | api_bl=13 cache_bl=17 fallback_bl=0 api_err={}
+2026-06-12 15:43:18,248 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:19,449 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:23,011 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:24,412 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:25,791 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:27,277 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:28,770 INFO Progreso 40/400 | api_bl=19 cache_bl=21 fallback_bl=0 api_err={}
+2026-06-12 15:43:28,772 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:29,819 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:30,894 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:32,134 INFO Progreso 50/400 | api_bl=22 cache_bl=28 fallback_bl=0 api_err={}
+2026-06-12 15:43:32,135 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:33,325 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:34,548 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:35,707 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:36,887 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:38,257 INFO Progreso 60/400 | api_bl=27 cache_bl=33 fallback_bl=0 api_err={}
+2026-06-12 15:43:38,258 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:39,660 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:40,955 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:42,508 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:43,947 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:45,346 INFO Progreso 70/400 | api_bl=32 cache_bl=38 fallback_bl=0 api_err={}
+2026-06-12 15:43:45,347 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:46,611 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:47,748 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:49,182 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:50,355 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:51,768 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:52,979 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:54,338 INFO Progreso 80/400 | api_bl=39 cache_bl=41 fallback_bl=0 api_err={}
+2026-06-12 15:43:54,339 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:55,789 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:57,200 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:58,559 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:05,077 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:06,575 INFO Progreso 90/400 | api_bl=44 cache_bl=46 fallback_bl=0 api_err={}
+2026-06-12 15:44:06,576 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:07,991 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:09,408 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:10,568 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:11,764 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:12,982 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:14,315 INFO Progreso 100/400 | api_bl=50 cache_bl=50 fallback_bl=0 api_err={}
+2026-06-12 15:44:14,315 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:15,807 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:17,022 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:18,475 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:19,777 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:21,387 INFO Progreso 110/400 | api_bl=55 cache_bl=55 fallback_bl=0 api_err={}
+2026-06-12 15:44:21,388 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:22,894 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:23,988 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:25,352 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:26,513 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:27,654 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:28,969 INFO Progreso 120/400 | api_bl=61 cache_bl=59 fallback_bl=0 api_err={}
+2026-06-12 15:44:28,970 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:30,401 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:31,549 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:32,718 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:33,808 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:34,844 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:35,989 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:38,495 INFO Progreso 130/400 | api_bl=68 cache_bl=62 fallback_bl=0 api_err={}
+2026-06-12 15:44:38,496 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:39,758 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:40,993 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:42,120 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:43,632 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:45,045 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:46,208 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:47,584 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:49,084 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:50,250 INFO Progreso 140/400 | api_bl=77 cache_bl=63 fallback_bl=0 api_err={}
+2026-06-12 15:44:50,251 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:51,576 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:53,050 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:54,321 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:55,608 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:56,881 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:58,164 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:59,758 INFO Progreso 150/400 | api_bl=84 cache_bl=66 fallback_bl=0 api_err={}
+2026-06-12 15:44:59,759 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:01,207 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:02,399 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:08,857 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:10,589 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:11,651 INFO Progreso 160/400 | api_bl=89 cache_bl=71 fallback_bl=0 api_err={}
+2026-06-12 15:45:11,652 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:12,824 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:14,044 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:15,300 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:16,767 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:18,032 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:19,114 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:20,583 INFO Progreso 170/400 | api_bl=96 cache_bl=74 fallback_bl=0 api_err={}
+2026-06-12 15:45:20,584 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:21,830 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:23,282 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:24,358 INFO Progreso 180/400 | api_bl=99 cache_bl=81 fallback_bl=0 api_err={}
+2026-06-12 15:45:24,359 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:25,497 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:26,823 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:28,100 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:29,316 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:30,620 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:32,060 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:33,146 INFO Progreso 190/400 | api_bl=106 cache_bl=84 fallback_bl=0 api_err={}
+2026-06-12 15:45:33,147 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:34,270 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:35,414 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:36,755 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:38,084 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:39,467 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:40,636 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:42,054 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:43,501 INFO Progreso 200/400 | api_bl=114 cache_bl=86 fallback_bl=0 api_err={}
+2026-06-12 15:45:43,501 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:44,715 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:45,797 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:46,958 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:48,168 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:49,352 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:50,526 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:51,677 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:53,097 INFO Progreso 210/400 | api_bl=122 cache_bl=88 fallback_bl=0 api_err={}
+2026-06-12 15:45:53,097 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:54,219 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:55,313 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:56,519 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:57,608 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:58,769 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:00,142 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:01,320 INFO Progreso 220/400 | api_bl=129 cache_bl=91 fallback_bl=0 api_err={}
+2026-06-12 15:46:01,320 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:02,662 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:03,990 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:05,143 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:06,448 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:07,844 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:09,217 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:10,929 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:12,241 INFO Progreso 230/400 | api_bl=137 cache_bl=93 fallback_bl=0 api_err={}
+2026-06-12 15:46:12,242 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:13,476 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:14,827 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:16,249 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:17,628 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:19,009 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:20,487 INFO Progreso 240/400 | api_bl=143 cache_bl=97 fallback_bl=0 api_err={}
+2026-06-12 15:46:20,487 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:21,785 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:23,088 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:24,436 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:25,480 INFO Progreso 250/400 | api_bl=147 cache_bl=103 fallback_bl=0 api_err={}
+2026-06-12 15:46:25,481 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:26,611 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:28,316 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:29,503 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:30,882 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:32,405 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:33,863 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:35,133 INFO Progreso 260/400 | api_bl=154 cache_bl=106 fallback_bl=0 api_err={}
+2026-06-12 15:46:35,133 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:36,472 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:38,032 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:39,063 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:40,458 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:41,567 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:42,979 INFO Progreso 270/400 | api_bl=160 cache_bl=110 fallback_bl=0 api_err={}
+2026-06-12 15:46:42,979 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:44,352 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:45,495 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:46,888 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:48,164 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:49,490 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:50,567 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:51,846 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:53,329 INFO Progreso 280/400 | api_bl=168 cache_bl=112 fallback_bl=0 api_err={}
+2026-06-12 15:46:53,330 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:54,607 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:55,722 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:02,091 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:03,592 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:05,140 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:06,493 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:07,969 INFO Progreso 290/400 | api_bl=175 cache_bl=115 fallback_bl=0 api_err={}
+2026-06-12 15:47:07,970 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:09,655 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:10,989 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:12,474 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:13,890 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:15,361 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:16,603 INFO Progreso 300/400 | api_bl=181 cache_bl=119 fallback_bl=0 api_err={}
+2026-06-12 15:47:16,603 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:18,001 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:19,149 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:20,462 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:22,023 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:23,431 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:24,864 INFO Progreso 310/400 | api_bl=187 cache_bl=123 fallback_bl=0 api_err={}
+2026-06-12 15:47:24,865 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:26,055 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:27,468 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:28,791 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:30,152 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:31,338 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:32,476 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:33,871 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:35,335 INFO Progreso 320/400 | api_bl=195 cache_bl=125 fallback_bl=0 api_err={}
+2026-06-12 15:47:35,336 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:36,861 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:38,487 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:39,930 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:41,675 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:43,027 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:44,159 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:45,561 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:47,577 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:48,687 INFO Progreso 330/400 | api_bl=204 cache_bl=126 fallback_bl=0 api_err={}
+2026-06-12 15:47:48,687 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:49,913 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:51,401 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:52,780 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:53,780 INFO Progreso 340/400 | api_bl=208 cache_bl=132 fallback_bl=0 api_err={}
+2026-06-12 15:47:53,780 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:55,288 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:56,487 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:57,632 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:58,766 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:59,913 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:01,052 INFO Progreso 350/400 | api_bl=214 cache_bl=136 fallback_bl=0 api_err={}
+2026-06-12 15:48:01,053 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:02,514 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:03,881 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:05,137 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:06,289 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:12,480 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:13,747 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:14,976 INFO Progreso 360/400 | api_bl=221 cache_bl=139 fallback_bl=0 api_err={}
+2026-06-12 15:48:14,977 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:16,109 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:17,198 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:18,455 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:19,553 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:20,787 INFO Progreso 370/400 | api_bl=226 cache_bl=144 fallback_bl=0 api_err={}
+2026-06-12 15:48:20,787 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:21,840 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:22,817 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:24,135 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:25,418 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:26,478 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:27,567 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:28,734 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:30,046 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:31,143 INFO Progreso 380/400 | api_bl=235 cache_bl=145 fallback_bl=0 api_err={}
+2026-06-12 15:48:31,143 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:32,370 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:33,770 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:35,074 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:36,412 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:37,527 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:38,863 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:40,248 INFO Progreso 390/400 | api_bl=242 cache_bl=148 fallback_bl=0 api_err={}
+2026-06-12 15:48:40,249 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:41,501 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:42,966 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:44,027 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:45,223 INFO Progreso 400/400 | api_bl=246 cache_bl=154 fallback_bl=0 api_err={}
+2026-06-12 15:48:46,088 INFO Finalizado. Baseline sources: {'deepseek_api': 246, 'deepseek_cache': 154}
+2026-06-12 15:48:46,089 INFO Métricas:
+   variante  ...  FNR-stop (False Negative Rate stop)
+0  Baseline  ...                             0.333333
+1      Var1  ...                             0.300000
+2      Var2  ...                             0.300000
+
+[3 rows x 4 columns]
+2026-06-12 16:01:09,967 INFO Inicio PASO 3 mode=api-incremental run_api=True run_crewai=True deepseek_key=True max_api_bl=400 max_api_v1=40
+2026-06-12 16:01:12,752 INFO Using config path: /home/jlpy/.config/crewai/settings.json
+2026-06-12 16:01:14,144 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:15,077 INFO OpenAI API usage: {'prompt_tokens': 292, 'completion_tokens': 1, 'total_tokens': 293, 'cached_prompt_tokens': 256}
+2026-06-12 16:01:15,530 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:16,556 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:17,194 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:18,281 INFO OpenAI API usage: {'prompt_tokens': 274, 'completion_tokens': 3, 'total_tokens': 277, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:18,717 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:19,637 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:20,275 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:21,081 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 3, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:21,517 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:22,434 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:23,078 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:23,972 INFO OpenAI API usage: {'prompt_tokens': 295, 'completion_tokens': 3, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:24,421 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:24,915 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:25,543 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:26,136 INFO OpenAI API usage: {'prompt_tokens': 281, 'completion_tokens': 3, 'total_tokens': 284, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:26,580 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:27,101 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:27,752 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:28,183 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 1, 'total_tokens': 297, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:28,615 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:29,067 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:29,702 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:30,286 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 3, 'total_tokens': 297, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:30,735 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:31,549 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:37,677 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:38,169 INFO OpenAI API usage: {'prompt_tokens': 276, 'completion_tokens': 3, 'total_tokens': 279, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:38,620 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:39,225 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:39,781 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:40,345 INFO OpenAI API usage: {'prompt_tokens': 308, 'completion_tokens': 3, 'total_tokens': 311, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:40,789 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:41,591 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:41,599 INFO Progreso 10/400 | api_bl=6 cache_bl=4 | var1 crewai_api=9 metagpt=1 majority=0 api_v1=9/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:01:42,145 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:42,504 INFO OpenAI API usage: {'prompt_tokens': 299, 'completion_tokens': 1, 'total_tokens': 300, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:42,948 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:43,416 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:43,973 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:44,647 INFO OpenAI API usage: {'prompt_tokens': 274, 'completion_tokens': 3, 'total_tokens': 277, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:45,105 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:45,637 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:46,195 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:46,706 INFO OpenAI API usage: {'prompt_tokens': 292, 'completion_tokens': 3, 'total_tokens': 295, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:47,149 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:47,724 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:49,366 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:50,162 INFO OpenAI API usage: {'prompt_tokens': 299, 'completion_tokens': 3, 'total_tokens': 302, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:50,620 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:51,475 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:52,051 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:52,893 INFO OpenAI API usage: {'prompt_tokens': 325, 'completion_tokens': 3, 'total_tokens': 328, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:53,338 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:54,307 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:54,880 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:55,878 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 3, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:56,322 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:57,234 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:01:57,801 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:58,693 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 3, 'total_tokens': 297, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:59,148 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:00,080 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:00,633 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:01,774 INFO OpenAI API usage: {'prompt_tokens': 275, 'completion_tokens': 3, 'total_tokens': 278, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:02,240 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:03,172 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:03,181 INFO Progreso 20/400 | api_bl=10 cache_bl=10 | var1 crewai_api=17 metagpt=3 majority=0 api_v1=17/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:02:03,736 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:04,656 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 3, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:05,103 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:05,929 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:06,501 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:07,302 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 3, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:07,751 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:08,649 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:09,203 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:09,994 INFO OpenAI API usage: {'prompt_tokens': 313, 'completion_tokens': 1, 'total_tokens': 314, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:10,446 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:11,321 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:11,876 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:12,769 INFO OpenAI API usage: {'prompt_tokens': 295, 'completion_tokens': 1, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:13,202 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:14,081 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:14,710 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:15,652 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 3, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:16,112 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:17,050 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:17,611 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:18,403 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 1, 'total_tokens': 294, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:18,838 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:19,828 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:20,428 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:21,342 INFO OpenAI API usage: {'prompt_tokens': 300, 'completion_tokens': 3, 'total_tokens': 303, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:21,780 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:22,785 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:23,412 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:24,406 INFO OpenAI API usage: {'prompt_tokens': 303, 'completion_tokens': 1, 'total_tokens': 304, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:24,851 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:25,722 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:26,479 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:27,459 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 3, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:27,894 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:28,845 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:28,852 INFO Progreso 30/400 | api_bl=13 cache_bl=17 | var1 crewai_api=26 metagpt=4 majority=0 api_v1=26/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:02:29,466 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:30,441 INFO OpenAI API usage: {'prompt_tokens': 295, 'completion_tokens': 3, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:30,890 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:31,834 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:32,387 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:33,293 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 3, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:33,717 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:34,704 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:35,268 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:36,207 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 3, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:36,649 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:37,558 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:38,113 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:39,051 INFO OpenAI API usage: {'prompt_tokens': 265, 'completion_tokens': 1, 'total_tokens': 266, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:39,490 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:40,378 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:40,935 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:41,678 INFO OpenAI API usage: {'prompt_tokens': 305, 'completion_tokens': 3, 'total_tokens': 308, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:42,102 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:43,089 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:43,646 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:44,601 INFO OpenAI API usage: {'prompt_tokens': 302, 'completion_tokens': 3, 'total_tokens': 305, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:45,058 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:46,003 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:46,556 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:47,448 INFO OpenAI API usage: {'prompt_tokens': 302, 'completion_tokens': 1, 'total_tokens': 303, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:47,881 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:48,768 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:49,417 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:50,432 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 1, 'total_tokens': 297, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:50,871 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:51,953 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:52,509 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:53,363 INFO OpenAI API usage: {'prompt_tokens': 291, 'completion_tokens': 1, 'total_tokens': 292, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:53,792 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:54,269 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:54,820 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:55,640 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 3, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:56,083 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:56,792 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:56,800 INFO Progreso 40/400 | api_bl=19 cache_bl=21 | var1 crewai_api=36 metagpt=4 majority=0 api_v1=36/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:02:57,349 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:57,947 INFO OpenAI API usage: {'prompt_tokens': 297, 'completion_tokens': 1, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:58,399 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:58,890 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:02:59,463 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:00,305 INFO OpenAI API usage: {'prompt_tokens': 300, 'completion_tokens': 3, 'total_tokens': 303, 'cached_prompt_tokens': 0}
+2026-06-12 16:03:00,751 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:01,233 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:03:01,795 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:02,486 INFO OpenAI API usage: {'prompt_tokens': 300, 'completion_tokens': 1, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:03:02,930 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:03,519 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:03:04,074 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:04,984 INFO OpenAI API usage: {'prompt_tokens': 323, 'completion_tokens': 3, 'total_tokens': 326, 'cached_prompt_tokens': 0}
+2026-06-12 16:03:05,421 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:06,140 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:03:06,150 INFO Progreso 50/400 | api_bl=22 cache_bl=28 | var1 crewai_api=40 metagpt=7 majority=3 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,152 INFO Progreso 60/400 | api_bl=27 cache_bl=33 | var1 crewai_api=40 metagpt=9 majority=11 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,154 INFO Progreso 70/400 | api_bl=32 cache_bl=38 | var1 crewai_api=40 metagpt=10 majority=20 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,155 INFO Progreso 80/400 | api_bl=39 cache_bl=41 | var1 crewai_api=40 metagpt=11 majority=29 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,157 INFO Progreso 90/400 | api_bl=44 cache_bl=46 | var1 crewai_api=40 metagpt=12 majority=38 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,159 INFO Progreso 100/400 | api_bl=50 cache_bl=50 | var1 crewai_api=40 metagpt=14 majority=46 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,162 INFO Progreso 110/400 | api_bl=55 cache_bl=55 | var1 crewai_api=40 metagpt=15 majority=55 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,164 INFO Progreso 120/400 | api_bl=61 cache_bl=59 | var1 crewai_api=40 metagpt=15 majority=65 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,166 INFO Progreso 130/400 | api_bl=68 cache_bl=62 | var1 crewai_api=40 metagpt=16 majority=74 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,168 INFO Progreso 140/400 | api_bl=77 cache_bl=63 | var1 crewai_api=40 metagpt=16 majority=84 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,169 INFO Progreso 150/400 | api_bl=84 cache_bl=66 | var1 crewai_api=40 metagpt=17 majority=93 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,171 INFO Progreso 160/400 | api_bl=89 cache_bl=71 | var1 crewai_api=40 metagpt=19 majority=101 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,173 INFO Progreso 170/400 | api_bl=96 cache_bl=74 | var1 crewai_api=40 metagpt=21 majority=109 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,175 INFO Progreso 180/400 | api_bl=99 cache_bl=81 | var1 crewai_api=40 metagpt=21 majority=119 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,177 INFO Progreso 190/400 | api_bl=106 cache_bl=84 | var1 crewai_api=40 metagpt=21 majority=129 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,179 INFO Progreso 200/400 | api_bl=114 cache_bl=86 | var1 crewai_api=40 metagpt=22 majority=138 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,181 INFO Progreso 210/400 | api_bl=122 cache_bl=88 | var1 crewai_api=40 metagpt=23 majority=147 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,183 INFO Progreso 220/400 | api_bl=129 cache_bl=91 | var1 crewai_api=40 metagpt=23 majority=157 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,185 INFO Progreso 230/400 | api_bl=137 cache_bl=93 | var1 crewai_api=40 metagpt=24 majority=166 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,187 INFO Progreso 240/400 | api_bl=143 cache_bl=97 | var1 crewai_api=40 metagpt=26 majority=174 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,189 INFO Progreso 250/400 | api_bl=147 cache_bl=103 | var1 crewai_api=40 metagpt=28 majority=182 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,190 INFO Progreso 260/400 | api_bl=154 cache_bl=106 | var1 crewai_api=40 metagpt=28 majority=192 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,193 INFO Progreso 270/400 | api_bl=160 cache_bl=110 | var1 crewai_api=40 metagpt=31 majority=199 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,196 INFO Progreso 280/400 | api_bl=168 cache_bl=112 | var1 crewai_api=40 metagpt=31 majority=209 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,198 INFO Progreso 290/400 | api_bl=175 cache_bl=115 | var1 crewai_api=40 metagpt=32 majority=218 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,199 INFO Progreso 300/400 | api_bl=181 cache_bl=119 | var1 crewai_api=40 metagpt=34 majority=226 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,201 INFO Progreso 310/400 | api_bl=187 cache_bl=123 | var1 crewai_api=40 metagpt=36 majority=234 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,203 INFO Progreso 320/400 | api_bl=195 cache_bl=125 | var1 crewai_api=40 metagpt=36 majority=244 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,205 INFO Progreso 330/400 | api_bl=204 cache_bl=126 | var1 crewai_api=40 metagpt=36 majority=254 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,207 INFO Progreso 340/400 | api_bl=208 cache_bl=132 | var1 crewai_api=40 metagpt=37 majority=263 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,209 INFO Progreso 350/400 | api_bl=214 cache_bl=136 | var1 crewai_api=40 metagpt=39 majority=271 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,211 INFO Progreso 360/400 | api_bl=221 cache_bl=139 | var1 crewai_api=40 metagpt=39 majority=281 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,213 INFO Progreso 370/400 | api_bl=226 cache_bl=144 | var1 crewai_api=40 metagpt=39 majority=291 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,215 INFO Progreso 380/400 | api_bl=235 cache_bl=145 | var1 crewai_api=40 metagpt=39 majority=301 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,217 INFO Progreso 390/400 | api_bl=242 cache_bl=148 | var1 crewai_api=40 metagpt=40 majority=310 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,219 INFO Progreso 400/400 | api_bl=246 cache_bl=154 | var1 crewai_api=40 metagpt=40 majority=320 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:45,287 INFO Inicio PASO 3 mode=api-incremental run_api=True run_crewai=True deepseek_key=True max_api_bl=400 max_api_v1=40
+2026-06-12 16:03:45,597 INFO Progreso 10/400 | api_bl=6 cache_bl=4 | var1 crewai_api=0 metagpt=1 majority=0 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:45,599 INFO Progreso 20/400 | api_bl=10 cache_bl=10 | var1 crewai_api=0 metagpt=3 majority=0 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:45,600 INFO Progreso 30/400 | api_bl=13 cache_bl=17 | var1 crewai_api=0 metagpt=4 majority=0 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:45,602 INFO Progreso 40/400 | api_bl=19 cache_bl=21 | var1 crewai_api=0 metagpt=4 majority=0 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:48,006 INFO Using config path: /home/jlpy/.config/crewai/settings.json
+2026-06-12 16:03:49,545 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:50,367 INFO OpenAI API usage: {'prompt_tokens': 285, 'completion_tokens': 1, 'total_tokens': 286, 'cached_prompt_tokens': 0}
+2026-06-12 16:03:50,800 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:51,295 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:03:51,849 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:52,601 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 3, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:03:53,036 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:53,742 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:03:54,306 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:55,170 INFO OpenAI API usage: {'prompt_tokens': 302, 'completion_tokens': 1, 'total_tokens': 303, 'cached_prompt_tokens': 0}
+2026-06-12 16:03:55,603 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:56,422 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:03:56,431 INFO Progreso 50/400 | api_bl=22 cache_bl=28 | var1 crewai_api=3 metagpt=7 majority=0 api_v1=3/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:56,996 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:57,404 INFO OpenAI API usage: {'prompt_tokens': 297, 'completion_tokens': 1, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:03:57,839 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:58,459 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:03:59,004 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:59,503 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 1, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:03:59,943 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:00,443 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:01,063 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:01,694 INFO OpenAI API usage: {'prompt_tokens': 313, 'completion_tokens': 1, 'total_tokens': 314, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:02,138 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:02,837 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:03,387 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:04,206 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 1, 'total_tokens': 294, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:04,637 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:05,093 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:05,649 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:06,118 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 1, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:06,556 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:07,328 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:07,892 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:08,722 INFO OpenAI API usage: {'prompt_tokens': 303, 'completion_tokens': 3, 'total_tokens': 306, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:09,168 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:09,838 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:10,397 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:10,942 INFO OpenAI API usage: {'prompt_tokens': 306, 'completion_tokens': 3, 'total_tokens': 309, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:11,371 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:12,062 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:12,698 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:13,108 INFO OpenAI API usage: {'prompt_tokens': 306, 'completion_tokens': 1, 'total_tokens': 307, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:13,542 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:14,305 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:14,312 INFO Progreso 60/400 | api_bl=27 cache_bl=33 | var1 crewai_api=11 metagpt=9 majority=0 api_v1=11/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:04:14,863 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:15,582 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 3, 'total_tokens': 297, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:16,027 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:16,559 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:17,115 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:17,924 INFO OpenAI API usage: {'prompt_tokens': 272, 'completion_tokens': 1, 'total_tokens': 273, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:18,390 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:18,856 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:19,461 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:20,076 INFO OpenAI API usage: {'prompt_tokens': 271, 'completion_tokens': 1, 'total_tokens': 272, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:20,527 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:21,371 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:21,937 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:22,656 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 1, 'total_tokens': 295, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:23,107 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:23,962 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:24,519 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:25,421 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 3, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:25,904 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:26,444 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:27,049 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:27,702 INFO OpenAI API usage: {'prompt_tokens': 292, 'completion_tokens': 3, 'total_tokens': 295, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:28,134 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:28,859 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:29,472 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:30,254 INFO OpenAI API usage: {'prompt_tokens': 285, 'completion_tokens': 3, 'total_tokens': 288, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:30,705 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:31,404 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:31,963 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:32,612 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 1, 'total_tokens': 295, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:33,067 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:33,825 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:34,432 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:35,110 INFO OpenAI API usage: {'prompt_tokens': 303, 'completion_tokens': 1, 'total_tokens': 304, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:35,550 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:36,104 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:36,109 INFO Progreso 70/400 | api_bl=32 cache_bl=38 | var1 crewai_api=20 metagpt=10 majority=0 api_v1=20/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:04:36,715 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:37,598 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 3, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:38,037 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:38,691 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:39,256 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:40,089 INFO OpenAI API usage: {'prompt_tokens': 297, 'completion_tokens': 1, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:40,531 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:40,994 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:41,552 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:42,018 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 3, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:42,456 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:42,939 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:43,536 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:44,354 INFO OpenAI API usage: {'prompt_tokens': 307, 'completion_tokens': 1, 'total_tokens': 308, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:44,828 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:45,570 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:46,500 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:46,987 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 1, 'total_tokens': 295, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:47,427 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:47,936 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:48,494 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:49,134 INFO OpenAI API usage: {'prompt_tokens': 307, 'completion_tokens': 1, 'total_tokens': 308, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:49,594 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:50,180 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:50,758 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:51,258 INFO OpenAI API usage: {'prompt_tokens': 287, 'completion_tokens': 1, 'total_tokens': 288, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:51,712 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:52,485 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:53,036 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:53,764 INFO OpenAI API usage: {'prompt_tokens': 311, 'completion_tokens': 1, 'total_tokens': 312, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:54,203 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:54,690 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:55,239 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:56,081 INFO OpenAI API usage: {'prompt_tokens': 292, 'completion_tokens': 3, 'total_tokens': 295, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:56,524 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:57,385 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:04:57,391 INFO Progreso 80/400 | api_bl=39 cache_bl=41 | var1 crewai_api=29 metagpt=11 majority=0 api_v1=29/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:04:57,961 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:58,767 INFO OpenAI API usage: {'prompt_tokens': 292, 'completion_tokens': 3, 'total_tokens': 295, 'cached_prompt_tokens': 0}
+2026-06-12 16:04:59,197 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:04:59,716 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:05:00,273 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:01,133 INFO OpenAI API usage: {'prompt_tokens': 315, 'completion_tokens': 3, 'total_tokens': 318, 'cached_prompt_tokens': 0}
+2026-06-12 16:05:01,568 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:02,437 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:05:02,985 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:03,546 INFO OpenAI API usage: {'prompt_tokens': 299, 'completion_tokens': 3, 'total_tokens': 302, 'cached_prompt_tokens': 0}
+2026-06-12 16:05:03,989 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:04,734 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:05:05,291 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:05,863 INFO OpenAI API usage: {'prompt_tokens': 295, 'completion_tokens': 3, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:05:06,303 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:07,241 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:05:07,800 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:08,499 INFO OpenAI API usage: {'prompt_tokens': 307, 'completion_tokens': 3, 'total_tokens': 310, 'cached_prompt_tokens': 0}
+2026-06-12 16:05:08,934 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:09,672 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:05:10,237 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:10,824 INFO OpenAI API usage: {'prompt_tokens': 271, 'completion_tokens': 3, 'total_tokens': 274, 'cached_prompt_tokens': 0}
+2026-06-12 16:05:11,275 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:12,151 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:05:12,715 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:13,409 INFO OpenAI API usage: {'prompt_tokens': 270, 'completion_tokens': 3, 'total_tokens': 273, 'cached_prompt_tokens': 0}
+2026-06-12 16:05:13,849 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:14,567 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:05:15,181 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:16,002 INFO OpenAI API usage: {'prompt_tokens': 300, 'completion_tokens': 3, 'total_tokens': 303, 'cached_prompt_tokens': 0}
+2026-06-12 16:05:16,443 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:17,076 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:05:17,630 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:18,409 INFO OpenAI API usage: {'prompt_tokens': 280, 'completion_tokens': 3, 'total_tokens': 283, 'cached_prompt_tokens': 0}
+2026-06-12 16:05:18,837 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:19,621 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:05:19,629 INFO Progreso 90/400 | api_bl=44 cache_bl=46 | var1 crewai_api=38 metagpt=12 majority=0 api_v1=38/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:20,176 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:21,344 INFO OpenAI API usage: {'prompt_tokens': 292, 'completion_tokens': 3, 'total_tokens': 295, 'cached_prompt_tokens': 0}
+2026-06-12 16:05:21,776 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:22,398 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:05:22,998 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:23,840 INFO OpenAI API usage: {'prompt_tokens': 326, 'completion_tokens': 3, 'total_tokens': 329, 'cached_prompt_tokens': 0}
+2026-06-12 16:05:24,272 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:05:25,091 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:05:25,101 INFO Progreso 100/400 | api_bl=50 cache_bl=50 | var1 crewai_api=40 metagpt=14 majority=6 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,103 INFO Progreso 110/400 | api_bl=55 cache_bl=55 | var1 crewai_api=40 metagpt=15 majority=15 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,105 INFO Progreso 120/400 | api_bl=61 cache_bl=59 | var1 crewai_api=40 metagpt=15 majority=25 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,107 INFO Progreso 130/400 | api_bl=68 cache_bl=62 | var1 crewai_api=40 metagpt=16 majority=34 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,108 INFO Progreso 140/400 | api_bl=77 cache_bl=63 | var1 crewai_api=40 metagpt=16 majority=44 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,111 INFO Progreso 150/400 | api_bl=84 cache_bl=66 | var1 crewai_api=40 metagpt=17 majority=53 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,113 INFO Progreso 160/400 | api_bl=89 cache_bl=71 | var1 crewai_api=40 metagpt=19 majority=61 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,115 INFO Progreso 170/400 | api_bl=96 cache_bl=74 | var1 crewai_api=40 metagpt=21 majority=69 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,117 INFO Progreso 180/400 | api_bl=99 cache_bl=81 | var1 crewai_api=40 metagpt=21 majority=79 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,119 INFO Progreso 190/400 | api_bl=106 cache_bl=84 | var1 crewai_api=40 metagpt=21 majority=89 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,121 INFO Progreso 200/400 | api_bl=114 cache_bl=86 | var1 crewai_api=40 metagpt=22 majority=98 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,123 INFO Progreso 210/400 | api_bl=122 cache_bl=88 | var1 crewai_api=40 metagpt=23 majority=107 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,124 INFO Progreso 220/400 | api_bl=129 cache_bl=91 | var1 crewai_api=40 metagpt=23 majority=117 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,126 INFO Progreso 230/400 | api_bl=137 cache_bl=93 | var1 crewai_api=40 metagpt=24 majority=126 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,129 INFO Progreso 240/400 | api_bl=143 cache_bl=97 | var1 crewai_api=40 metagpt=26 majority=134 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,131 INFO Progreso 250/400 | api_bl=147 cache_bl=103 | var1 crewai_api=40 metagpt=28 majority=142 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,133 INFO Progreso 260/400 | api_bl=154 cache_bl=106 | var1 crewai_api=40 metagpt=28 majority=152 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,135 INFO Progreso 270/400 | api_bl=160 cache_bl=110 | var1 crewai_api=40 metagpt=31 majority=159 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,136 INFO Progreso 280/400 | api_bl=168 cache_bl=112 | var1 crewai_api=40 metagpt=31 majority=169 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,138 INFO Progreso 290/400 | api_bl=175 cache_bl=115 | var1 crewai_api=40 metagpt=32 majority=178 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,140 INFO Progreso 300/400 | api_bl=181 cache_bl=119 | var1 crewai_api=40 metagpt=34 majority=186 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,142 INFO Progreso 310/400 | api_bl=187 cache_bl=123 | var1 crewai_api=40 metagpt=36 majority=194 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,144 INFO Progreso 320/400 | api_bl=195 cache_bl=125 | var1 crewai_api=40 metagpt=36 majority=204 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,147 INFO Progreso 330/400 | api_bl=204 cache_bl=126 | var1 crewai_api=40 metagpt=36 majority=214 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,149 INFO Progreso 340/400 | api_bl=208 cache_bl=132 | var1 crewai_api=40 metagpt=37 majority=223 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,151 INFO Progreso 350/400 | api_bl=214 cache_bl=136 | var1 crewai_api=40 metagpt=39 majority=231 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,153 INFO Progreso 360/400 | api_bl=221 cache_bl=139 | var1 crewai_api=40 metagpt=39 majority=241 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,155 INFO Progreso 370/400 | api_bl=226 cache_bl=144 | var1 crewai_api=40 metagpt=39 majority=251 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,157 INFO Progreso 380/400 | api_bl=235 cache_bl=145 | var1 crewai_api=40 metagpt=39 majority=261 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,159 INFO Progreso 390/400 | api_bl=242 cache_bl=148 | var1 crewai_api=40 metagpt=40 majority=270 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:25,161 INFO Progreso 400/400 | api_bl=246 cache_bl=154 | var1 crewai_api=40 metagpt=40 majority=280 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:05:26,055 INFO Finalizado. Baseline sources: {'deepseek_api': 246, 'deepseek_cache': 154}
+2026-06-12 16:05:26,055 INFO Var1 sources: {'crewai_cache': 40, 'metagpt_team_cache_as_var1': 40, 'crewai_api': 40, 'pgvector_majority_fallback': 280} | crewai_api_sesion=40
+2026-06-12 16:05:26,056 INFO Métricas:
+   variante  ...  FNR-stop (False Negative Rate stop)
+0  Baseline  ...                             0.333333
+1      Var1  ...                             0.333333
+2      Var2  ...                             0.300000
+
+[3 rows x 4 columns]
+2026-06-12 16:06:52,340 INFO Inicio PASO 3 mode=api-incremental run_api=True run_crewai=True deepseek_key=True max_api_bl=400 max_api_v1=40
+2026-06-12 16:06:52,670 INFO Var1 pilot: estratificado=40 cola_api=40 cache_crewai=40
+2026-06-12 16:06:52,673 INFO Progreso 10/400 | api_bl=6 cache_bl=4 | var1 crewai_api=0 metagpt=1 majority=0 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,674 INFO Progreso 20/400 | api_bl=10 cache_bl=10 | var1 crewai_api=0 metagpt=3 majority=0 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,676 INFO Progreso 30/400 | api_bl=13 cache_bl=17 | var1 crewai_api=0 metagpt=4 majority=0 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,678 INFO Progreso 40/400 | api_bl=19 cache_bl=21 | var1 crewai_api=0 metagpt=4 majority=0 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,680 INFO Progreso 50/400 | api_bl=22 cache_bl=28 | var1 crewai_api=0 metagpt=7 majority=3 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,682 INFO Progreso 60/400 | api_bl=27 cache_bl=33 | var1 crewai_api=0 metagpt=9 majority=11 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,684 INFO Progreso 70/400 | api_bl=32 cache_bl=38 | var1 crewai_api=0 metagpt=10 majority=20 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,686 INFO Progreso 80/400 | api_bl=39 cache_bl=41 | var1 crewai_api=0 metagpt=11 majority=29 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,687 INFO Progreso 90/400 | api_bl=44 cache_bl=46 | var1 crewai_api=0 metagpt=12 majority=38 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,689 INFO Progreso 100/400 | api_bl=50 cache_bl=50 | var1 crewai_api=0 metagpt=14 majority=46 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,691 INFO Progreso 110/400 | api_bl=55 cache_bl=55 | var1 crewai_api=0 metagpt=15 majority=55 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,693 INFO Progreso 120/400 | api_bl=61 cache_bl=59 | var1 crewai_api=0 metagpt=15 majority=65 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,695 INFO Progreso 130/400 | api_bl=68 cache_bl=62 | var1 crewai_api=0 metagpt=16 majority=74 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,697 INFO Progreso 140/400 | api_bl=77 cache_bl=63 | var1 crewai_api=0 metagpt=16 majority=84 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,699 INFO Progreso 150/400 | api_bl=84 cache_bl=66 | var1 crewai_api=0 metagpt=17 majority=93 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,701 INFO Progreso 160/400 | api_bl=89 cache_bl=71 | var1 crewai_api=0 metagpt=19 majority=101 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,703 INFO Progreso 170/400 | api_bl=96 cache_bl=74 | var1 crewai_api=0 metagpt=21 majority=109 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,705 INFO Progreso 180/400 | api_bl=99 cache_bl=81 | var1 crewai_api=0 metagpt=21 majority=119 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,707 INFO Progreso 190/400 | api_bl=106 cache_bl=84 | var1 crewai_api=0 metagpt=21 majority=129 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,709 INFO Progreso 200/400 | api_bl=114 cache_bl=86 | var1 crewai_api=0 metagpt=22 majority=138 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,711 INFO Progreso 210/400 | api_bl=122 cache_bl=88 | var1 crewai_api=0 metagpt=23 majority=147 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,713 INFO Progreso 220/400 | api_bl=129 cache_bl=91 | var1 crewai_api=0 metagpt=23 majority=157 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,715 INFO Progreso 230/400 | api_bl=137 cache_bl=93 | var1 crewai_api=0 metagpt=24 majority=166 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,717 INFO Progreso 240/400 | api_bl=143 cache_bl=97 | var1 crewai_api=0 metagpt=26 majority=174 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,719 INFO Progreso 250/400 | api_bl=147 cache_bl=103 | var1 crewai_api=0 metagpt=28 majority=182 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,721 INFO Progreso 260/400 | api_bl=154 cache_bl=106 | var1 crewai_api=0 metagpt=28 majority=192 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,722 INFO Progreso 270/400 | api_bl=160 cache_bl=110 | var1 crewai_api=0 metagpt=31 majority=199 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,724 INFO Progreso 280/400 | api_bl=168 cache_bl=112 | var1 crewai_api=0 metagpt=31 majority=209 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,726 INFO Progreso 290/400 | api_bl=175 cache_bl=115 | var1 crewai_api=0 metagpt=32 majority=218 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,728 INFO Progreso 300/400 | api_bl=181 cache_bl=119 | var1 crewai_api=0 metagpt=34 majority=226 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,730 INFO Progreso 310/400 | api_bl=187 cache_bl=123 | var1 crewai_api=0 metagpt=36 majority=234 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,732 INFO Progreso 320/400 | api_bl=195 cache_bl=125 | var1 crewai_api=0 metagpt=36 majority=244 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,734 INFO Progreso 330/400 | api_bl=204 cache_bl=126 | var1 crewai_api=0 metagpt=36 majority=254 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,736 INFO Progreso 340/400 | api_bl=208 cache_bl=132 | var1 crewai_api=0 metagpt=37 majority=263 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,738 INFO Progreso 350/400 | api_bl=214 cache_bl=136 | var1 crewai_api=0 metagpt=39 majority=271 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,740 INFO Progreso 360/400 | api_bl=221 cache_bl=139 | var1 crewai_api=0 metagpt=39 majority=281 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,742 INFO Progreso 370/400 | api_bl=226 cache_bl=144 | var1 crewai_api=0 metagpt=39 majority=291 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,744 INFO Progreso 380/400 | api_bl=235 cache_bl=145 | var1 crewai_api=0 metagpt=39 majority=301 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,746 INFO Progreso 390/400 | api_bl=242 cache_bl=148 | var1 crewai_api=0 metagpt=40 majority=310 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:52,747 INFO Progreso 400/400 | api_bl=246 cache_bl=154 | var1 crewai_api=0 metagpt=40 majority=320 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:06:53,607 INFO Finalizado. Baseline sources: {'deepseek_api': 246, 'deepseek_cache': 154}
+2026-06-12 16:06:53,608 INFO Var1 sources: {'crewai_cache': 40, 'metagpt_team_cache_as_var1': 40, 'pgvector_majority_fallback': 320} | crewai_api_sesion=0
+2026-06-12 16:06:53,608 INFO Métricas:
+   variante  ...  FNR-stop (False Negative Rate stop)
+0  Baseline  ...                             0.333333
+1      Var1  ...                             0.333333
+2      Var2  ...                             0.300000
+
+[3 rows x 4 columns]
+2026-06-12 16:07:10,507 INFO Inicio PASO 3 mode=api-incremental run_api=True run_crewai=True deepseek_key=True max_api_bl=400 max_api_v1=40
+2026-06-12 16:07:10,823 INFO Var1 pilot: estratificado=40 cola_api=40 cache_crewai=40
+2026-06-12 16:07:10,825 INFO Progreso 10/400 | api_bl=6 cache_bl=4 | var1 crewai_api=0 metagpt=1 majority=0 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,827 INFO Progreso 20/400 | api_bl=10 cache_bl=10 | var1 crewai_api=0 metagpt=3 majority=0 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,829 INFO Progreso 30/400 | api_bl=13 cache_bl=17 | var1 crewai_api=0 metagpt=4 majority=0 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,831 INFO Progreso 40/400 | api_bl=19 cache_bl=21 | var1 crewai_api=0 metagpt=4 majority=0 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,833 INFO Progreso 50/400 | api_bl=22 cache_bl=28 | var1 crewai_api=0 metagpt=7 majority=3 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,834 INFO Progreso 60/400 | api_bl=27 cache_bl=33 | var1 crewai_api=0 metagpt=9 majority=11 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,836 INFO Progreso 70/400 | api_bl=32 cache_bl=38 | var1 crewai_api=0 metagpt=10 majority=20 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,838 INFO Progreso 80/400 | api_bl=39 cache_bl=41 | var1 crewai_api=0 metagpt=11 majority=29 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,840 INFO Progreso 90/400 | api_bl=44 cache_bl=46 | var1 crewai_api=0 metagpt=12 majority=38 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,842 INFO Progreso 100/400 | api_bl=50 cache_bl=50 | var1 crewai_api=0 metagpt=14 majority=46 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,844 INFO Progreso 110/400 | api_bl=55 cache_bl=55 | var1 crewai_api=0 metagpt=15 majority=55 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,846 INFO Progreso 120/400 | api_bl=61 cache_bl=59 | var1 crewai_api=0 metagpt=15 majority=65 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,848 INFO Progreso 130/400 | api_bl=68 cache_bl=62 | var1 crewai_api=0 metagpt=16 majority=74 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,849 INFO Progreso 140/400 | api_bl=77 cache_bl=63 | var1 crewai_api=0 metagpt=16 majority=84 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,851 INFO Progreso 150/400 | api_bl=84 cache_bl=66 | var1 crewai_api=0 metagpt=17 majority=93 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,853 INFO Progreso 160/400 | api_bl=89 cache_bl=71 | var1 crewai_api=0 metagpt=19 majority=101 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,855 INFO Progreso 170/400 | api_bl=96 cache_bl=74 | var1 crewai_api=0 metagpt=21 majority=109 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,857 INFO Progreso 180/400 | api_bl=99 cache_bl=81 | var1 crewai_api=0 metagpt=21 majority=119 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,859 INFO Progreso 190/400 | api_bl=106 cache_bl=84 | var1 crewai_api=0 metagpt=21 majority=129 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,861 INFO Progreso 200/400 | api_bl=114 cache_bl=86 | var1 crewai_api=0 metagpt=22 majority=138 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,863 INFO Progreso 210/400 | api_bl=122 cache_bl=88 | var1 crewai_api=0 metagpt=23 majority=147 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,864 INFO Progreso 220/400 | api_bl=129 cache_bl=91 | var1 crewai_api=0 metagpt=23 majority=157 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,866 INFO Progreso 230/400 | api_bl=137 cache_bl=93 | var1 crewai_api=0 metagpt=24 majority=166 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,868 INFO Progreso 240/400 | api_bl=143 cache_bl=97 | var1 crewai_api=0 metagpt=26 majority=174 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,870 INFO Progreso 250/400 | api_bl=147 cache_bl=103 | var1 crewai_api=0 metagpt=28 majority=182 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,872 INFO Progreso 260/400 | api_bl=154 cache_bl=106 | var1 crewai_api=0 metagpt=28 majority=192 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,874 INFO Progreso 270/400 | api_bl=160 cache_bl=110 | var1 crewai_api=0 metagpt=31 majority=199 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,876 INFO Progreso 280/400 | api_bl=168 cache_bl=112 | var1 crewai_api=0 metagpt=31 majority=209 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,877 INFO Progreso 290/400 | api_bl=175 cache_bl=115 | var1 crewai_api=0 metagpt=32 majority=218 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,879 INFO Progreso 300/400 | api_bl=181 cache_bl=119 | var1 crewai_api=0 metagpt=34 majority=226 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,881 INFO Progreso 310/400 | api_bl=187 cache_bl=123 | var1 crewai_api=0 metagpt=36 majority=234 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,883 INFO Progreso 320/400 | api_bl=195 cache_bl=125 | var1 crewai_api=0 metagpt=36 majority=244 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,885 INFO Progreso 330/400 | api_bl=204 cache_bl=126 | var1 crewai_api=0 metagpt=36 majority=254 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,887 INFO Progreso 340/400 | api_bl=208 cache_bl=132 | var1 crewai_api=0 metagpt=37 majority=263 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,889 INFO Progreso 350/400 | api_bl=214 cache_bl=136 | var1 crewai_api=0 metagpt=39 majority=271 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,891 INFO Progreso 360/400 | api_bl=221 cache_bl=139 | var1 crewai_api=0 metagpt=39 majority=281 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,893 INFO Progreso 370/400 | api_bl=226 cache_bl=144 | var1 crewai_api=0 metagpt=39 majority=291 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,895 INFO Progreso 380/400 | api_bl=235 cache_bl=145 | var1 crewai_api=0 metagpt=39 majority=301 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,897 INFO Progreso 390/400 | api_bl=242 cache_bl=148 | var1 crewai_api=0 metagpt=40 majority=310 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:10,899 INFO Progreso 400/400 | api_bl=246 cache_bl=154 | var1 crewai_api=0 metagpt=40 majority=320 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:07:11,742 INFO Finalizado. Baseline sources: {'deepseek_api': 246, 'deepseek_cache': 154}
+2026-06-12 16:07:11,742 INFO Var1 sources: {'crewai_cache': 40, 'metagpt_team_cache_as_var1': 40, 'pgvector_majority_fallback': 320} | crewai_api_sesion=0
+2026-06-12 16:07:11,743 INFO Métricas:
+   variante  ...  FNR-stop (False Negative Rate stop)
+0  Baseline  ...                             0.333333
+1      Var1  ...                             0.333333
+2      Var2  ...                             0.300000
+
+[3 rows x 4 columns]
+2026-06-12 16:30:36,495 INFO Inicio PASO 3 mode=api-incremental run_api=True run_crewai=True deepseek_key=True max_api_bl=400 max_api_v1=40
+2026-06-12 16:30:36,812 INFO Var1 pilot: estratificado=40 cola_api=40 cache_crewai=40
+2026-06-12 16:30:36,814 INFO Progreso 10/400 | api_bl=6 cache_bl=4 | var1 crewai_cache=9 crewai_api=0 majority=1 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:30:36,816 INFO Progreso 20/400 | api_bl=10 cache_bl=10 | var1 crewai_cache=17 crewai_api=0 majority=3 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:30:39,226 INFO Using config path: /home/jlpy/.config/crewai/settings.json
+2026-06-12 16:30:40,611 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:41,372 INFO OpenAI API usage: {'prompt_tokens': 301, 'completion_tokens': 3, 'total_tokens': 304, 'cached_prompt_tokens': 0}
+2026-06-12 16:30:41,808 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:42,560 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:30:42,569 INFO Progreso 30/400 | api_bl=13 cache_bl=17 | var1 crewai_cache=26 crewai_api=1 majority=3 api_v1=1/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:30:42,571 INFO Progreso 40/400 | api_bl=19 cache_bl=21 | var1 crewai_cache=36 crewai_api=1 majority=3 api_v1=1/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:30:43,078 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:43,865 INFO OpenAI API usage: {'prompt_tokens': 302, 'completion_tokens': 1, 'total_tokens': 303, 'cached_prompt_tokens': 256}
+2026-06-12 16:30:44,298 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:44,790 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:30:44,800 INFO Progreso 50/400 | api_bl=22 cache_bl=28 | var1 crewai_cache=40 crewai_api=2 majority=8 api_v1=2/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:30:45,452 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:45,970 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 1, 'total_tokens': 299, 'cached_prompt_tokens': 256}
+2026-06-12 16:30:46,415 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:47,249 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:30:47,872 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:48,682 INFO OpenAI API usage: {'prompt_tokens': 300, 'completion_tokens': 1, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:30:49,133 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:49,910 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:30:50,546 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:51,232 INFO OpenAI API usage: {'prompt_tokens': 303, 'completion_tokens': 3, 'total_tokens': 306, 'cached_prompt_tokens': 256}
+2026-06-12 16:30:51,664 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:52,384 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:30:52,391 INFO Progreso 60/400 | api_bl=27 cache_bl=33 | var1 crewai_cache=40 crewai_api=5 majority=15 api_v1=5/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:30:53,018 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:53,839 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 1, 'total_tokens': 295, 'cached_prompt_tokens': 256}
+2026-06-12 16:30:54,275 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:55,197 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:30:55,205 INFO Progreso 70/400 | api_bl=32 cache_bl=38 | var1 crewai_cache=40 crewai_api=6 majority=24 api_v1=6/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:30:55,839 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:56,455 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 1, 'total_tokens': 295, 'cached_prompt_tokens': 256}
+2026-06-12 16:30:56,893 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:57,697 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:30:57,705 INFO Progreso 80/400 | api_bl=39 cache_bl=41 | var1 crewai_cache=40 crewai_api=7 majority=33 api_v1=7/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:30:58,211 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:58,816 INFO OpenAI API usage: {'prompt_tokens': 307, 'completion_tokens': 3, 'total_tokens': 310, 'cached_prompt_tokens': 256}
+2026-06-12 16:30:59,260 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:30:59,957 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:30:59,965 INFO Progreso 90/400 | api_bl=44 cache_bl=46 | var1 crewai_cache=40 crewai_api=8 majority=42 api_v1=8/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:30:59,966 INFO Progreso 100/400 | api_bl=50 cache_bl=50 | var1 crewai_cache=40 crewai_api=8 majority=52 api_v1=8/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:00,477 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:01,193 INFO OpenAI API usage: {'prompt_tokens': 302, 'completion_tokens': 3, 'total_tokens': 305, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:01,625 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:02,474 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:03,004 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:03,828 INFO OpenAI API usage: {'prompt_tokens': 319, 'completion_tokens': 3, 'total_tokens': 322, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:04,272 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:04,960 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:04,968 INFO Progreso 110/400 | api_bl=55 cache_bl=55 | var1 crewai_cache=40 crewai_api=10 majority=60 api_v1=10/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:05,497 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:06,359 INFO OpenAI API usage: {'prompt_tokens': 289, 'completion_tokens': 1, 'total_tokens': 290, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:06,788 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:07,544 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:08,075 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:08,752 INFO OpenAI API usage: {'prompt_tokens': 284, 'completion_tokens': 1, 'total_tokens': 285, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:09,197 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:09,724 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:09,730 INFO Progreso 120/400 | api_bl=61 cache_bl=59 | var1 crewai_cache=40 crewai_api=12 majority=68 api_v1=12/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:10,393 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:11,237 INFO OpenAI API usage: {'prompt_tokens': 275, 'completion_tokens': 3, 'total_tokens': 278, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:11,686 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:12,194 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:12,201 INFO Progreso 130/400 | api_bl=68 cache_bl=62 | var1 crewai_cache=40 crewai_api=13 majority=77 api_v1=13/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:12,821 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:13,357 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 3, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:13,799 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:14,635 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:15,168 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:16,023 INFO OpenAI API usage: {'prompt_tokens': 297, 'completion_tokens': 1, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:16,492 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:16,995 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:17,620 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:18,396 INFO OpenAI API usage: {'prompt_tokens': 297, 'completion_tokens': 3, 'total_tokens': 300, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:18,828 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:19,275 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:19,283 INFO Progreso 140/400 | api_bl=77 cache_bl=63 | var1 crewai_cache=40 crewai_api=16 majority=84 api_v1=16/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:19,906 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:20,676 INFO OpenAI API usage: {'prompt_tokens': 291, 'completion_tokens': 3, 'total_tokens': 294, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:21,105 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:21,633 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:21,641 INFO Progreso 150/400 | api_bl=84 cache_bl=66 | var1 crewai_cache=40 crewai_api=17 majority=93 api_v1=17/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:22,277 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:23,023 INFO OpenAI API usage: {'prompt_tokens': 274, 'completion_tokens': 1, 'total_tokens': 275, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:23,471 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:24,261 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:24,917 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:25,647 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 3, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:26,084 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:26,873 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:26,881 INFO Progreso 160/400 | api_bl=89 cache_bl=71 | var1 crewai_cache=40 crewai_api=19 majority=101 api_v1=19/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:27,523 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:28,115 INFO OpenAI API usage: {'prompt_tokens': 303, 'completion_tokens': 3, 'total_tokens': 306, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:28,568 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:29,172 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:29,179 INFO Progreso 170/400 | api_bl=96 cache_bl=74 | var1 crewai_cache=40 crewai_api=20 majority=110 api_v1=20/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:29,801 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:30,362 INFO OpenAI API usage: {'prompt_tokens': 295, 'completion_tokens': 1, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:30,795 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:31,559 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:32,081 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:32,586 INFO OpenAI API usage: {'prompt_tokens': 292, 'completion_tokens': 1, 'total_tokens': 293, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:33,025 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:33,837 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:33,844 INFO Progreso 180/400 | api_bl=99 cache_bl=81 | var1 crewai_cache=40 crewai_api=22 majority=118 api_v1=22/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:33,845 INFO Progreso 190/400 | api_bl=106 cache_bl=84 | var1 crewai_cache=40 crewai_api=22 majority=128 api_v1=22/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:33,847 INFO Progreso 200/400 | api_bl=114 cache_bl=86 | var1 crewai_cache=40 crewai_api=22 majority=138 api_v1=22/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:34,469 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:35,408 INFO OpenAI API usage: {'prompt_tokens': 295, 'completion_tokens': 3, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:35,857 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:36,642 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:36,649 INFO Progreso 210/400 | api_bl=122 cache_bl=88 | var1 crewai_cache=40 crewai_api=23 majority=147 api_v1=23/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:36,651 INFO Progreso 220/400 | api_bl=129 cache_bl=91 | var1 crewai_cache=40 crewai_api=23 majority=157 api_v1=23/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:37,192 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:38,037 INFO OpenAI API usage: {'prompt_tokens': 299, 'completion_tokens': 3, 'total_tokens': 302, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:38,475 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:39,441 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:40,090 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:40,742 INFO OpenAI API usage: {'prompt_tokens': 303, 'completion_tokens': 3, 'total_tokens': 306, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:41,816 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:42,658 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:42,664 INFO Progreso 230/400 | api_bl=137 cache_bl=93 | var1 crewai_cache=40 crewai_api=25 majority=165 api_v1=25/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:43,374 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:43,861 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 1, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:44,301 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:44,862 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:45,518 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:46,053 INFO OpenAI API usage: {'prompt_tokens': 301, 'completion_tokens': 3, 'total_tokens': 304, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:46,507 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:47,257 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:47,265 INFO Progreso 240/400 | api_bl=143 cache_bl=97 | var1 crewai_cache=40 crewai_api=27 majority=173 api_v1=27/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:47,889 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:48,403 INFO OpenAI API usage: {'prompt_tokens': 301, 'completion_tokens': 3, 'total_tokens': 304, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:48,842 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:49,355 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:49,987 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:50,690 INFO OpenAI API usage: {'prompt_tokens': 267, 'completion_tokens': 3, 'total_tokens': 270, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:51,122 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:51,648 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:51,655 INFO Progreso 250/400 | api_bl=147 cache_bl=103 | var1 crewai_cache=40 crewai_api=29 majority=181 api_v1=29/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:52,291 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:52,701 INFO OpenAI API usage: {'prompt_tokens': 295, 'completion_tokens': 3, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:53,140 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:53,791 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:53,798 INFO Progreso 260/400 | api_bl=154 cache_bl=106 | var1 crewai_cache=40 crewai_api=30 majority=190 api_v1=30/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:53,800 INFO Progreso 270/400 | api_bl=160 cache_bl=110 | var1 crewai_cache=40 crewai_api=30 majority=200 api_v1=30/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:53,802 INFO Progreso 280/400 | api_bl=168 cache_bl=112 | var1 crewai_cache=40 crewai_api=30 majority=210 api_v1=30/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:54,423 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:54,948 INFO OpenAI API usage: {'prompt_tokens': 268, 'completion_tokens': 3, 'total_tokens': 271, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:55,394 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:55,960 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:55,969 INFO Progreso 290/400 | api_bl=175 cache_bl=115 | var1 crewai_cache=40 crewai_api=31 majority=219 api_v1=31/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:55,971 INFO Progreso 300/400 | api_bl=181 cache_bl=119 | var1 crewai_cache=40 crewai_api=31 majority=229 api_v1=31/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:55,973 INFO Progreso 310/400 | api_bl=187 cache_bl=123 | var1 crewai_cache=40 crewai_api=31 majority=239 api_v1=31/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:55,975 INFO Progreso 320/400 | api_bl=195 cache_bl=125 | var1 crewai_cache=40 crewai_api=31 majority=249 api_v1=31/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:56,595 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:57,196 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 3, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:31:57,649 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:31:58,598 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:31:58,607 INFO Progreso 330/400 | api_bl=204 cache_bl=126 | var1 crewai_cache=40 crewai_api=32 majority=258 api_v1=32/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:31:59,231 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:00,050 INFO OpenAI API usage: {'prompt_tokens': 271, 'completion_tokens': 1, 'total_tokens': 272, 'cached_prompt_tokens': 0}
+2026-06-12 16:32:00,488 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:00,993 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:01,000 INFO Progreso 340/400 | api_bl=208 cache_bl=132 | var1 crewai_cache=40 crewai_api=33 majority=267 api_v1=33/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:01,616 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:02,466 INFO OpenAI API usage: {'prompt_tokens': 309, 'completion_tokens': 1, 'total_tokens': 310, 'cached_prompt_tokens': 0}
+2026-06-12 16:32:02,910 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:03,454 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:03,461 INFO Progreso 350/400 | api_bl=214 cache_bl=136 | var1 crewai_cache=40 crewai_api=34 majority=276 api_v1=34/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:03,463 INFO Progreso 360/400 | api_bl=221 cache_bl=139 | var1 crewai_cache=40 crewai_api=34 majority=286 api_v1=34/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:03,465 INFO Progreso 370/400 | api_bl=226 cache_bl=144 | var1 crewai_cache=40 crewai_api=34 majority=296 api_v1=34/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:03,989 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:04,415 INFO OpenAI API usage: {'prompt_tokens': 304, 'completion_tokens': 1, 'total_tokens': 305, 'cached_prompt_tokens': 0}
+2026-06-12 16:32:04,844 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:05,557 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:06,190 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:06,994 INFO OpenAI API usage: {'prompt_tokens': 299, 'completion_tokens': 3, 'total_tokens': 302, 'cached_prompt_tokens': 0}
+2026-06-12 16:32:07,432 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:08,190 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:08,710 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:09,121 INFO OpenAI API usage: {'prompt_tokens': 299, 'completion_tokens': 1, 'total_tokens': 300, 'cached_prompt_tokens': 0}
+2026-06-12 16:32:09,561 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:10,312 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:10,320 INFO Progreso 380/400 | api_bl=235 cache_bl=145 | var1 crewai_cache=40 crewai_api=37 majority=303 api_v1=37/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:11,047 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:11,852 INFO OpenAI API usage: {'prompt_tokens': 290, 'completion_tokens': 1, 'total_tokens': 291, 'cached_prompt_tokens': 0}
+2026-06-12 16:32:12,298 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:13,006 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:13,563 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:14,120 INFO OpenAI API usage: {'prompt_tokens': 278, 'completion_tokens': 1, 'total_tokens': 279, 'cached_prompt_tokens': 0}
+2026-06-12 16:32:14,574 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:15,376 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:15,385 INFO Progreso 390/400 | api_bl=242 cache_bl=148 | var1 crewai_cache=40 crewai_api=39 majority=311 api_v1=39/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:15,938 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:16,561 INFO OpenAI API usage: {'prompt_tokens': 295, 'completion_tokens': 3, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:32:17,013 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:17,517 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:17,525 INFO Progreso 400/400 | api_bl=246 cache_bl=154 | var1 crewai_cache=40 crewai_api=40 majority=320 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:18,404 INFO Finalizado. Baseline sources: {'deepseek_api': 246, 'deepseek_cache': 154}
+2026-06-12 16:32:18,404 INFO Var1 sources: {'crewai_cache': 40, 'pgvector_majority_fallback': 320, 'crewai_api': 40} | crewai_api_sesion=40
+2026-06-12 16:32:18,405 INFO Métricas:
+   variante  ...  FNR-stop (False Negative Rate stop)
+0  Baseline  ...                             0.333333
+1      Var1  ...                             0.433333
+2      Var2  ...                             0.400000
+
+[3 rows x 4 columns]
+2026-06-12 16:32:43,954 INFO Inicio PASO 3 mode=api-incremental run_api=True run_crewai=True deepseek_key=True max_api_bl=400 max_api_v1=40
+2026-06-12 16:32:44,264 INFO Var1 pilot: estratificado=40 cola_api=33 cache_crewai=80
+2026-06-12 16:32:44,267 INFO Progreso 10/400 | api_bl=6 cache_bl=4 | var1 crewai_cache=1 crewai_api=0 majority=9 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:44,268 INFO Progreso 20/400 | api_bl=10 cache_bl=10 | var1 crewai_cache=2 crewai_api=0 majority=18 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:44,270 INFO Progreso 30/400 | api_bl=13 cache_bl=17 | var1 crewai_cache=2 crewai_api=0 majority=28 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:44,272 INFO Progreso 40/400 | api_bl=19 cache_bl=21 | var1 crewai_cache=3 crewai_api=0 majority=37 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:44,274 INFO Progreso 50/400 | api_bl=22 cache_bl=28 | var1 crewai_cache=3 crewai_api=0 majority=47 api_v1=0/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:46,774 INFO Using config path: /home/jlpy/.config/crewai/settings.json
+2026-06-12 16:32:48,171 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:48,513 INFO OpenAI API usage: {'prompt_tokens': 297, 'completion_tokens': 1, 'total_tokens': 298, 'cached_prompt_tokens': 256}
+2026-06-12 16:32:48,947 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:49,465 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:50,114 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:51,018 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 1, 'total_tokens': 294, 'cached_prompt_tokens': 256}
+2026-06-12 16:32:51,456 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:51,986 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:51,995 INFO Progreso 60/400 | api_bl=27 cache_bl=33 | var1 crewai_cache=3 crewai_api=2 majority=55 api_v1=2/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:51,996 INFO Progreso 70/400 | api_bl=32 cache_bl=38 | var1 crewai_cache=3 crewai_api=2 majority=65 api_v1=2/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:52,601 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:53,078 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 3, 'total_tokens': 299, 'cached_prompt_tokens': 256}
+2026-06-12 16:32:53,518 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:54,225 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:54,741 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:55,216 INFO OpenAI API usage: {'prompt_tokens': 266, 'completion_tokens': 3, 'total_tokens': 269, 'cached_prompt_tokens': 0}
+2026-06-12 16:32:55,642 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:56,482 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:57,019 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:57,526 INFO OpenAI API usage: {'prompt_tokens': 311, 'completion_tokens': 1, 'total_tokens': 312, 'cached_prompt_tokens': 256}
+2026-06-12 16:32:57,969 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:58,455 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:32:58,461 INFO Progreso 80/400 | api_bl=39 cache_bl=41 | var1 crewai_cache=3 crewai_api=5 majority=72 api_v1=5/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:32:59,094 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:32:59,816 INFO OpenAI API usage: {'prompt_tokens': 280, 'completion_tokens': 3, 'total_tokens': 283, 'cached_prompt_tokens': 256}
+2026-06-12 16:33:00,255 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:00,765 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:00,772 INFO Progreso 90/400 | api_bl=44 cache_bl=46 | var1 crewai_cache=3 crewai_api=6 majority=81 api_v1=6/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:01,432 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:01,925 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 3, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:02,366 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:02,898 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:02,906 INFO Progreso 100/400 | api_bl=50 cache_bl=50 | var1 crewai_cache=3 crewai_api=7 majority=90 api_v1=7/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:02,908 INFO Progreso 110/400 | api_bl=55 cache_bl=55 | var1 crewai_cache=3 crewai_api=7 majority=100 api_v1=7/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:02,910 INFO Progreso 120/400 | api_bl=61 cache_bl=59 | var1 crewai_cache=3 crewai_api=7 majority=110 api_v1=7/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:03,432 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:04,112 INFO OpenAI API usage: {'prompt_tokens': 300, 'completion_tokens': 3, 'total_tokens': 303, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:04,543 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:05,178 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:05,184 INFO Progreso 130/400 | api_bl=68 cache_bl=62 | var1 crewai_cache=3 crewai_api=8 majority=119 api_v1=8/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:05,712 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:06,608 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 3, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:07,053 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:07,993 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:08,000 INFO Progreso 140/400 | api_bl=77 cache_bl=63 | var1 crewai_cache=5 crewai_api=9 majority=126 api_v1=9/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:08,627 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:09,280 INFO OpenAI API usage: {'prompt_tokens': 292, 'completion_tokens': 1, 'total_tokens': 293, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:09,718 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:10,151 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:10,674 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:11,458 INFO OpenAI API usage: {'prompt_tokens': 303, 'completion_tokens': 3, 'total_tokens': 306, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:11,894 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:12,424 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:12,431 INFO Progreso 150/400 | api_bl=84 cache_bl=66 | var1 crewai_cache=5 crewai_api=11 majority=134 api_v1=11/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:13,053 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:13,660 INFO OpenAI API usage: {'prompt_tokens': 290, 'completion_tokens': 1, 'total_tokens': 291, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:14,092 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:14,859 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:14,867 INFO Progreso 160/400 | api_bl=89 cache_bl=71 | var1 crewai_cache=5 crewai_api=12 majority=143 api_v1=12/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:15,389 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:16,211 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 3, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:16,648 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:17,312 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:17,951 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:18,672 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 1, 'total_tokens': 294, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:19,112 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:19,775 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:19,782 INFO Progreso 170/400 | api_bl=96 cache_bl=74 | var1 crewai_cache=5 crewai_api=14 majority=151 api_v1=14/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:19,784 INFO Progreso 180/400 | api_bl=99 cache_bl=81 | var1 crewai_cache=5 crewai_api=14 majority=161 api_v1=14/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:20,413 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:21,056 INFO OpenAI API usage: {'prompt_tokens': 316, 'completion_tokens': 1, 'total_tokens': 317, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:21,499 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:22,214 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:22,221 INFO Progreso 190/400 | api_bl=106 cache_bl=84 | var1 crewai_cache=5 crewai_api=15 majority=170 api_v1=15/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:22,842 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:23,569 INFO OpenAI API usage: {'prompt_tokens': 266, 'completion_tokens': 1, 'total_tokens': 267, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:24,008 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:24,630 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:24,637 INFO Progreso 200/400 | api_bl=114 cache_bl=86 | var1 crewai_cache=5 crewai_api=16 majority=179 api_v1=16/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:25,158 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:25,927 INFO OpenAI API usage: {'prompt_tokens': 306, 'completion_tokens': 1, 'total_tokens': 307, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:26,357 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:26,840 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:26,847 INFO Progreso 210/400 | api_bl=122 cache_bl=88 | var1 crewai_cache=5 crewai_api=17 majority=188 api_v1=17/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:28,530 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:29,031 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 3, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:29,478 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:30,227 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:30,235 INFO Progreso 220/400 | api_bl=129 cache_bl=91 | var1 crewai_cache=5 crewai_api=18 majority=197 api_v1=18/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:30,238 INFO Progreso 230/400 | api_bl=137 cache_bl=93 | var1 crewai_cache=5 crewai_api=18 majority=207 api_v1=18/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:30,240 INFO Progreso 240/400 | api_bl=143 cache_bl=97 | var1 crewai_cache=6 crewai_api=18 majority=216 api_v1=18/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:30,893 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:31,702 INFO OpenAI API usage: {'prompt_tokens': 287, 'completion_tokens': 3, 'total_tokens': 290, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:32,148 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:33,009 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:33,017 INFO Progreso 250/400 | api_bl=147 cache_bl=103 | var1 crewai_cache=6 crewai_api=19 majority=225 api_v1=19/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:33,019 INFO Progreso 260/400 | api_bl=154 cache_bl=106 | var1 crewai_cache=6 crewai_api=19 majority=235 api_v1=19/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:33,546 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:34,079 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 1, 'total_tokens': 295, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:34,525 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:35,191 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:35,197 INFO Progreso 270/400 | api_bl=160 cache_bl=110 | var1 crewai_cache=6 crewai_api=20 majority=244 api_v1=20/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:35,199 INFO Progreso 280/400 | api_bl=168 cache_bl=112 | var1 crewai_cache=6 crewai_api=20 majority=254 api_v1=20/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:36,341 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:37,286 INFO OpenAI API usage: {'prompt_tokens': 306, 'completion_tokens': 1, 'total_tokens': 307, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:37,743 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:38,364 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:38,371 INFO Progreso 290/400 | api_bl=175 cache_bl=115 | var1 crewai_cache=6 crewai_api=21 majority=263 api_v1=21/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:38,373 INFO Progreso 300/400 | api_bl=181 cache_bl=119 | var1 crewai_cache=6 crewai_api=21 majority=273 api_v1=21/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:39,011 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:39,750 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 1, 'total_tokens': 297, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:40,276 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:41,063 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:41,071 INFO Progreso 310/400 | api_bl=187 cache_bl=123 | var1 crewai_cache=6 crewai_api=22 majority=282 api_v1=22/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:41,701 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:42,441 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 3, 'total_tokens': 297, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:42,870 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:43,479 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:43,488 INFO Progreso 320/400 | api_bl=195 cache_bl=125 | var1 crewai_cache=6 crewai_api=23 majority=291 api_v1=23/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:44,007 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:44,575 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 1, 'total_tokens': 295, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:45,012 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:45,508 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:46,139 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:46,875 INFO OpenAI API usage: {'prompt_tokens': 303, 'completion_tokens': 1, 'total_tokens': 304, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:47,301 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:48,078 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:48,718 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:49,338 INFO OpenAI API usage: {'prompt_tokens': 290, 'completion_tokens': 3, 'total_tokens': 293, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:49,775 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:50,408 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:50,414 INFO Progreso 330/400 | api_bl=204 cache_bl=126 | var1 crewai_cache=6 crewai_api=26 majority=298 api_v1=26/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:50,932 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:51,657 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 3, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:52,110 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:52,559 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:52,567 INFO Progreso 340/400 | api_bl=208 cache_bl=132 | var1 crewai_cache=6 crewai_api=27 majority=307 api_v1=27/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:52,568 INFO Progreso 350/400 | api_bl=214 cache_bl=136 | var1 crewai_cache=6 crewai_api=27 majority=317 api_v1=27/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:52,570 INFO Progreso 360/400 | api_bl=221 cache_bl=139 | var1 crewai_cache=6 crewai_api=27 majority=327 api_v1=27/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:53,082 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:53,847 INFO OpenAI API usage: {'prompt_tokens': 297, 'completion_tokens': 1, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:54,286 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:54,754 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:54,762 INFO Progreso 370/400 | api_bl=226 cache_bl=144 | var1 crewai_cache=6 crewai_api=28 majority=336 api_v1=28/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:55,271 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:55,709 INFO OpenAI API usage: {'prompt_tokens': 297, 'completion_tokens': 3, 'total_tokens': 300, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:56,147 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:56,973 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:56,980 INFO Progreso 380/400 | api_bl=235 cache_bl=145 | var1 crewai_cache=7 crewai_api=29 majority=344 api_v1=29/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:33:57,493 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:58,059 INFO OpenAI API usage: {'prompt_tokens': 295, 'completion_tokens': 3, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:33:58,504 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:33:59,164 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:33:59,685 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:34:00,211 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 3, 'total_tokens': 297, 'cached_prompt_tokens': 0}
+2026-06-12 16:34:00,645 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:34:01,188 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:34:01,698 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:34:02,437 INFO OpenAI API usage: {'prompt_tokens': 297, 'completion_tokens': 1, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:34:02,868 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:34:03,390 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:34:03,397 INFO Progreso 390/400 | api_bl=242 cache_bl=148 | var1 crewai_cache=7 crewai_api=32 majority=351 api_v1=32/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:34:04,014 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:34:04,577 INFO OpenAI API usage: {'prompt_tokens': 299, 'completion_tokens': 3, 'total_tokens': 302, 'cached_prompt_tokens': 0}
+2026-06-12 16:34:05,026 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:34:05,819 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+2026-06-12 16:34:05,828 INFO Progreso 400/400 | api_bl=246 cache_bl=154 | var1 crewai_cache=7 crewai_api=33 majority=360 api_v1=33/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:34:06,641 INFO Finalizado. Baseline sources: {'deepseek_api': 246, 'deepseek_cache': 154}
+2026-06-12 16:34:06,641 INFO Var1 sources: {'pgvector_majority_fallback': 360, 'crewai_cache': 7, 'crewai_api': 33} | crewai_api_sesion=33
+2026-06-12 16:34:06,642 INFO Métricas:
+   variante  ...  FNR-stop (False Negative Rate stop)
+0  Baseline  ...                             0.333333
+1      Var1  ...                             0.433333
+2      Var2  ...                             0.433333
+
+[3 rows x 4 columns]
+2026-06-12 16:53:57,736 INFO Inicio PASO 3 mode=api-incremental run_api=True run_crewai=True deepseek_key=True max_api_bl=400 max_api_v1=40
+2026-06-12 16:53:58,075 INFO Var1 pilot: estratificado=40 cola_api=40 cache_crewai=113
+2026-06-12 16:54:00,612 INFO Using config path: /home/jlpy/.config/crewai/settings.json
+2026-06-12 16:54:07,240 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:08,151 INFO OpenAI API usage: {'prompt_tokens': 342, 'completion_tokens': 1, 'total_tokens': 343, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:08,597 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:09,706 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:09,713 INFO Progreso 10/400 | api_bl=6 cache_bl=4 | var1 cache=0 api=1 abst=9 | api_v1=1/40
+2026-06-12 16:54:10,457 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:11,427 INFO OpenAI API usage: {'prompt_tokens': 309, 'completion_tokens': 1, 'total_tokens': 310, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:11,866 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:12,784 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:12,790 INFO Progreso 20/400 | api_bl=10 cache_bl=10 | var1 cache=0 api=2 abst=18 | api_v1=2/40
+2026-06-12 16:54:12,792 INFO Progreso 30/400 | api_bl=13 cache_bl=17 | var1 cache=0 api=2 abst=28 | api_v1=2/40
+2026-06-12 16:54:13,303 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:14,239 INFO OpenAI API usage: {'prompt_tokens': 299, 'completion_tokens': 1, 'total_tokens': 300, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:14,671 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:15,614 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:15,622 INFO Progreso 40/400 | api_bl=19 cache_bl=21 | var1 cache=0 api=3 abst=37 | api_v1=3/40
+2026-06-12 16:54:15,624 INFO Progreso 50/400 | api_bl=22 cache_bl=28 | var1 cache=0 api=3 abst=47 | api_v1=3/40
+2026-06-12 16:54:16,157 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:16,926 INFO OpenAI API usage: {'prompt_tokens': 331, 'completion_tokens': 1, 'total_tokens': 332, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:17,361 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:18,417 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:18,928 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:19,937 INFO OpenAI API usage: {'prompt_tokens': 327, 'completion_tokens': 1, 'total_tokens': 328, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:20,375 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:21,360 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:21,369 INFO Progreso 60/400 | api_bl=27 cache_bl=33 | var1 cache=0 api=5 abst=55 | api_v1=5/40
+2026-06-12 16:54:21,370 INFO Progreso 70/400 | api_bl=32 cache_bl=38 | var1 cache=0 api=5 abst=65 | api_v1=5/40
+2026-06-12 16:54:21,894 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:22,779 INFO OpenAI API usage: {'prompt_tokens': 330, 'completion_tokens': 1, 'total_tokens': 331, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:23,222 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:24,129 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:24,653 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:25,563 INFO OpenAI API usage: {'prompt_tokens': 300, 'completion_tokens': 1, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:25,998 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:26,924 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:27,441 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:28,563 INFO OpenAI API usage: {'prompt_tokens': 345, 'completion_tokens': 1, 'total_tokens': 346, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:29,020 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:29,955 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:29,962 INFO Progreso 80/400 | api_bl=39 cache_bl=41 | var1 cache=0 api=8 abst=72 | api_v1=8/40
+2026-06-12 16:54:30,546 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:31,358 INFO OpenAI API usage: {'prompt_tokens': 314, 'completion_tokens': 1, 'total_tokens': 315, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:31,802 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:32,644 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:32,650 INFO Progreso 90/400 | api_bl=44 cache_bl=46 | var1 cache=0 api=9 abst=81 | api_v1=9/40
+2026-06-12 16:54:33,275 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:34,399 INFO OpenAI API usage: {'prompt_tokens': 332, 'completion_tokens': 1, 'total_tokens': 333, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:34,841 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:35,888 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:35,896 INFO Progreso 100/400 | api_bl=50 cache_bl=50 | var1 cache=0 api=10 abst=90 | api_v1=10/40
+2026-06-12 16:54:35,898 INFO Progreso 110/400 | api_bl=55 cache_bl=55 | var1 cache=0 api=10 abst=100 | api_v1=10/40
+2026-06-12 16:54:35,899 INFO Progreso 120/400 | api_bl=61 cache_bl=59 | var1 cache=0 api=10 abst=110 | api_v1=10/40
+2026-06-12 16:54:36,416 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:37,456 INFO OpenAI API usage: {'prompt_tokens': 334, 'completion_tokens': 1, 'total_tokens': 335, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:37,902 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:38,796 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:38,803 INFO Progreso 130/400 | api_bl=68 cache_bl=62 | var1 cache=0 api=11 abst=119 | api_v1=11/40
+2026-06-12 16:54:39,335 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:40,201 INFO OpenAI API usage: {'prompt_tokens': 332, 'completion_tokens': 1, 'total_tokens': 333, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:40,620 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:41,617 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:42,140 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:43,224 INFO OpenAI API usage: {'prompt_tokens': 331, 'completion_tokens': 1, 'total_tokens': 332, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:43,696 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:44,575 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:45,091 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:45,966 INFO OpenAI API usage: {'prompt_tokens': 330, 'completion_tokens': 1, 'total_tokens': 331, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:46,410 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:47,434 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:47,441 INFO Progreso 140/400 | api_bl=77 cache_bl=63 | var1 cache=0 api=14 abst=126 | api_v1=14/40
+2026-06-12 16:54:47,965 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:48,931 INFO OpenAI API usage: {'prompt_tokens': 326, 'completion_tokens': 1, 'total_tokens': 327, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:49,385 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:50,454 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:50,971 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:52,013 INFO OpenAI API usage: {'prompt_tokens': 337, 'completion_tokens': 1, 'total_tokens': 338, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:52,460 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:53,321 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:53,328 INFO Progreso 150/400 | api_bl=84 cache_bl=66 | var1 cache=0 api=16 abst=134 | api_v1=16/40
+2026-06-12 16:54:53,951 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:54,841 INFO OpenAI API usage: {'prompt_tokens': 324, 'completion_tokens': 1, 'total_tokens': 325, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:55,284 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:56,138 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:56,146 INFO Progreso 160/400 | api_bl=89 cache_bl=71 | var1 cache=0 api=17 abst=143 | api_v1=17/40
+2026-06-12 16:54:56,774 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:57,670 INFO OpenAI API usage: {'prompt_tokens': 330, 'completion_tokens': 1, 'total_tokens': 331, 'cached_prompt_tokens': 0}
+2026-06-12 16:54:58,118 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:54:59,061 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:54:59,581 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:00,425 INFO OpenAI API usage: {'prompt_tokens': 327, 'completion_tokens': 1, 'total_tokens': 328, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:00,868 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:01,712 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:01,721 INFO Progreso 170/400 | api_bl=96 cache_bl=74 | var1 cache=0 api=19 abst=151 | api_v1=19/40
+2026-06-12 16:55:01,723 INFO Progreso 180/400 | api_bl=99 cache_bl=81 | var1 cache=0 api=19 abst=161 | api_v1=19/40
+2026-06-12 16:55:03,447 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:04,440 INFO OpenAI API usage: {'prompt_tokens': 350, 'completion_tokens': 1, 'total_tokens': 351, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:04,879 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:05,763 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:05,772 INFO Progreso 190/400 | api_bl=106 cache_bl=84 | var1 cache=0 api=20 abst=170 | api_v1=20/40
+2026-06-12 16:55:06,412 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:07,568 INFO OpenAI API usage: {'prompt_tokens': 300, 'completion_tokens': 1, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:08,007 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:08,911 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:08,919 INFO Progreso 200/400 | api_bl=114 cache_bl=86 | var1 cache=0 api=21 abst=179 | api_v1=21/40
+2026-06-12 16:55:09,426 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:10,216 INFO OpenAI API usage: {'prompt_tokens': 340, 'completion_tokens': 1, 'total_tokens': 341, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:10,676 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:11,438 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:11,445 INFO Progreso 210/400 | api_bl=122 cache_bl=88 | var1 cache=0 api=22 abst=188 | api_v1=22/40
+2026-06-12 16:55:12,151 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:12,943 INFO OpenAI API usage: {'prompt_tokens': 330, 'completion_tokens': 1, 'total_tokens': 331, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:13,377 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:14,319 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:14,327 INFO Progreso 220/400 | api_bl=129 cache_bl=91 | var1 cache=0 api=23 abst=197 | api_v1=23/40
+2026-06-12 16:55:14,328 INFO Progreso 230/400 | api_bl=137 cache_bl=93 | var1 cache=0 api=23 abst=207 | api_v1=23/40
+2026-06-12 16:55:14,947 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:16,110 INFO OpenAI API usage: {'prompt_tokens': 335, 'completion_tokens': 1, 'total_tokens': 336, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:16,554 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:17,366 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:17,374 INFO Progreso 240/400 | api_bl=143 cache_bl=97 | var1 cache=0 api=24 abst=216 | api_v1=24/40
+2026-06-12 16:55:17,986 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:18,671 INFO OpenAI API usage: {'prompt_tokens': 321, 'completion_tokens': 1, 'total_tokens': 322, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:19,115 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:20,025 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:20,032 INFO Progreso 250/400 | api_bl=147 cache_bl=103 | var1 cache=0 api=25 abst=225 | api_v1=25/40
+2026-06-12 16:55:20,034 INFO Progreso 260/400 | api_bl=154 cache_bl=106 | var1 cache=0 api=25 abst=235 | api_v1=25/40
+2026-06-12 16:55:20,643 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:21,679 INFO OpenAI API usage: {'prompt_tokens': 328, 'completion_tokens': 1, 'total_tokens': 329, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:22,202 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:23,146 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:23,153 INFO Progreso 270/400 | api_bl=160 cache_bl=110 | var1 cache=0 api=26 abst=244 | api_v1=26/40
+2026-06-12 16:55:23,154 INFO Progreso 280/400 | api_bl=168 cache_bl=112 | var1 cache=0 api=26 abst=254 | api_v1=26/40
+2026-06-12 16:55:23,779 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:24,903 INFO OpenAI API usage: {'prompt_tokens': 340, 'completion_tokens': 1, 'total_tokens': 341, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:25,332 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:26,186 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:26,195 INFO Progreso 290/400 | api_bl=175 cache_bl=115 | var1 cache=0 api=27 abst=263 | api_v1=27/40
+2026-06-12 16:55:26,196 INFO Progreso 300/400 | api_bl=181 cache_bl=119 | var1 cache=0 api=27 abst=273 | api_v1=27/40
+2026-06-12 16:55:26,770 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:27,726 INFO OpenAI API usage: {'prompt_tokens': 330, 'completion_tokens': 1, 'total_tokens': 331, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:28,241 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:29,264 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:29,274 INFO Progreso 310/400 | api_bl=187 cache_bl=123 | var1 cache=0 api=28 abst=282 | api_v1=28/40
+2026-06-12 16:55:29,796 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:30,793 INFO OpenAI API usage: {'prompt_tokens': 328, 'completion_tokens': 1, 'total_tokens': 329, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:31,272 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:32,090 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:32,098 INFO Progreso 320/400 | api_bl=195 cache_bl=125 | var1 cache=0 api=29 abst=291 | api_v1=29/40
+2026-06-12 16:55:32,610 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:33,553 INFO OpenAI API usage: {'prompt_tokens': 328, 'completion_tokens': 1, 'total_tokens': 329, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:33,999 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:35,084 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:35,608 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:36,639 INFO OpenAI API usage: {'prompt_tokens': 337, 'completion_tokens': 1, 'total_tokens': 338, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:37,079 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:38,000 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:38,603 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:39,692 INFO OpenAI API usage: {'prompt_tokens': 324, 'completion_tokens': 1, 'total_tokens': 325, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:40,149 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:41,276 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:41,282 INFO Progreso 330/400 | api_bl=204 cache_bl=126 | var1 cache=0 api=32 abst=298 | api_v1=32/40
+2026-06-12 16:55:41,926 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:42,900 INFO OpenAI API usage: {'prompt_tokens': 330, 'completion_tokens': 1, 'total_tokens': 331, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:43,333 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:44,255 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:44,262 INFO Progreso 340/400 | api_bl=208 cache_bl=132 | var1 cache=0 api=33 abst=307 | api_v1=33/40
+2026-06-12 16:55:44,264 INFO Progreso 350/400 | api_bl=214 cache_bl=136 | var1 cache=0 api=33 abst=317 | api_v1=33/40
+2026-06-12 16:55:44,266 INFO Progreso 360/400 | api_bl=221 cache_bl=139 | var1 cache=0 api=33 abst=327 | api_v1=33/40
+2026-06-12 16:55:44,786 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:45,882 INFO OpenAI API usage: {'prompt_tokens': 331, 'completion_tokens': 1, 'total_tokens': 332, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:46,321 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:47,259 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:47,267 INFO Progreso 370/400 | api_bl=226 cache_bl=144 | var1 cache=0 api=34 abst=336 | api_v1=34/40
+2026-06-12 16:55:47,773 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:48,703 INFO OpenAI API usage: {'prompt_tokens': 331, 'completion_tokens': 1, 'total_tokens': 332, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:49,138 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:50,040 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:50,565 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:51,555 INFO OpenAI API usage: {'prompt_tokens': 338, 'completion_tokens': 1, 'total_tokens': 339, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:51,999 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:52,971 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:52,980 INFO Progreso 380/400 | api_bl=235 cache_bl=145 | var1 cache=0 api=36 abst=344 | api_v1=36/40
+2026-06-12 16:55:53,509 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:54,464 INFO OpenAI API usage: {'prompt_tokens': 329, 'completion_tokens': 1, 'total_tokens': 330, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:54,906 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:55,880 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:56,392 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:57,357 INFO OpenAI API usage: {'prompt_tokens': 328, 'completion_tokens': 1, 'total_tokens': 329, 'cached_prompt_tokens': 0}
+2026-06-12 16:55:57,804 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:55:58,894 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:55:59,540 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:56:00,412 INFO OpenAI API usage: {'prompt_tokens': 331, 'completion_tokens': 1, 'total_tokens': 332, 'cached_prompt_tokens': 0}
+2026-06-12 16:56:00,856 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:56:01,866 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:56:01,874 INFO Progreso 390/400 | api_bl=242 cache_bl=148 | var1 cache=0 api=39 abst=351 | api_v1=39/40
+2026-06-12 16:56:02,383 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:56:03,333 INFO OpenAI API usage: {'prompt_tokens': 333, 'completion_tokens': 1, 'total_tokens': 334, 'cached_prompt_tokens': 0}
+2026-06-12 16:56:03,774 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:56:04,748 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+2026-06-12 16:56:04,756 INFO Progreso 400/400 | api_bl=246 cache_bl=154 | var1 cache=0 api=40 abst=360 | api_v1=40/40
+2026-06-12 16:56:05,669 INFO Finalizado. Baseline sources: {'deepseek_api': 246, 'deepseek_cache': 154}
+2026-06-12 16:56:05,669 INFO Var1 sources: {'abstencion_fuera_piloto_d5': 360, 'crewai_api': 40} | crewai_api_sesion=40
+2026-06-12 16:56:05,669 INFO Métricas:
+   variante  ...  FNR-stop (False Negative Rate stop)
+0  Baseline  ...                             0.333333
+1      Var1  ...                             0.966667
+2      Var2  ...                             0.433333
+
+[3 rows x 4 columns]
+2026-06-12 16:56:48,053 INFO Inicio PASO 3 mode=api-incremental run_api=True run_crewai=True deepseek_key=True max_api_bl=400 max_api_v1=40
+2026-06-12 16:56:48,360 INFO Var1 pilot: estratificado=40 cola_api=0 cache_crewai=153
+2026-06-12 16:56:48,363 INFO Progreso 10/400 | api_bl=6 cache_bl=4 | var1 cache=1 api=0 abst=9 | api_v1=0/40
+2026-06-12 16:56:48,364 INFO Progreso 20/400 | api_bl=10 cache_bl=10 | var1 cache=2 api=0 abst=18 | api_v1=0/40
+2026-06-12 16:56:48,366 INFO Progreso 30/400 | api_bl=13 cache_bl=17 | var1 cache=2 api=0 abst=28 | api_v1=0/40
+2026-06-12 16:56:48,367 INFO Progreso 40/400 | api_bl=19 cache_bl=21 | var1 cache=3 api=0 abst=37 | api_v1=0/40
+2026-06-12 16:56:48,369 INFO Progreso 50/400 | api_bl=22 cache_bl=28 | var1 cache=3 api=0 abst=47 | api_v1=0/40
+2026-06-12 16:56:48,371 INFO Progreso 60/400 | api_bl=27 cache_bl=33 | var1 cache=5 api=0 abst=55 | api_v1=0/40
+2026-06-12 16:56:48,372 INFO Progreso 70/400 | api_bl=32 cache_bl=38 | var1 cache=5 api=0 abst=65 | api_v1=0/40
+2026-06-12 16:56:48,374 INFO Progreso 80/400 | api_bl=39 cache_bl=41 | var1 cache=8 api=0 abst=72 | api_v1=0/40
+2026-06-12 16:56:48,376 INFO Progreso 90/400 | api_bl=44 cache_bl=46 | var1 cache=9 api=0 abst=81 | api_v1=0/40
+2026-06-12 16:56:48,377 INFO Progreso 100/400 | api_bl=50 cache_bl=50 | var1 cache=10 api=0 abst=90 | api_v1=0/40
+2026-06-12 16:56:48,379 INFO Progreso 110/400 | api_bl=55 cache_bl=55 | var1 cache=10 api=0 abst=100 | api_v1=0/40
+2026-06-12 16:56:48,381 INFO Progreso 120/400 | api_bl=61 cache_bl=59 | var1 cache=10 api=0 abst=110 | api_v1=0/40
+2026-06-12 16:56:48,382 INFO Progreso 130/400 | api_bl=68 cache_bl=62 | var1 cache=11 api=0 abst=119 | api_v1=0/40
+2026-06-12 16:56:48,384 INFO Progreso 140/400 | api_bl=77 cache_bl=63 | var1 cache=14 api=0 abst=126 | api_v1=0/40
+2026-06-12 16:56:48,386 INFO Progreso 150/400 | api_bl=84 cache_bl=66 | var1 cache=16 api=0 abst=134 | api_v1=0/40
+2026-06-12 16:56:48,387 INFO Progreso 160/400 | api_bl=89 cache_bl=71 | var1 cache=17 api=0 abst=143 | api_v1=0/40
+2026-06-12 16:56:48,389 INFO Progreso 170/400 | api_bl=96 cache_bl=74 | var1 cache=19 api=0 abst=151 | api_v1=0/40
+2026-06-12 16:56:48,390 INFO Progreso 180/400 | api_bl=99 cache_bl=81 | var1 cache=19 api=0 abst=161 | api_v1=0/40
+2026-06-12 16:56:48,392 INFO Progreso 190/400 | api_bl=106 cache_bl=84 | var1 cache=20 api=0 abst=170 | api_v1=0/40
+2026-06-12 16:56:48,394 INFO Progreso 200/400 | api_bl=114 cache_bl=86 | var1 cache=21 api=0 abst=179 | api_v1=0/40
+2026-06-12 16:56:48,395 INFO Progreso 210/400 | api_bl=122 cache_bl=88 | var1 cache=22 api=0 abst=188 | api_v1=0/40
+2026-06-12 16:56:48,397 INFO Progreso 220/400 | api_bl=129 cache_bl=91 | var1 cache=23 api=0 abst=197 | api_v1=0/40
+2026-06-12 16:56:48,399 INFO Progreso 230/400 | api_bl=137 cache_bl=93 | var1 cache=23 api=0 abst=207 | api_v1=0/40
+2026-06-12 16:56:48,400 INFO Progreso 240/400 | api_bl=143 cache_bl=97 | var1 cache=24 api=0 abst=216 | api_v1=0/40
+2026-06-12 16:56:48,402 INFO Progreso 250/400 | api_bl=147 cache_bl=103 | var1 cache=25 api=0 abst=225 | api_v1=0/40
+2026-06-12 16:56:48,404 INFO Progreso 260/400 | api_bl=154 cache_bl=106 | var1 cache=25 api=0 abst=235 | api_v1=0/40
+2026-06-12 16:56:48,405 INFO Progreso 270/400 | api_bl=160 cache_bl=110 | var1 cache=26 api=0 abst=244 | api_v1=0/40
+2026-06-12 16:56:48,407 INFO Progreso 280/400 | api_bl=168 cache_bl=112 | var1 cache=26 api=0 abst=254 | api_v1=0/40
+2026-06-12 16:56:48,408 INFO Progreso 290/400 | api_bl=175 cache_bl=115 | var1 cache=27 api=0 abst=263 | api_v1=0/40
+2026-06-12 16:56:48,410 INFO Progreso 300/400 | api_bl=181 cache_bl=119 | var1 cache=27 api=0 abst=273 | api_v1=0/40
+2026-06-12 16:56:48,412 INFO Progreso 310/400 | api_bl=187 cache_bl=123 | var1 cache=28 api=0 abst=282 | api_v1=0/40
+2026-06-12 16:56:48,413 INFO Progreso 320/400 | api_bl=195 cache_bl=125 | var1 cache=29 api=0 abst=291 | api_v1=0/40
+2026-06-12 16:56:48,415 INFO Progreso 330/400 | api_bl=204 cache_bl=126 | var1 cache=32 api=0 abst=298 | api_v1=0/40
+2026-06-12 16:56:48,417 INFO Progreso 340/400 | api_bl=208 cache_bl=132 | var1 cache=33 api=0 abst=307 | api_v1=0/40
+2026-06-12 16:56:48,418 INFO Progreso 350/400 | api_bl=214 cache_bl=136 | var1 cache=33 api=0 abst=317 | api_v1=0/40
+2026-06-12 16:56:48,420 INFO Progreso 360/400 | api_bl=221 cache_bl=139 | var1 cache=33 api=0 abst=327 | api_v1=0/40
+2026-06-12 16:56:48,422 INFO Progreso 370/400 | api_bl=226 cache_bl=144 | var1 cache=34 api=0 abst=336 | api_v1=0/40
+2026-06-12 16:56:48,423 INFO Progreso 380/400 | api_bl=235 cache_bl=145 | var1 cache=36 api=0 abst=344 | api_v1=0/40
+2026-06-12 16:56:48,425 INFO Progreso 390/400 | api_bl=242 cache_bl=148 | var1 cache=39 api=0 abst=351 | api_v1=0/40
+2026-06-12 16:56:48,426 INFO Progreso 400/400 | api_bl=246 cache_bl=154 | var1 cache=40 api=0 abst=360 | api_v1=0/40
+2026-06-12 16:56:49,294 INFO Finalizado. Baseline sources: {'deepseek_api': 246, 'deepseek_cache': 154}
+2026-06-12 16:56:49,294 INFO Var1 sources: {'abstencion_fuera_piloto_d5': 360, 'crewai_cache': 40} | crewai_api_sesion=0
+2026-06-12 16:56:49,295 INFO Métricas:
+   variante  ...  FNR-stop (False Negative Rate stop)
+0  Baseline  ...                             0.333333
+1      Var1  ...                             0.966667
+2      Var2  ...                             0.433333
+
+[3 rows x 4 columns]

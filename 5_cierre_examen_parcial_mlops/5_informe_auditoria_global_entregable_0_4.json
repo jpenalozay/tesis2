@@ -1,0 +1,135 @@
+{
+  "timestamp": "2026-06-12T23:23:22.625593+00:00",
+  "alcance": "PASO 0→4 + sprint7 + docs raíz",
+  "inventory": {
+    "paso0_eval_400": {
+      "path": "0_etl_ingesta_preprocesamiento/8_conjunto_evaluacion_experimento_n400.csv",
+      "exists": true,
+      "rows": 400,
+      "rows_ok": true
+    },
+    "paso0_train_280": {
+      "path": "0_etl_ingesta_preprocesamiento/5_conjunto_entrenamiento_holdout_70.csv",
+      "exists": true,
+      "rows": 280,
+      "rows_ok": true
+    },
+    "paso0_holdout_120": {
+      "path": "0_etl_ingesta_preprocesamiento/6_conjunto_prueba_holdout_30.csv",
+      "exists": true,
+      "rows": 120,
+      "rows_ok": true
+    },
+    "paso1_rag_2000": {
+      "path": "1_ingenieria_atributos_y_recuperacion_rag/7_tabla_recuperacion_hibrida_rrf_top5.csv",
+      "exists": true,
+      "rows": 2000,
+      "rows_ok": true
+    },
+    "paso1_anti_fuga": {
+      "path": "1_ingenieria_atributos_y_recuperacion_rag/4_informe_auditoria_anti_fuga.json",
+      "exists": true,
+      "size_bytes": 1326
+    },
+    "paso2_senales_400": {
+      "path": "2_modulo_criticidad_gobernanza_adaptativa/2_tabla_senales_por_ticket_n400.csv",
+      "exists": true,
+      "rows": 400,
+      "rows_ok": true
+    },
+    "paso2_gate_b_400": {
+      "path": "2_modulo_criticidad_gobernanza_adaptativa/4_tabla_decisiones_gate_b_post_agente_simulado_n400.csv",
+      "exists": true,
+      "rows": 400,
+      "rows_ok": true
+    },
+    "paso3_pred_baseline": {
+      "path": "3_protocolo_experimental_variantes/3_tabla_predicciones_baseline_amnesico_n400.csv",
+      "exists": true,
+      "rows": 400,
+      "rows_ok": true
+    },
+    "paso3_pred_var1": {
+      "path": "3_protocolo_experimental_variantes/4_tabla_predicciones_var1_crewai_rag_n400.csv",
+      "exists": true,
+      "rows": 400,
+      "rows_ok": true
+    },
+    "paso3_pred_var2": {
+      "path": "3_protocolo_experimental_variantes/5_tabla_predicciones_var2_middleware_intercepta_n400.csv",
+      "exists": true,
+      "rows": 400,
+      "rows_ok": true
+    },
+    "paso3_metricas": {
+      "path": "3_protocolo_experimental_variantes/7_tabla_metricas_set_minimo_seis_por_variante.csv",
+      "exists": true,
+      "rows": 3,
+      "rows_ok": true
+    },
+    "paso4_calibracion": {
+      "path": "4_calibracion_diagnosticos_y_explicabilidad/1_tabla_calibracion_ece_brier_antes_despues.csv",
+      "exists": true,
+      "rows": 15
+    },
+    "paso4_ablacion": {
+      "path": "4_calibracion_diagnosticos_y_explicabilidad/3_tabla_ablacion_componentes_middleware.csv",
+      "exists": true,
+      "rows": 6
+    },
+    "paso4_resumen": {
+      "path": "4_calibracion_diagnosticos_y_explicabilidad/8_informe_resumen_paso4.json",
+      "exists": true,
+      "size_bytes": 1363
+    },
+    "sprint7_winning": {
+      "path": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/docs/experiments/sprint7_hpo_random_bayes_criticidad_uni_n40/winning_config.json",
+      "exists": true,
+      "size_bytes": 1848
+    },
+    "informe_pdf": {
+      "path": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/parcial_informe.pdf",
+      "exists": true
+    },
+    "presentacion_pdf": {
+      "path": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/presentacion/presentacion_parcial.pdf",
+      "exists": true
+    }
+  },
+  "anti_fuga": {
+    "history_eval_hash_overlap": 0,
+    "history_eval_hash_overlap_ok": true,
+    "vectorizer_fit_rows_equals_train": true,
+    "eval_rows_in_fit_zero": true,
+    "history_rows_in_fit_zero": true,
+    "train_subset_of_eval_lab": true,
+    "pgvector_connection_ok": true
+  },
+  "metricas_fuente_verdad": {
+    "Var2_F1_stop": 0.3908,
+    "Var2_override_rate": 0.165,
+    "Var2_F1_macro": 0.4353
+  },
+  "alineacion_documentos": [
+    {
+      "documento": "README.md",
+      "Var2_F1_stop_alineado": true,
+      "Var2_override_alineado": true,
+      "salvedad_D5_presente": true
+    },
+    {
+      "documento": "parcial_informe.md",
+      "Var2_F1_stop_alineado": true,
+      "Var2_override_alineado": true,
+      "salvedad_D5_presente": true
+    },
+    {
+      "documento": "presentacion_parcial.md",
+      "Var2_F1_stop_alineado": true,
+      "Var2_override_alineado": true,
+      "salvedad_D5_presente": true
+    }
+  ],
+  "gaps_detectados": [],
+  "veredicto": "OK"
+}

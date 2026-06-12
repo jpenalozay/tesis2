@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-06-12T23:22:46.453065+00:00",
+  "pasada": 1,
+  "checks": {
+    "paso4_0_informe_configuracion_paso4.json": {
+      "path": "4_calibracion_diagnosticos_y_explicabilidad/0_informe_configuracion_paso4.json",
+      "exists": true
+    },
+    "paso4_1_tabla_calibracion_ece_brier_antes_despues.csv": {
+      "path": "4_calibracion_diagnosticos_y_explicabilidad/1_tabla_calibracion_ece_brier_antes_despues.csv",
+      "exists": true,
+      "rows": 15
+    },
+    "paso4_2_figura_curvas_calibracion_tres_variantes.png": {
+      "path": "4_calibracion_diagnosticos_y_explicabilidad/2_figura_curvas_calibracion_tres_variantes.png",
+      "exists": true
+    },
+    "paso4_3_tabla_ablacion_componentes_middleware.csv": {
+      "path": "4_calibracion_diagnosticos_y_explicabilidad/3_tabla_ablacion_componentes_middleware.csv",
+      "exists": true,
+      "rows": 6
+    },
+    "paso4_4_figura_ablacion_delta_f1_stop_ec.png": {
+      "path": "4_calibracion_diagnosticos_y_explicabilidad/4_figura_ablacion_delta_f1_stop_ec.png",
+      "exists": true
+    },
+    "paso4_5_tabla_importancia_senales_overrides.csv": {
+      "path": "4_calibracion_diagnosticos_y_explicabilidad/5_tabla_importancia_senales_overrides.csv",
+      "exists": true,
+      "rows": 8
+    },
+    "paso4_6_figura_importancia_senales_gate_b.png": {
+      "path": "4_calibracion_diagnosticos_y_explicabilidad/6_figura_importancia_senales_gate_b.png",
+      "exists": true
+    },
+    "paso4_7_tabla_metricas_piloto_crewai_n40.csv": {
+      "path": "4_calibracion_diagnosticos_y_explicabilidad/7_tabla_metricas_piloto_crewai_n40.csv",
+      "exists": true,
+      "rows": 1
+    },
+    "paso4_8_informe_resumen_paso4.json": {
+      "path": "4_calibracion_diagnosticos_y_explicabilidad/8_informe_resumen_paso4.json",
+      "exists": true
+    }
+  },
+  "gaps_detectados": [],
+  "veredicto": "OK"
+}

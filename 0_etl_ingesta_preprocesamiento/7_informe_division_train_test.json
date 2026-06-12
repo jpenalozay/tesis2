@@ -1,0 +1,42 @@
+{
+  "seed": 42,
+  "cochran": {
+    "Z": 1.96,
+    "p": 0.5,
+    "E": 0.05,
+    "n0_infinite": 384.16,
+    "n_finite": 382.49
+  },
+  "lab_n_adopted": 400,
+  "lab_n_note": "n=400 ≈ Cochran n₀≈384; entero redondo por redondeo práctico",
+  "n_lab": 400,
+  "train_ratio": 0.7,
+  "test_ratio": 0.3,
+  "n_train": 280,
+  "n_test": 120,
+  "train_distribution": {
+    "pausa": 242,
+    "play": 17,
+    "stop": 21
+  },
+  "test_distribution": {
+    "pausa": 104,
+    "play": 7,
+    "stop": 9
+  },
+  "eval_experimento_n": 400,
+  "eval_experimento_distribution": {
+    "pausa": 346,
+    "play": 24,
+    "stop": 30
+  },
+  "eval_experimento_source": "4_muestra_laboratorio_n400.csv",
+  "eval_experimento_note": "Experimento LLM sobre muestra lab completa (n=400). Hold-out train=280 / test=120 se mantiene para RAG; evaluación baseline/var1/var2 usa los 400 registros.",
+  "slide_refs": [
+    "2Curso/Maestria2_IA02.pptx (ingesta y preprocesamiento reproducibles)",
+    "2Curso/Maestria2_IA04.pptx slide 12 (validación estratificada)",
+    "2Curso/Maestria2_IA04.pptx slide 23 (holdout/CV)",
+    "1Curso/Maestria_IA04.pptx slide 11 (ejemplo 70% train / 30% test)"
+  ],
+  "split_applied_on": "4_muestra_laboratorio_n400.csv"
+}

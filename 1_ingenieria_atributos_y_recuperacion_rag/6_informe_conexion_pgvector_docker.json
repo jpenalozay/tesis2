@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-06-12T20:21:53.171064+00:00",
+  "connection_ok": true,
+  "docker_hint": "irene-postgres (pgvector/pgvector:pg15) @ 127.0.0.1:5432",
+  "pg_config": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dbname": "irene",
+    "user": "postgres",
+    "password": "root",
+    "password_present": true
+  },
+  "status": {
+    "pg_config": {
+      "host": "127.0.0.1",
+      "port": 5432,
+      "dbname": "irene",
+      "user": "postgres",
+      "password": "root",
+      "password_present": true
+    },
+    "available": true,
+    "schema": "entregable_rag",
+    "tables": [
+      "entregable_rag.chunks",
+      "entregable_rag.run_meta"
+    ],
+    "driver": "psycopg2",
+    "vector_version": "0.8.2",
+    "schema_exists": true,
+    "ping": true,
+    "reason": "ok"
+  },
+  "dedicated_schema": "entregable_rag",
+  "dedicated_tables": [
+    "entregable_rag.chunks",
+    "entregable_rag.run_meta"
+  ],
+  "sota_notes": {
+    "hybrid": "TF-IDF léxico + denso SVD + pgvector con fusión RRF (k=60)",
+    "chunking": "chunk_size=1 (bug report completo; textos cortos)",
+    "mrl_dim": "TruncatedSVD 64 como reducción dimensional (estilo MRL)",
+    "rerank": "coseno - penalización distancia + boost clase mayoritaria",
+    "hyde": "futuro — requiere LLM para hipótesis de documento"
+  },
+  "schema_setup": {
+    "schema": "entregable_rag",
+    "svd_dim": 64,
+    "driver": "psycopg2",
+    "status": "created"
+  },
+  "insert": {
+    "run_id": 1,
+    "n_inserted": 6000,
+    "driver": "psycopg2",
+    "table": "entregable_rag.chunks"
+  }
+}

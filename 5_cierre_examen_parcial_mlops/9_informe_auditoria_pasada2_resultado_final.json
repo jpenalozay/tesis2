@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-06-12T23:23:23.042177+00:00",
+  "pasada": 2,
+  "items": [
+    {
+      "item": "paso5_0_configuracion_cierre_examen.yaml",
+      "veredicto": "✅",
+      "detail": {
+        "path": "5_cierre_examen_parcial_mlops/0_configuracion_cierre_examen.yaml",
+        "exists": true
+      }
+    },
+    {
+      "item": "paso5_0_informe_configuracion_paso5.json",
+      "veredicto": "✅",
+      "detail": {
+        "path": "5_cierre_examen_parcial_mlops/0_informe_configuracion_paso5.json",
+        "exists": true
+      }
+    },
+    {
+      "item": "paso5_1_tablero_experimentos_consolidado.csv",
+      "veredicto": "✅",
+      "detail": {
+        "path": "5_cierre_examen_parcial_mlops/1_tablero_experimentos_consolidado.csv",
+        "exists": true,
+        "rows": 13
+      }
+    },
+    {
+      "item": "paso5_2_checklist_examen_final_ia08.csv",
+      "veredicto": "✅",
+      "detail": {
+        "path": "5_cierre_examen_parcial_mlops/2_checklist_examen_final_ia08.csv",
+        "exists": true,
+        "rows": 27
+      }
+    },
+    {
+      "item": "paso5_3_informe_gap_overfitting_calibracion.json",
+      "veredicto": "✅",
+      "detail": {
+        "path": "5_cierre_examen_parcial_mlops/3_informe_gap_overfitting_calibracion.json",
+        "exists": true
+      }
+    },
+    {
+      "item": "paso5_4_guia_demo_presentacion_10min.md",
+      "veredicto": "✅",
+      "detail": {
+        "path": "5_cierre_examen_parcial_mlops/4_guia_demo_presentacion_10min.md",
+        "exists": true
+      }
+    },
+    {
+      "item": "paso5_5_informe_auditoria_global_entregable_0_4.json",
+      "veredicto": "✅",
+      "detail": {
+        "path": "5_cierre_examen_parcial_mlops/5_informe_auditoria_global_entregable_0_4.json",
+        "exists": true
+      }
+    },
+    {
+      "item": "paso5_6_veredicto_final_entregable.md",
+      "veredicto": "✅",
+      "detail": {
+        "path": "5_cierre_examen_parcial_mlops/6_veredicto_final_entregable.md",
+        "exists": true
+      }
+    },
+    {
+      "item": "paso5_8_informe_resumen_paso5.json",
+      "veredicto": "✅",
+      "detail": {
+        "path": "5_cierre_examen_parcial_mlops/8_informe_resumen_paso5.json",
+        "exists": true
+      }
+    },
+    {
+      "item": "auditoria_global_0_4",
+      "veredicto": "✅",
+      "detail": "OK"
+    }
+  ],
+  "gaps_restantes": [],
+  "veredicto_global": "✅"
+}

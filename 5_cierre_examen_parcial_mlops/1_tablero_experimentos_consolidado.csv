@@ -1,0 +1,14 @@
+exp_id,paso,variante,alcance_n,F1_macro,F1_stop,ECE,EC,FNR_stop,override_rate,fecha,notas_honestidad
+paso0_etl_n400,0,ETL,400,,,,,,,2026-06-12,Corpus 88008; train 280 / holdout 120 / eval 400; seed=42
+paso1_rag_pgvector,1,RAG,400,,,,,,,2026-06-12,history_eval_hash_overlap=0; pgvector entregable_rag; fit TF-IDF train-only
+paso2_criticidad_capa_a,2,PolicyEngine,400,,,,,,,2026-06-12,Gate A/B simulado; params sprint7 trial 68
+paso3_baseline,3,Baseline,400,0.3623,0.3008,0.4477,0.1105,0.3333,,2026-06-12,DeepSeek 246 API + 154 cache; sin RAG ni middleware
+paso3_var1,3,Var1,400,0.3353,0.0571,0.44,0.1467,0.9667,,2026-06-12,40 CrewAI cache (D5) + 360 abstención pausa (Chow 1970) — diseño intencional
+paso3_var2,3,Var2,400,0.4353,0.3908,0.4193,0.1231,0.4333,0.165,2026-06-12,Middleware Gate B; 66 overrides (16.5%); 0 API adicional
+paso3_baseline_holdout120,3,Baseline_holdout,120,0.3709,0.3256,0.45,0.105,0.2222,,2026-06-12,Hold-out 30% estratificado (120 tickets)
+paso3_var1_holdout120,3,Var1_holdout,120,0.3095,0.0,0.4167,0.155,1.0,,2026-06-12,Hold-out 30% estratificado (120 tickets)
+paso3_var2_holdout120,3,Var2_holdout,120,0.4691,0.5,0.425,0.1125,0.2222,,2026-06-12,Hold-out 30% estratificado (120 tickets)
+sprint7_hpo_trial68,HPO,Bayes_trial68,600,0.7012,0.8148,,0.129,,,2026-06-06,HPO sin LLM; CV 5-fold n=600 calibración; test n=40 sprint7
+paso4_cal_baseline_isotonic,4,Baseline,400,,,0.0032,,,,2026-06-12,Calibración post-hoc isotónica fit train 280; eval n=400
+paso4_cal_var1_isotonic,4,Var1,400,,,0.035,,,,2026-06-12,Calibración post-hoc isotónica fit train 280; eval n=400
+paso4_cal_var2_isotonic,4,Var2,400,,,0.0261,,,,2026-06-12,Calibración post-hoc isotónica fit train 280; eval n=400

@@ -1,0 +1,16 @@
+variante,fase,metodo_calibracion,alcance,n,accuracy,ECE,Brier,confianza_media
+Baseline,antes,ninguno,n400,400,0.5075,0.44775,0.4052,0.8255
+Baseline,despues,isotonic,n400,400,0.5075,0.003183,0.250007,0.510683
+Baseline,despues,platt,n400,400,0.5075,0.194379,0.210401,0.507164
+Baseline,antes,ninguno,holdout120,120,0.5,0.45,0.412292,0.833333
+Baseline,despues,isotonic,holdout120,120,0.5,0.010612,0.250294,0.510612
+Var1,antes,ninguno,n400,400,0.785,0.44,0.3125,0.48
+Var1,despues,isotonic,n400,400,0.785,0.035,0.17,0.75
+Var1,despues,platt,n400,400,0.785,0.101823,0.133154,0.763609
+Var1,antes,ninguno,holdout120,120,0.866667,0.416667,0.289167,0.45
+Var1,despues,isotonic,holdout120,120,0.866667,0.116667,0.129167,0.75
+Var2,antes,ninguno,n400,400,0.7725,0.41925,0.2998,0.4965
+Var2,despues,isotonic,n400,400,0.7725,0.026071,0.176423,0.746429
+Var2,despues,platt,n400,400,0.7725,0.073382,0.156952,0.755866
+Var2,antes,ninguno,holdout120,120,0.833333,0.425,0.29,0.465833
+Var2,despues,isotonic,holdout120,120,0.833333,0.086905,0.146441,0.746429

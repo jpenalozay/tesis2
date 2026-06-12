@@ -1,0 +1,7 @@
+componente_ablado,F1-stop,EC,override_rate,delta_F1-stop,delta_EC,delta_override_rate,n_overrides
+ninguno (Var2 completo),0.390805,0.12315,0.165,0.0,0.0,0.0,66
+sin_gate_b,0.057143,0.14675,0.0,-0.333662,0.0236,-0.165,0
+sin_fuzzy,0.390805,0.12315,0.165,0.0,0.0,0.0,66
+sin_senal_rag,0.390805,0.12035,0.13,0.0,-0.0028,-0.035,52
+sin_eje_I_sec,0.390805,0.12315,0.165,0.0,0.0,0.0,66
+sin_eje_I_db,0.390805,0.12315,0.165,0.0,0.0,0.0,66

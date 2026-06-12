@@ -1,0 +1,7 @@
+eje,senal,componente,fuente
+riesgo_operativo,risk_4d,SignalProvider 4D,texto ticket
+riesgo_operativo,lexical_stop,EarlyGate EN,keywords
+incertidumbre_plan,neighbor_entropy,RagPlugin,7_tabla_recuperacion_hibrida
+incertidumbre_plan,agent_disagreement,SignalProvider,agente sim vs RAG
+costo_ineficiencia,token_cost_proxy,CostPlugin stub,batch constante
+costo_ineficiencia,loop_retry_proxy,CostPlugin stub,batch constante

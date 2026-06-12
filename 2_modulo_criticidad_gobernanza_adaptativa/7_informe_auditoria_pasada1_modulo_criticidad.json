@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-12T20:23:38.865788+00:00",
+  "checks": {
+    "n_eval": 400,
+    "n_senales": 400,
+    "n_gate_a": 400,
+    "n_gate_b": 400,
+    "n_rag_rows_upstream": 2000,
+    "history_eval_overlap": 0,
+    "f1_macro_gate_a": 0.369658,
+    "override_rate": 0.0
+  },
+  "distribution_gate_a": {
+    "pausa": 174,
+    "play": 171,
+    "stop": 55
+  },
+  "veredicto": "OK"
+}

@@ -1,0 +1,281 @@
+text,severity,resolution,product,text_hash,thesis_class
+search suggestions passes wrong previous result to form history,normal,FIXED,Firefox,317cebcc884449e17b6cbb2b7a92a38d1a6f8e9a7eb88f41c5ed6563e623e066,pausa
+"TI: Assertion failure: obj->nativeContains(*shape), at jsinterp.cpp:4355",critical,FIXED,Core,a7d6a8ae8dd32e8e376f453daef9820ee61a607327ed71a9c7e03077a87f6b5a,stop
+need to turn off --enable-official-branding on 1.8 branch tinderboxen,normal,FIXED,Firefox,2e75a114bceecd943769b5b3145dcdbd9ddc34ba89e7ca13ba27fad0b934bf9d,pausa
+Speed up nsXULDocument's id handling...,normal,FIXED,Core,430367494f2aa265face86db19775a6601870a9d7f25a769e718ed8e5b92768b,pausa
+GCLI requirejs tests log when they shouldn't,normal,FIXED,Firefox,c4f8002b58a4a62b85a51cf813f762efaa240aa9d4acb476766804b29205909c,pausa
+Progress dialog does not properly close on Leopard,normal,FIXED,Platform,273d28147f5877244923e2b1e468eb4f672d700397b704b76c9b90f0879c040c,pausa
+conflicting dependencies between jdt.ui and eclipse.platform,critical,FIXED,Platform,8964f187b2713616966c1f37532dadf07389ab5e07de6e1567afa554b5e96cec,stop
+"with -moz-resize:horizontal (or vertical), no resize grip is visible",normal,FIXED,Core,a1ba00ed858e4d9f8e8ba2bee484bd065794c38a694ff99e9e5ac42ba1bb89ba,pausa
+fix build warnings in nsNativeThemeGtk,normal,FIXED,Core,d661ea2c83d44d137f448421cb0a7e8403a7b0fc714f8f9c115b897b57123bf6,pausa
+Implement PositionOptions::maximumAge,normal,FIXED,Core,5e27ea3824b4919896f5798742f07466b32826be9f153a960d43d00d0d7437c2,pausa
+Implement toast notification support,normal,FIXED,Firefox,4b3e5959f588e29dc6a49bdae1d2462b1a257db837e835ce9a3854f076b509b2,pausa
+requirement to implement IModelNavigateProxy,normal,FIXED,Platform,a52e2d75e4cf740f6788c75d7572200271f0f7dabf041cb752aedfb145414089,pausa
+getConsolidationMatrix() returns null,normal,FIXED,Core,478d2a73e17118f494cfae75a606c3f9ce15476888faffcd8454cfb63c8dd49d,pausa
+Variables View  reveal selection unexpectedly,normal,FIXED,Platform,e761c6771bf55d7a9a20659014b15c806570e54db57854111f617fe894ca9ab6,pausa
+move content/base/test/*.xul to mochitest-chrome,normal,FIXED,Core,7379519e44871e579712c7da6f6115a1ebb62545b6c12ec4f44ccc51626b0af3,pausa
+crash in NS_strlen with SEO Toolbar 2.4,critical,FIXED,Core,76d0e4b44fbd50287c58f93991cf22c8bf75ffacc641c4917e488eb6ac6dfabd,stop
+GC hazard during global object creation,normal,FIXED,Core,9012cc4085bbe5c5cb4e7dd5688878dc303be06e233dfaece8235b7af022b90b,pausa
+"""Marker id: 1012046 not found"" in log",normal,FIXED,Platform,3c23a88240788a6cab4951b597076c7fdd83ceaa56001b9d942ad031cd6c4a5f,pausa
+lots of plugin-related file IO,normal,FIXED,Core,b6f500f006ded41d74c32e874f55c87ea27a83cae1066ba78051ecad7845b3b5,pausa
+New Plugin Project Wizard and MS Narrator lock up workbench,critical,FIXED,Platform,8c25b6baac9a2e353c1f7b390db0d4585c8ae90de5486b765131d1e38a5e58c2,stop
+[formatter] Comment formatter fails to format long strings in @see references,normal,FIXED,JDT,a5c879ec847c506f32b1ff41f9c96912c4a103eecbac90ebfe037d699f39ae85,pausa
+address list won't resize smaller once made bigger,normal,FIXED,Thunderbird,79fe8fed852b1c27af8e0efc3e5f8938e81780684d07669a917193f252688733,pausa
+Closing a hidden editor,normal,FIXED,Platform,3c4e8450147df5f1fddc0d5af0b04e38e041f0517f851e759da177f6d48276c3,pausa
+[FIX]nsGenericHTMLElement::FindForm has pointless IndexOf calls,normal,FIXED,Core,38545f172463cdda694285488d0eff85e7cfe5e8bd8f7d2e87fb301256a545ed,pausa
+Should not be able to open the same draft multiple times,normal,FIXED,Thunderbird,c55f661ede9428b6aaf28e214362c7f181576a4bed26057fdafa9ac058c116fa,pausa
+ForeCastFox extension unable to display Icons,normal,FIXED,Core,6c7f8c49f60ba561068c9d59a29b395337b6e54ecb3bee5083b7914094c3a5cb,pausa
+Disable Places on Trunk,normal,FIXED,Firefox,a6680ed767e8fd7ada2b32e0c4361670db8cba8ec310d5b83894b3ddab31b9cb,pausa
+[@ CSSLoaderImpl::SheetComplete - ... CSSLoaderImpl::SheetComplete],critical,FIXED,Core,7464ceba6c66c69efc4e2a582a313e6949930137b2554321dcb0d95ca8467c10,stop
+nsWindow::mIMEComposing is used uninitialised,normal,FIXED,Core,b0e3d43dbbf1f4b62d7ae36b08a2023c8ba8763148034cd99fc036d9dcc8c40d,pausa
+Cmd-N shortcuts don't work on mac/trunk,normal,FIXED,Thunderbird,2b6a846e2035520cbad56c0a1b2b6bf942d8e70f2a86bf407daf10d984b0325f,pausa
+Large back button shouldn't be hovered when it also open,minor,FIXED,Firefox,37d1d017e48e6e97d120b7d0ecd79caeff02111d9f5d236c0a80c9a2ca374c64,play
+"With GL layers enabled, Fennec crashes on startup",normal,FIXED,Core,9f7cc071df506aeeae61bdb2992b93e5d713004926220f1c372b9bfe9d875bcf,pausa
+gfxPlatformGtk::CreateOffscreenSurface uses a GdkPixmap with no GdkColormap,normal,FIXED,Core,c0909f841bfaad4ea32046ac1724f8e55e7d0ec64fd45ff3adcf2c768587e235,pausa
+"Fix ""overflow in implicit constant conversion"" in TestEncoding.cpp",normal,FIXED,Core,5142721eb544fc10c99ec0ec22015a194c9bf5bed81eef7f7406736f0406383a,pausa
+The textarea element is sometimes rendered improperly after page scroll,normal,FIXED,Core,43bc9e7111b85663bb7d0d52dfbff497b1d2cb67366e39974980406a8689fade,pausa
+make package fails with safe browsing disabled,normal,FIXED,Firefox,92f773c386ee72241452256bf463fc1abbbb207514bfdae8e3fe0cbc5a3de900,pausa
+web-based protocol handler defaulting in mimeTypes.rdf,normal,FIXED,Firefox,0d5d9daaaa2c9e6fe697fef7990fac2bd22c073f2df820b348380589550df033,pausa
+Mac scrollbar rendering extremely broken under complex transformations,normal,FIXED,Core,1af8cedd0b4c7e282755e2bda9702387c802c40a9e709361817bcbed1fb88e30,pausa
+JSOP_IN doesn't intern its id,normal,FIXED,Core,b390dac64689b86287ca627efa07e6a3368c0dd9d6f4d653e1786d353455e693,pausa
+Occurrences in File does not work in class files,major,FIXED,JDT,b2c5114ea9bc86274267f1a83162701b9b40041ec12d1de78a6102ffee1e4385,pausa
+Clicking the gear in the Facebook sidebar crashes nightly on Mac,normal,FIXED,Core,fa36705054f35377b5d814b60f42efb1fe5afeb6e8545b54a9af290b5ff077b9,pausa
+Switch systemLanguage: transient error again,normal,FIXED,Core,c15913ce8a802b3406d4eb4763b133d9684ef0d19a4d56e5b3b27dc0faf444c7,pausa
+Crash: Failed to launch latest thunderbird on OpenSolaris,normal,FIXED,Firefox,6bb18e6862dad03cecc045c43c4e87aad63079d12dc8a8943b2b11420bdf3c56,pausa
+Source Editor should automatically set up Undo/Redo key bindings,normal,FIXED,Firefox,41fe57eedde9120aa6a906e899c6e7aef9c55cbfda7000aaa48b0f041c629323,pausa
+Analyze implementation of closures in V8,normal,FIXED,Core,f3274d640645681a4226c5153fde08204ae66e72bcb8622ec46507487cc8b69b,pausa
+allocator bugs in SpanningCellSorter,normal,FIXED,Core,07b966ef42125793850653859d88dcf5a11402bc8d7f124c7c24dca84ff42085,pausa
+ConcurrentModificationException in Saveables framework when closing part,critical,FIXED,Platform,0b53d6658c83a53c84951c3ff3c6cea06330a91ca6c57f90aa8861c8695943ed,stop
+GCC 4.6 build warning: thread_helper.h:107:13: warning: ‘bool mozilla::tls::create(mozilla::tls::key*)’ defined but not used [-Wunused-function],normal,FIXED,Core,8fe033e6f5162e63a4c15187bfbb9a2e269aaaef50861f774e881caf24a4aba2,pausa
+Remove Document.xmlStandalone,normal,FIXED,Core,4ccb500ba4e2358a71c3e90e9a53255b429e6eee38fc5448afffcad25ace0596,pausa
+makefile.ref creates a C-incompatible spidermonkey lib(need more -fno-exceptions),normal,FIXED,Core,e126e26c714bfaf7663096006dcb8e513dfaa39806c468464af77cd431db7c3f,pausa
+Allow SessionStore to save/restore referrer field,normal,FIXED,Firefox,c7c6867d1bd1295fbec5aed1325ca155487dd865f9b9c109892be8d38d3e901a,pausa
+Kill navigator.securityPolicy,normal,FIXED,Core,c6a735cb809dcd4a6462dada289ed44ea04fd984e9df1c81e2bd5e812ea66e7b,pausa
+Linkify the tag name in the confirmation message when tagging bugs,normal,FIXED,Bugzilla,6f077b5176e8dabc622a4c6a7d24588b8f89556d70b4a046c95f65052dd20815,pausa
+libfishsound should check return values of vorbis header decode functions,normal,FIXED,Core,8e2aac88c2bf2c9268af13319e6532998c9610b08cc5d2b911d1a34c10d73ad6,pausa
+"Assertion failure: !isIndex(&dummy), at js/src/vm/String.h:857",critical,FIXED,Core,960cb1531376846cc63bf081b850a483e5f0581fcdbc511555f965fdbe4f1eac,stop
+$OBJDIR/media/mtransport/standalone/nricectx.cpp:87:131: warning: extra ‘;’ [-pedantic],normal,FIXED,Core,4827f7a503ac54179476105353e0042e3c51f6728397865050f12a7f7dc993bf,pausa
+Thunderbird: New Mail Notification PopUp shows BASE64,normal,FIXED,Thunderbird,23b57056a9b1330b0ec513dfb71d60ad1a0dfa97b295da6b87e09526acd9916d,pausa
+JSDGlobal not updated for strict property setter,normal,FIXED,Core,aa24c2d21c50879261603984bad34075069af1bddd56d6a3c972090b21aa0cad,pausa
+jsDriver.pl Perl Getopt::Long does not support repeat qualifiers on options,normal,FIXED,Core,d002463a8be47bd70ddabdb485a2c022f633e40a70739def8143af42830dd8e1,pausa
+[Generate Getters and Setters] Placing definitions in implementation file works unreliably,normal,FIXED,CDT,a49d8a8cdbc6d07991e96b689b500e11d6a8366c882434bcd67132b6e1753018,pausa
+egg-info directories checked in the source tree,normal,FIXED,Core,11ef8f3300ff8768163a9d38f8f02d9317296c0e79564da834a6a55926d9a857,pausa
+[Browser] crash when showing text entry prompter,normal,FIXED,Platform,0a6a27d95d8631292f8c0291dd2e7fda440ab4b6980cc8d3d7208d521ce2238b,pausa
+Leading spaces are not preserved when pasting comments,normal,FIXED,CDT,af5351f6169d7313470537750bb49c9a571dfaf8d92f59dab5d02057bca389d6,pausa
+Mouse wheel scrolling broken with Katmouse enabled,normal,FIXED,Core,81529d75c7a7dd1cd30819d510bc6c52324ab89a5e9e68e330ef65c34f93ea75,pausa
+"JM: ""Assertion failure: -int32(uint8(-distance)) == distance,""",critical,FIXED,Core,2fa31ca7fb4abb0c94a521eace7a87775d46c4d008ea453b1ae2a3cad6facef6,stop
+Error in error console when changing scope in searching within Bookmarks Manager,normal,FIXED,Firefox,7796aa1fc314ead35110feed7d70de944725df2dad87cafd3efb055cbde707c0,pausa
+DVT33:TCT822: el - CDT - Broken link to cdt_t_show_proj_files.htm & cdt_t_prvw_hide_files.htm,minor,FIXED,CDT,a65ba2f69cbf36ec623f09cdee5bbb045f67d4dab1ef656c3db36b8e571e8481,play
+"Intermittent test_cached_messages.html | number of cached page errors - got 1, expected 2 | Test timed out and a leak",normal,FIXED,Firefox,9b7531747f2c67fbcc42c2558a2ebb37d25caa210b32e831b4f76e9f479619bc,pausa
+please tag these debug bundles so they include source references for the 3.6 release,normal,FIXED,JDT,4f034c9cc8246756d5f94bd65e7901447c5824a64478fc40ccf74aadac7cfc33,pausa
+"nag-screen ""multiple errors have occured""",minor,FIXED,Platform,30f2f38e693f571970ca7eec8c85d902ddffd655cf98d57673f3173a0ab1c604,play
+"""ASSERTION: Unexpected left/right/top/bottom unit"" with getComputedStyle on ""position: relative; left: 3ch;"" element",normal,FIXED,Core,76849d9c9767d1941f66a158f8f92e0d4a0db8ddbfc077a340ebfa6f813b7285,pausa
+"Open ""livemark name"" ignores middle click",normal,FIXED,Firefox,b5ecac7b34a1a1075fe4874535254b206ad5512c7e279ba108a436d6634830d7,pausa
+"""Assertion failure: hasFunction(),"" with sharps",critical,FIXED,Core,6f8204499e80d326addffd697cd2de00a211b74b4f603f999d5d79ae419a0cc5,stop
+"[expressions] Add ""product"" property to platform property tester",normal,FIXED,JDT,a22790f4efac31e79a68854bff313f399bca47785d7a7e24f5138d4d620e359f,pausa
+Setting SELECT's innerHTML with empty OPTGROUPs with @label will cause Firefox hangs,normal,FIXED,Core,34bf9c326c08790688d89b36b496c52e9339e2bf82e06f94bca42edb9f37ae6c,pausa
+move GetContextForContent to nsContentUtils and use it,normal,FIXED,Core,a81a67d208ecd1c9e09536dc2ac8642fa2b2535cad422758f3f8e3770726afb9,pausa
+Dehydra:Missing function call arguments in copy constructor,normal,FIXED,Core,97655fcbe6b3fe60680050d0446feb56fb33892c9a9afe20cc6f943a7d300fd2,pausa
+Problems with spawner and fast  (Dual Core) machines,normal,FIXED,CDT,f5faa99ec298100abfc834d79689776b7a3267c4f929c8b1fdc6da5148f71a5a,pausa
+Crash in composer in PresShell::GetSelection,critical,FIXED,Core,cccfd6956cb178ea9e30d89f430c5fe09829e9d99b32679d843963e95a890694,stop
+org.eclipse.jdt.internal.compiler.batch.Main writes bad characters to an xml log file,normal,FIXED,JDT,32e6fa454a1be9970f3a7f2df6bba2477f2495d4451b9444602c512dce1bc9f6,pausa
+test_hover fails with integrated view manager hierarchies,normal,FIXED,Core,881a7c9131943ddf21948ee1fb82a690649553ea1d357c119c99bd0e238e95c7,pausa
+White strips down left and right side of main mail window.,normal,FIXED,Thunderbird,e0eb90c6938cc0213974812ab91a55871687ede0d62630da977e35a024ff4a84,pausa
+localStorage.key() gets out-of-sync when localStorage is updated in a separate window,normal,FIXED,Core,b26b8177d055d7ced041b1302c2949c01ae7c13381568218b770ea8fc188340b,pausa
+nsDocShell::GetExtendedOrigin returns false instead of NS_OK,minor,FIXED,Core,a36c562436028006f3f931abe4f20ab448cee1f5412d8b352f01041869382ba3,play
+"moz-do-not-send=""true"" in HTML signature gets ignored when composing emails",normal,FIXED,Core,95100536e9cc3399a2f22fa1a1c5e18a69ba139f870fbe3de7ced1f01ec718fd,pausa
+HTMLElement.getElementsByTagName broken with foreign children,normal,FIXED,Core,1492a1c6d9ebbb5a8bb95fbddcf09058742d99b815fb45a029b53f94e71da7f1,pausa
+cairo leak in nsNativeThemeGTK::DrawWidgetBackground,normal,FIXED,Core,6be69a87b0c5f9cecd390be5b62a0cec4b40021c0ae2ab58a07977d9a5017d48,pausa
+NPE when compiler options are displayed,normal,FIXED,CDT,4915e85c49ce8712f5648190c40646000567f9419bb581b15dc26ab03e652d57,pausa
+[Edit] Binary Compare label is missing,trivial,FIXED,Platform,781aba4f60bc9014674505b3ee859a338f601c7a2b9e80e68d7d949c7cd8bea6,play
+Use lazy services in Services.jsm,normal,FIXED,Firefox,2f3a2a2621f1a0a890f23798ea1a827297c40083b74d5ea4f05e08a65a85043e,pausa
+"""ASSERT: Can't serialize: file doesn't exist!"" at startup",normal,FIXED,Firefox,7e59aec32a35cb63d6c4c6ac35fdf87a7b19315c9f0b3b56afa8f55ede8d6e3f,pausa
+Window loses focus on Growl notification in 10.6,normal,FIXED,Firefox,cf9f33f2901653672cdbdfd1d324332108a56ed4ed394f5b33ec9a113cd39e4a,pausa
+::first-line and ::first-letter - font-size and font-weight is propagated to all lines of affected block.,major,FIXED,Core,4bede0fd5174db17d4c031c2bd0bbc7f7356ae49f102bb5735ddde7c7764bb3a,pausa
+view | folders sub-menu doesn't include smart folders,normal,FIXED,Thunderbird,4c631e2116428ab0797ec862b72535cd7c9a5aa8701d9eef13a6bae08d523eac,pausa
+Dead code in buildASN1ObjectFromDER (security/manager/ssl/src/nsNSSASN1Object.cpp),minor,FIXED,Core,70d5f6e2b5a125d696c76d001effaeb47a7542176633854823a7bd60c7ef7648,play
+ContentTypeCatalog is in infinite loop,major,FIXED,Platform,c88778947036a97a1c73ea1e1e922eb12dc4d7fafd136a6fe1197a395fbb8fef,pausa
+[1.7][compiler] DisjunctiveTypeReference#resolveType(..) does not set the value for DisjunctiveTypeReference$resolvedType,normal,FIXED,JDT,0921d9615ddf476c65baf00b36b5f08f7e3338ce48884fdd2df88eb9186c2dec,pausa
+TM: Global Object created in xpcthreadcontext needs its own compartment,normal,FIXED,Core,9968a6914f1ac3f7bd3bd86a3e22037806fa24e771224d0c68a2a68a4485e333,pausa
+deterministicgc() causes a leak,normal,FIXED,Core,83dfc7b796f35e9f5c58c7fab8d126b656aea18eec6cb5a49e1fd42f70c8cd7b,pausa
+Android packaging should use standard packaging code,normal,FIXED,Core,616a1b3b78474819bc0d9513585731aa895242356ed4686e0c668df757219439,pausa
+Assertion [@ jsinterp.c:5935] when loading XForms document,normal,FIXED,Core,9954363959fe20196d514c4871085a2f5e805d6a7ca589105f7c6faf5e9224b4,pausa
+Classpath resolution taking significantly longer,major,FIXED,JDT,50df4849e1e5107a65cb526815710b964adfed4e1988b57c3c221413be0d2234,pausa
+Rerunning configure causes the world to be rebuilt,normal,FIXED,Core,5b385dbd4face4399e31322df5641e7e62a4b12795fdea1b163eb44e2129ca7d,pausa
+Get rid of WorkInProgressPage,normal,FIXED,Platform,13af74b742af8ea491bd07c2e9ee5a44ff189a7396b9dcd126a12b7d19336e3d,pausa
+should unvisited bookmarks be searched in url bar?,normal,FIXED,Firefox,77db23f76871567d3c22e8ab8a22ddf677ed315b17381db16a6b55aed4dd4357,pausa
+JS_LookupUCProperty fatal-asserts when lookup up property on dense array,normal,FIXED,Core,3ddb06e187d479e306f0871690bac62618c889a0523045296b07a4305b1b9d00,pausa
+Reopening bug: [Workbench] Main toolbar missing when starting new workspace,normal,FIXED,Platform,b057a491638bfa53039cb448901d376d0fe9a5c20f42969bae05345bd0b2ce57,pausa
+renaming a project prompts for deleting launch configs,normal,FIXED,Platform,7d68bec9a29b5d4c54101ba60f25e99d000774882359641a0e8eca4626578fd9,pausa
+mochitest with extra whitespaces for nsIAccessibleText,normal,FIXED,Core,4078eabccb8d2b09ebd92730aea2de548c5f29369d981360a5e9e0cae3e916e2,pausa
+[assist] already defined name is proposed as variable name,normal,FIXED,JDT,a064810a11ecf832b0a38b0fc890d4efbb457cb575ed04c7865b24d9c870ff0f,pausa
+[europa] appearance preference page corrupted after switch wks,major,FIXED,Platform,e2ba3ad14369f2083a8e8f6b45d0b0b0eeb423ae480e817785a0266dec250c50,pausa
+Wifi worker not connecting to access point on akami,normal,FIXED,Core,d7469d2fc8dbb4b0c26f4f742edd3cf214a8c5998c3d0e85e9bef216685947a4,pausa
+Infinite-recursion crash setting scriptminsize on <mstyle>,critical,FIXED,Core,2dd6f3d3960624ee67a2fe9ae4a8b477669609690ad54a1f33f75b9d24fe544c,stop
+nsIDKey is harmful and dead,normal,FIXED,Core,908e3c5d20c7fdd32dc5ba2e82f8cac0ac155fe4b24b0ad97ccb50079d8ccff1,pausa
+"Intermittent failure in test_tags.js | [Exception... ""Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsINavBookmarksService.insertBookmark]""",normal,FIXED,Firefox,24be95bbad0c65ef58a4fee89696cc629e0feb1302cda210938ed94ba1ea2c62,pausa
+Comments are no longer displayed,critical,FIXED,Bugzilla,4ead21be24c0811e2bb544f80a0366f6af26e4e5c4e5054bc27f32900886a18d,stop
+Middle click mouse scrolling does not have the correct behavior,normal,FIXED,Core,3b7f8bf0cf46806d15878f89f6eaadabc9920d16537d552e2f0abdded2a26403,pausa
+'Code Style' preference page should have a single selection table,minor,FIXED,JDT,609d6407df275cd93005d127a2627ecb88a62f9e7f7472552754dd40b8430d77,play
+Inspector highlighter panels for partially offscreen windows are leaking out of bounds,normal,FIXED,Firefox,9d02dca510ffeb3d4449b4a25a6edc34677af32d2afa161a177b8343fb47b3a9,pausa
+Signature#createIntersectionTypeSignature(..) should take array of signatures,normal,FIXED,JDT,b1219e55f926e20969cf1e8ecddd80dbfe9328f5c51fa2b45b78446e787c139f,pausa
+"Intermittent Crash on sears.shoplocal.com, might be flash related",normal,FIXED,Core,f6aa781710715c5965877e926671ea9aec3a3bb3a6b8ab3d57424472f81bb37d,pausa
+fix JS_GetFrameScopeChain so that it doesn't GetScopeChain and leak scope objects to Firebug,normal,FIXED,Core,4d61f383ee670a1b548759395ebde435c851d4683f2cb9451f23d96b758b7d47,pausa
+Make personas caption buttons work with d3d9 layers,normal,FIXED,Core,3b4ef53480bc78649b57d8895e021c0bf9906ac44b562096a73962bcac1be380,pausa
+"remove JSRuntime::(rtLock, state)",normal,FIXED,Core,dc0e31e3408c4fc6d42d97ae0b2db33a63b5dfce584be718d6e6d3045383fd21,pausa
+not always creating object frames for plugin instances instantiated by stream,normal,FIXED,Core,f8a0df5a23a81b5944356bdad3036bbe7a6ab71a2d7c1157064ad579d52fa5ea,pausa
+Add constraint to suppress data channel,normal,FIXED,Core,941d29fd7c4354242b72268ca2f0303df61f9d6a722179067e08233d70a37f64,pausa
+cannot configure keyboard shortcuts to use Meta modifier instead of Alt,normal,FIXED,Core,1adf80ca43d917e520f8a1fb9b09fa256608e2731ac706a91707ca17183eb29e,pausa
+Exception in Combo.dragDetect(),normal,FIXED,Platform,ab1d026695d075009da5d80f893df53ed1350b3357157da5bbd9767a5d9c1f70,pausa
+videoWidth and videoHeight should be valid when loadedmetadata fires,normal,FIXED,Core,99b81a6b2df817378edf18209326bdb02a5965e27f0aae12b4f1ce80e5ab9ae1,pausa
+TM: Emit JSOP_APPLY for .call(...),normal,FIXED,Core,5c5048ab5587f8768830e1eca315febbbd176879c918bbcddbf0eba721f2bf69,pausa
+Thundirbird 3 AND Firefox freeze when you drag a mail attachment over a Firefox Window,critical,FIXED,Core,a70e1fba59e0b67c8a5379fe0ac795ecd8d6259281143d0832f812a2dbb9181f,stop
+optionally disable automatic build launch,normal,FIXED,CDT,ddaef04dec17d497ff6af063502f72a48207a4afc02a410fe39cfb4e0a678cc3,pausa
+Remove GroupItem's xDensity and yDensity properties,normal,FIXED,Firefox,e6b1729aa2032bb78d6426b01a461a55d8fa894b88ee99221e69c3cdc33f6e00,pausa
+font-size-adjust non-functional under DirectWrite,normal,FIXED,Core,fc6f3eb84acc8ab293adaf6475b7f1971365aac268beb00a94aca6d63f940cbb,pausa
+D3D9 Containers should hold a reference to children,normal,FIXED,Core,2749d02a325d97d7e43895648a5e3d79988c2dfa9d9efaca457a2786b8a5961f,pausa
+Notification bars on OS X should not draw a focus ring on buttons,normal,FIXED,Firefox,7779c8b9854766029e0490d846487ff2bf204d8015f67966f8995b249c030999,pausa
+Restore animateFadeIn behavior for Mac prefpanes (revert fix for bug 394881),normal,FIXED,Firefox,e5883cae55dca1667c754deeeab4e601e9d5e5866615870cfff3f6865450de08,pausa
+search dialog folder selection dropdown - folder icons missing,minor,FIXED,Thunderbird,546b2c4ca8544cf936d71095f3e4a089a278f8b8d921c7a4dc72201f0c7d5c39,play
+remove the two blockChain hacks,normal,FIXED,Core,fbf5a9d86b0435c0c2720a64c4a39c6ffe665671daab502e1ff5e0ce25531a82,pausa
+eMetric_TouchEnabled should be true on maemo/qt,normal,FIXED,Core,9e3a429a3947cd76dd4182c2ad5f0a3c5960b297cbf4609168e0439d079e8e70,pausa
+css font-size doesn't work in table in div with a too long comment before <!DOCTYPE ...>,minor,FIXED,Core,be2800396329f45330e450079b9f45a364e0ef4bd5f839dbd674be4e013456ce,play
+GetCellDataAt callers that expect an error if no cell is found are wrong,normal,FIXED,Core,a688f5425c26a6fb4e7ba1a5e2c7883626070f0ffb2467f46386957a3221ac6e,pausa
+Structural parse mode picks up less information than quick parse mode,normal,FIXED,CDT,16d21074d7444a05bc48046246315c7d35ef0410dffd78d79893e4e8ef4459a2,pausa
+Wrong reg key used in Installer shell icon handler code,normal,FIXED,Firefox,257d58c855532aca2ac019b25c2cb7f3fc001aa2892caadbbf5586dcee02c4ea,pausa
+add swt's nl files for swt stand-alone download,normal,FIXED,Platform,9971be97f813f946f495f1b875f7d37aad21f0426fca9a7ce3a632368a8bf7f8,pausa
+Javadoc and Manifest in org.eclipse.core.resources are not valid,normal,FIXED,Platform,94e53428e5da95696b0e513e88383c0bb528416a1674c2e5982d249a6373b148,pausa
+glob is used uninitialized in XPCJSContextStack::GetSafeJSContext when JS_NewContext fails,major,FIXED,Core,69860f3fb6b44a1afff5e38d13fc7f909ab7ddb029e22c2d94690eeba903f45e,pausa
+keybinding doesn't enable 'Use Step Filters/Step Debug' action,normal,FIXED,Platform,f09b4758af99925fba656e45185d3716cacb6742a4796107612836fda0332a0b,pausa
+[AccessFu] Add preference for enabling/disabling AccessFu,normal,FIXED,Core,ef2fa44f9a72cca63bd36129cb38a4af248dabecb30b84e4ec484087c8d65344,pausa
+Crash [@ nsClipboard::HasDataMatchingFlavors],normal,FIXED,Core,937cac14895ce6f945ffa7939c8d8845360060cc3648348e96a3a66b7a518cf2,pausa
+fix format of @supports reftests,normal,FIXED,Core,96e716d42f2d18184bba74dbed10bc6d22d08cf626a5018934992709900eb10a,pausa
+ContentProposalAdapter with Text produces unwanted popup on Enter,normal,FIXED,Platform,49aaaaa339be47bd78422b99f218fc0483d35e06d757b4f5a220f5b606dffc17,pausa
+Don't show CDT actions for non-CDT projects,normal,FIXED,CDT,607fd62f6c0d64e7f32b5395a78cd019937527ba1dfd21429c3078166cbde8f8,pausa
+Regression: Processing.js Performance Tests don't work,normal,FIXED,Firefox,03d5c68a78e51945763aa0e1f12b0421dac08a15fd39c37f9fbc52785a6436e4,pausa
+User/Password is not restored in Network Connection preference page if http proxy is not used,normal,FIXED,Platform,ee7142a3feae2c5b4d1c6ed1dfc0828005092b7ae7d75e288bec088b9cfd4add,pausa
+rm MethodJIT-inl.h,normal,FIXED,Core,e63de7c84d899d7e9bc6b11b04d2684d3b78a3dbe7ed8b6e726eca9502af6d8a,pausa
+Fixed position layers has been broken in 637852,normal,FIXED,Core,5bad99cd584287859c765954cd2ddee3bc20a41e73a5b82edc32b34979582bf8,pausa
+Adding +DUP to quicksearch returns no results,normal,FIXED,Bugzilla,83de58e4b79fa9d6807e9afc2ddcd5c9e1bc6fd2695a122a8a3040041e92b06a,pausa
+Browser Debugger should freeze debuggee execution when paused,normal,FIXED,Firefox,bf094bca985be3654a4b16cecaa14b594881d4ef78a494bde0d5fdafd657ae9c,pausa
+"[10.5] Two key presses needed to ""Check for Updates""",normal,FIXED,Core,bada0dc043c6a774f4c4f1e47a73f305fd92c06f298bb827b0e3b830632771f2,pausa
+MouseDown not delivered until drag started if a DragDetect listener is attached,normal,FIXED,Platform,6bee8ab2b30d7982ca3b263e1edc31f3da5ae7aee1ebccf940d823c605ba5eff,pausa
+refactor windows native drawing prep,normal,FIXED,Core,f4e9af069887e87cabe68ed5c846f4b290dc4abf973a0398c14a51c59a31232d,pausa
+IndexedDB: Don't put windows with active transactions into the bfcache,normal,FIXED,Core,c75e4e29b1ac053fce58bb8d8c06a0ec422b4387901cae92f6abf642792ae228,pausa
+"A blocking ""java.lang.IllegalArgumentException: info cannot be null"" exception",blocker,FIXED,JDT,8ae708ddd73f307c16169ac1782e604c248a988d6ae82f6761757eb5548386ef,stop
+Add Set/ClearFlagBits API to gfxTextRun,normal,FIXED,Core,62598dd1638dae3538b77df625d966210f0576f2e5ed200a1086a93e80826c84,pausa
+Changing the window transparency mode loses the maximized/minimized window state,normal,FIXED,Core,f9d4aa118afb909f1be425bfa99d2f4bfad2661a441f3fa35369bcfeb8118238,pausa
+problems view quick fix: dialog should check resource by default,normal,FIXED,Platform,fc86a1b64068397448a81139f4b4954a724a2628531168932b4437f3a94dcc0b,pausa
+regexp.text doesn't  work on 64 bit linux builds,blocker,FIXED,Core,c2fe79b141e00c30134ef23b651121f0f9077334ebbcb7a7f8809c28bbec3e5a,stop
+[Markers] All labels in tasks and breakpoints views are  bold,normal,FIXED,Platform,b2875ffbadb0fc2578b7e04e4051d533645a5b01b7b4c602f5ebaac7f088e0cd,pausa
+[Apply Patch] Show matched hunks in Appply Patch wizard,normal,FIXED,Platform,3a766e99381441db9b764479b45571b4bb2f7ea0e41a697e6accbcaf4c851fd1,pausa
+Fallback to --with-system-libevent=/usr when system libevent doesn't have a pkgconfig file,normal,FIXED,Core,fe0a7feefe2198d4e5c02651536e6848beab8f4359bb528e134c58023aca77a8,pausa
+disappearing incoming decorators in synchronize view,normal,FIXED,Platform,3afc3a413c9720c7de37e0ff5a7b2fb359405fbf9c7eb2eca038aa6d3daa06fb,pausa
+Protocol layer performance overhead is too much in some cases,normal,FIXED,Firefox,f763cc899909632f1aaed4afeb5a9adb90969732a1ab952aaf46e8b0be38a4d4,pausa
+Most Visited item in Bookmarks Toolbar does not use a smart search icon,trivial,FIXED,Firefox,1f0f4db9013f1eb6829aecba28dccba467e0057cf06dc8326dd29cd80af6b266,play
+element.attributes.removeNamedItemNS(<non-existent attribute NS and name>) returns null instead of throwing,minor,FIXED,Core,c9f9feb7b083cc783de11431e9fa9573f5f4c3fa3d7bbc57c43d97ec6076ce28,play
+Remove dangerous uses of vanilla (throw-on-failure) |operator new|,normal,FIXED,Core,1f464cfedc6c0995dc47aab142139a846c9c4d3424199cc208ff91cbae53e119,pausa
+[TM] Recent changes in tracemonkey break Sparc build.,normal,FIXED,Core,3bc12ea5911c6a743716737c8a0abf288318cec5f6b29e5abcea106c118e6706,pausa
+New Java Project Wizard should allow Execution Environment as JRE,normal,FIXED,JDT,7ff06f43bcb2b2b1d4086364e4dd8721a010276af13a471d5254dd9783b34e2a,pausa
+Nightly mac builds are over 285MB in size,major,FIXED,Core,5859d6f4e010dfa1150fdad18443c920c662574a6df62165e5c37c39bac3a4e8,pausa
+Clean up toolbarbutton CSS,normal,FIXED,Thunderbird,8b3ca72ec21a09322ffdc1d6578994edb8748e0b86f0b8cb845fcf4d77a4faf3,pausa
+LR Parser's action class CPPBuildASTParserAction throws UnsupportedOperationException by its function consumeDeclarationSimple.,normal,FIXED,CDT,32ea74afd7376a08a8d3c28bdcff46d75bc65f13678357a44dfa7da0e4f53d52,pausa
+"console.log(""%s"", null); should log ""null""",normal,FIXED,Firefox,264a00501b6fd99a06f166f64a776d13f93339f26d242050592fbd4cfc2e56e8,pausa
+Wrong version of platform.doc.isv in 3.4.x branch,normal,FIXED,Platform,e45fc8cccc7b95c6c876df197bfd5440432a074f5691bda96363b1ec60cc8a25,pausa
+Cairo/Qt fails to build -- yet again.,normal,FIXED,Core,fe052d49fa5ccefa1b56eec1f38cd3d114e40f466592a2d28d9f6e8ec9a0d8a2,pausa
+importing_existing_projects,minor,FIXED,Platform,cdf8895e0a675a95636bce500d14604bfbf5e911bc22173bc40626c2f0fd2b58,play
+RIL: call state on SGS2 has extra uint32,normal,FIXED,Core,606ff878553e608a6f821f8157121b3e54130dc91433d72cf20bf22121ce3cf9,pausa
+ensure that web app install caches them into app cache,normal,FIXED,Core,7e11540737728acbea5b84a73f16a4c66c4efe23741eac10298d0a84cfb4a496,pausa
+"Drawing round rectangles, DND and antialias vows",normal,FIXED,Platform,16f2160e72c9ebb3e8b89072fd90185e8a9aa06bdaa0e97073d3ff2b493bf0ec,pausa
+"JAWS does not read ""Bookmarks"" or ""History"" when sidebar opens",normal,FIXED,Core,e466aa34f1fee6eddc198b8a436fb8480574d59c4ce6904298c64521232a09cb,pausa
+warnings about TPoolAllocator::tHeader::lastAllocation will be initialized after TPoolAllocator::tHeader::nextPage; TConstTraverser::symbolTable will be initialized after TConstTraverser::error,normal,FIXED,Core,b37ef8bb9e8aea6389ebaec8eadb1544c3a2977e45d98eb07a7f3d2ba0684fde,pausa
+GetViewportInfo does not read minimum-scale and maximum-scale correctly,normal,FIXED,Core,9c7bd7d588b8ee32987bda4f097cd205bc03ccc0f8f8ed18e2f73c4a23868c57,pausa
+Make ExpirationTrackerObserver final,normal,FIXED,Core,d302bd17de4f7a695a87c21551c6331d5a3fa8ff8c63aa52ab5b089923d7e30b,pausa
+dom.identity.enabled pref missing from about:config,normal,FIXED,Core,061f3d6baee8793080f4d6ad0ec5725aa96040d55c6a41a4cdb7df7393cf81f0,pausa
+:-moz-lwtheme incorrectly depends on the lwthemetextcolor attribute,normal,FIXED,Core,e2e69148f4d375ce840b9fac3976fa3f7bb05601f33e9a70cd79b40cfaac9915,pausa
+browser/base/content/test/tabview/browser_tabview_bug624265.js | Found a tab after previous test timed out,normal,FIXED,Firefox,27c98ec4585ce1d5b545a4839e354dfc61318d5a588bba20aa7607fe2c0e7fb2,pausa
+handler conflict in org.eclipse.ui.examples.jobs/plugin.xml,trivial,FIXED,Platform,b9515602146a02e939bd94533e45ec82e9143cd378185e739a9318698b40026a,play
+Compiler warning @ txMozillaTextOutput::createResultDocument in txMozillaTextOutput.cpp line 285,minor,FIXED,Core,47348fccc8c9f3a3bdc291169e76b60a897a5738755b31d0f5baeb00718582aa,play
+ShouldRevalidateEntry() in imgLoader.cpp should return false for any data URI,normal,FIXED,Core,527906d9b3faa51f4dbddc0f0edf56ecd8060a0130fec27fd1ae36b31018fe83,pausa
+Upgrade to NSS 3.11.2 second pre-release,normal,FIXED,Core,16dfba87efb823f8f11ad5f43976c71aea6340474908838cd367522d0d3c9ce3,pausa
+Embed Propertypage Remote Compromise (version 2),critical,FIXED,Core,6479fb18f4ecf55b868e67f0752364638e47b61554098974226069553d44fc81,stop
+"The ""Credits"" button on Help -> About Dialog does not have an access key",normal,FIXED,Firefox,0c35e6155a94c3d5bf9e62638a946d11b9599b28ed46067c7826a078862288e9,pausa
+"""ASSERTION: unexpected disconnected nodes"" with full screen, selectAllChildren",normal,FIXED,Core,abb1771a66f85cc3ff7e68deef6abf96b0f6427f5e1569aee4893103af8c3982,pausa
+Implement Object grip actor message handling,normal,FIXED,Firefox,2dc84e02ae71cac1a327a65fcecb414016b3ffd03e3c419c2d664aef608cd81c,pausa
+"""No such debugger"" pop-up window appears when attempting to debug a C program",normal,FIXED,CDT,20768a24094fea993dca6801e66f07294023eeb30a7a5829f69be5177c1c2930,pausa
+"New ATK: expose new action for images, to open long description in a new tab",normal,FIXED,Core,e98a772a1e0df357911c12d41b3d9e6f19e6369219ba67d44ad0e274ae082358,pausa
+DNS: page reload should set bypass cache flag,normal,FIXED,Core,6300e20c9c850507c80dbe1c1fe0b85440757b24acd9bc3cb69ed24a4d2bd635,pausa
+overflow warning in nsJSEnvironment.cpp using gcc 4.1.2,normal,FIXED,Core,3a5b76b5f89d3df7310a91029d6741c0201f3f0754e5c0c7a8c87963ff1de341,pausa
+Panning feedback crash [@ CWindowFeedBackAnimation::RestoreDisplacedWindow() ],normal,FIXED,Core,2eed7068a10aad6f74b05cf3756cfaf4e15176358853d177acdcf40b1094af08,pausa
+use NS_DEBUG_ASSIGN for security,normal,FIXED,Core,a79af94d5179033d51bf581bbc88ef662f01725772de814fa6caa3ccf671410a,pausa
+[Min/Max] Adding a legacy fast view with a maximized part puts the view in the wrong stack,normal,FIXED,Platform,5ab950c28271405134884512dcb4c94c2953dc2ed29fee2b1bdec641108bdc11,pausa
+"[Trunk] Secure (encrypted, https) sites loading as being partially encrypted. Broken lock is present as is the white address bar",normal,FIXED,Core,3c5d8a2cd4703870cfc24a9696030c3ffcb76408bb376876c853826bccd70aaa,pausa
+wifi scanning on n900 fails,normal,FIXED,Core,90744435f823e50d2db65ec8b33d63fe5eb366d4337432eeb6b7efe3e0020680,pausa
+nsSMILTimedElement::GetNextInterval should return PRBool instead of nsresult,normal,FIXED,Core,ee28bd0218d70c1f7a117b27ad1bbbcbe3079325a1690824639a5dd592a94917,pausa
+Tons of jobs from from open type/resouce hanging around,critical,FIXED,Platform,db94c8cb0da8432d50068e2907d000ebcc7e85c68138f9fd33e005b85f9585e4,stop
+Crash in [@nsPluginInstanceOwner::ReleasePluginPort(void*)],critical,FIXED,Core,82c75117b7db95e720b017ba43a48d6f4a1a908b99ab25ad7c0f7291a53d78fc,stop
+F16-F19 unusable as shortcut keys in General -> Keys,normal,FIXED,Platform,109a5fcbb0e30f20469eca0ca453fab9c458da30625b8d3317b38c68cdb18f0e,pausa
+HTML forms displayed in SWT Browser does not accept accented characters input,critical,FIXED,Platform,3131e7dfb745ac264427889cfee10c62b97bd0101d587c949ce982125f751658,stop
+change minVersion for 1.8.0,normal,FIXED,Core,f6b84a49d033d3bfa9508f9be589d52ac77005138633aea036b13a16ca9c9419,pausa
+"Firefox honors embedded ICC intent flag, and probably shouldn't",normal,FIXED,Firefox,ff123f925c04598f28748e249e8a4e2ea2ed3bf9aae1713420f312e4945afd38,pausa
+IonMonkey: MUrsh constant folding assumes the result is int32,normal,FIXED,Core,5cee507710ed7385b23c794f5724e7c1e465cee5da5d65a2b6c26bf89ccafc94,pausa
+ProjectionViewer.deleteTextRange (cut operation) replaces text range with null,normal,FIXED,Platform,eaac27faa5dc9a64612c86569ed7fa7bf1d9e9cba474fafe39cd88d93c36bbbc,pausa
+Text sometime not fire verify event,normal,FIXED,Platform,0a0b6f265ce5869906b5f59658f63bcea9b192f8a1793acedb58ab9687f20550,pausa
+[SECURITY] Quips (adding/approving/deleting) lacks CSRF protection,normal,FIXED,Bugzilla,127fdcccfa1e38bd844ca45d6dc75ebb6851d5fbe05b064374a0441ab3568bd2,pausa
+bugzilla.dtd is not valid,normal,FIXED,Bugzilla,cc8bbcfeca8e56e22e12b3c47bd0f8255314407fc0a9049ccb8549be8583f023,pausa
+Illegal input exception while restoring a java source file.,normal,FIXED,JDT,a15968f264a0a5a5823e5aadba00e37cec7b4706774e718e19c66e496104a3e0,pausa
+NoClassDefFoundError while generating 3.6 perfs results,normal,FIXED,Platform,e205d491b339d65017db2aaabec3f8940e51b9eaccd10ae9920671a613170283,pausa
+Support alternate source attachment layout for JRE detection,normal,FIXED,JDT,312bfbfe1acc6b2c3ff39cb55adc03a69090d76adf0e1599d7327f44df15588c,pausa
+"After reloading a page with a single contenteditable element, every element on that page is editable",normal,FIXED,Core,e12e6134c44d2a38c0aa9dd00ebcd3dcbc0d76546e4aa13007122c3c50e95dd6,pausa
+Configurated policies are ignored,normal,FIXED,Firefox,5ab7a93ef41a0885cc1f9db0bfa0bbfd2ed2cd2af755be0dd113ed9929efd60c,pausa
+Perma-orange on Elm due to timeout failure in browser_bug553455.js,normal,FIXED,Firefox,e967ad2d270819c0e2c846cc9f3569e5532e6e4e688b3c9a34cae24d32cd2027,pausa
+"Abort at startup, after installing Adblock Plus in debug build: ""Assertion failure: OptionsHasXML(options) == VersionHasXML(version), at ../../../mozilla/js/src/jsapi.cpp:1027""",normal,FIXED,Core,e202aa05894906653558aaff19fed832680d8cb17da7bc7fab9f91ba927df487,pausa
+[pdf.js] Accented characters are not displayed,normal,FIXED,Firefox,fff9440a43b6206fd15f63dcb88c2d745a567a1431953592355bae4ffcd005ef,pausa
+Switch from QWidgets to QGraphicsWidgets,normal,FIXED,Core,262472dd90c85e4deb9b2029575d55ddf819f437043f0e9dc31689b976b23e28,pausa
+One more screen shot to update in Team CVS Tutorial,trivial,FIXED,Platform,627ca699ecd62b4a09c75dafca846eba19509b116957710a69583e483bc3780c,play
+"Incorrect, inconsistent handling of initial offer with c=IN IP4 0.0.0.0",normal,FIXED,Core,cb51982b2ce2acc1fdea8bae05c71dc58cbd6c63452f00098474b4d34b11be67,pausa
+Handle null and undefined as correct values instead of converted to strings on USSDReceivedEventDict::message,normal,FIXED,Core,89cff7709759a822034aacfd8ade8ac793e08839a7950333dde1677ec467b74d,pausa
+Replace deprecated bookmarks dialogs methods from the codebase,normal,FIXED,Firefox,078a25e5184a253f3c12eb35f0bfd6686483cf48bc0d52bfa52cf76c0e8ebfa2,pausa
+lock_sparc*.il should not be used on x86 machine,normal,FIXED,Core,fd7f1b71ec451476de077c216cf12cc3906c393bea5c6f159797a8479d46c224,pausa
+remove support for <pre variable>,normal,FIXED,Core,b468c58dbed16c644ba539e8604d11bc57da77e09be6de6a0aca5808812a86e6,pausa
+"Bookmark and History sidebar ""titles"" have too much padding and is not aligned with ""Search:"" below each",trivial,FIXED,Firefox,bf23019e3f0f0389498472c1b560d71c732de4bd034b54affa61745490c59540,play
+Refactoring errorollowing error:,normal,FIXED,JDT,240a6bce342f9e7762e661ec1dec0caac20b353782f99c55924417e64100cff4,pausa
+Memory increase/leak when scrolling page rapidly,normal,FIXED,Core,97802e31db5b9870d66c4a859e3be949d075e11578b6b1e67c0ca2968f1230dc,pausa
+[Model Sync] Compare editor doesn't save,major,FIXED,Platform,17dd0fc9ccbd6971138ccd0403c1fc1222aee1faa8da99765ac345c18769ed4c,pausa
+"JS exception ""aTabs[0].linkedBrowser is null"" in nsSessionStore.js",normal,FIXED,Firefox,6f1a18deb9ce3ac28137edb6c81543a4e5552083c0e3066cdc756edc570e0344,pausa
+"FeedWriter should pull image from accessor, not property bag",normal,FIXED,Firefox,3efc314aa8abacb8f732e991fefe05cea4e5235a806ba28a84fb2af22ea57674,pausa
+"Thunderbird Bloat & Mozmill tests - Assertion failure: !connections[i]->ConnectionReady(), mozStorageService.cpp:852",blocker,FIXED,Thunderbird,4316542bd62faf96c9ddc2570dcaa47aea78ef76afb99f56e6531818e9ca6aa2,stop
+AssertionFailedException: null argument in BuildConsolePage,normal,FIXED,CDT,0eb588ffa92d8390744885e32f8c9b737562f378f6eada53b4cefe480a398faa,pausa
+folder pane changes to smart folders if Open in Folder used from Search Messages with open messages in new window preference,normal,FIXED,Thunderbird,7386e6e9e23bd952ad8ffa1ae0ed68b0b9ae3d93ba1682bc52c6d8a3a050dcfc,pausa
+EV certs need to be treated as providing less certainty of authentication if OCSP is disabled.,normal,FIXED,Core,4a2ce2b9061c63d2bb8299c4def6ebfcf6ce15cfbf496adbf56ad41aaac48e19,pausa
+Improve performance for non-reentrant closures,normal,FIXED,Core,10ad12bdc090182f2c099d45a0aaeb2731841a3255dbe9ef23c09db48e771519,pausa
+"Stop button shouldn't be ghosted, since this adds N ms to page load time",normal,FIXED,Firefox,7410fc36e22307782ad263d4482fa482dcdd492c06cc6a8809cfc1abc0f41f2c,pausa
+Ant Runtime Preference Page. Bug providing property key ending with space,minor,FIXED,Platform,3ae13c8d66431f7560b91e241af8bcbb09b1d857ddc59b033463ef4c47b92a6f,play
+Range no longer works on the trunk,normal,FIXED,Core,299cc207ad60dd38ae6a66b3308766f6bb86d35f6711e617c6e39704a1cc6093,pausa
+Dropdowns are fugly,normal,FIXED,Core,e7a4f2c15811f16915c53d482f1d1e6902fd92ee8ef1c774372e50befc1878d6,pausa
+Anything getting focus inside a repeat row should change index,normal,FIXED,Core,5d6d127b60e15cf454b53ab11f82a87670b61e0214fcbe5c4c4b039d607d9af8,pausa
+Permanent orange: TEST-UNEXPECTED-FAIL |test-message-filters.js | test-message-filters.js::test_address_books_appear_in_message_filter_dropdown,normal,FIXED,Thunderbird,1990ca693119faca84520cd0b206e9bc2d6d114237a848ddacbab6d789e99960,pausa
+[Templates] introduce factories for ast-nodes.,normal,FIXED,CDT,a2fc1798212b31cace9fc5c748dc19193f15e1d43b24ce06d362509961cd80b9,pausa
+Update logo for Miramar branding,normal,FIXED,Thunderbird,549c27565c573a15b3272524dc22405339820f8b8217970688d4052c72f70220,pausa
+JavaScript onKeyDown event is not fired in certain Command + key combinations,normal,FIXED,Core,f4a8e10db4bb364877cd51d7b8be0b0cffff6272ce725a87e1d5cf756eef2961,pausa
+remove ellipses from reply and forward in message reader,normal,FIXED,Thunderbird,fb68b66c15d7eb6e34cd4a8175ca357dc738990ee62ac7f77c848d5ee8d07f1e,pausa
+Marker testResourceMappings failure in I20080604-2000 on linux java 5.0,normal,FIXED,Platform,7da04aeb5a244fc1aa830b6c75753cb3ac623255051a293a33124ad9a84bf3d7,pausa
+Leak gfxFont and gfxTextRun with font-size: 0,normal,FIXED,Core,fc7733c85e559840d64911d4ddebd3fe9581a18d23c89983adb1dcc2a43542aa,pausa
+nsStyleAnimation::Interpolate/Add/ComputeDistance need to not spam warnings for eStyleUnit_None,normal,FIXED,Core,d0d0476625b205100e5b3bcda5c2032dfc85a80bceea8dff3e5bd065e6a0a81a,pausa
+Remove nsIOptionElement and nsIRadioControlElement,normal,FIXED,Core,a66dd3b911179b482d8976b47a97ed71438e3b062a54f4bc0f258e784496aff3,pausa
+[CheatSheet] perform-when not working correctly,normal,FIXED,Platform,aba8b9553c4c3d26f8eeb932b64911860c27836bcc1d63bff3c739a6b03c0577,pausa
+TB-IM: conv-top-info unreadable with Ubuntu default theme,normal,FIXED,Thunderbird,78be80d67f15765d18ea2070d4d24cf6c169bf7b9600962c9a3cb1f091e7d35e,pausa
+"Renaming some identifiers fails with ""An unexpected exception occurred...""",normal,FIXED,CDT,35c9d67b7076417a4166ebed22fbea7c8d7ea9ed0fbbabb1168cb91af3712cf2,pausa
+StretchDIBits takes too long - switch between optimizations at run time,critical,FIXED,Core,ffc199f69dbe0c19a5f00c8d8f8200a395760168ac2e8fbc99947929e80567f8,stop
+Slow right-click response with add-on Firegesture,normal,FIXED,Firefox,142639bdde37002b74c8df3c590a748b09886620e21012726494b2e36077608f,pausa
+TI: [infer failure] Missing type in object #2 toString: string,normal,FIXED,Core,891204e5d79a672b85bf91ddd9e44998aee086e03b249c861d577cac64257e43,pausa
+Segfault when closing content assist additional info,major,FIXED,Platform,fd1c677944f8ca72edd4816125e8b3f42a12a6a5e49923f3e40e3e13a73803bb,pausa
+Fix XPCShell password authentication tests so that they don't pass around fake docShells,normal,FIXED,Thunderbird,6c2023480837ffd793e7b841b4451b6b38fbbd3a9873f8b62f999d79d2362a41,pausa
+[meta] Final theme work before RC1,normal,FIXED,Firefox,8befe2ebeaa8ef6ea89e140bc97bd3740f239fa4938ffb0e8cd57c0df204d639,pausa
+AccessibleNameFromSubtree(): don't recurse into subtrees for roles that don't use name from subtree,normal,FIXED,Core,db3fe3943a3dec13fdb47d1471be249416facc819b20dac2ceea50f000def945,pausa
+TreeItem.getExpanded() does not work on Windows Mobile 2003,normal,FIXED,Platform,a7172dbe97ae9fca83c490d043bde1ebe789d5f3f5f2867e1d9090dbe32bcc83,pausa
+External Tools Launch delegate shouldn't wait for launched process to exit,normal,FIXED,Platform,a565487dabf5a9ba6e613a95d40d37c685f9ac8fdcc8a7139889c48b60de140d,pausa
+[TSF] nsTextFrame has to draw composition string by TIP specified style,major,FIXED,Core,0882e3d4dc3a214640501eec7159a8cc5b55c48aac4f11d80aa0900707daacd8,pausa
+split OTS out of libxul on Windows to relieve pressure on the linker,normal,FIXED,Core,32e2ea892070d812d290162e0566d153dff3c1d842abe5e7a2c506d1ae03472f,pausa
+No search results due to malformed search scope,normal,FIXED,JDT,3286477e8f580de80a75b932e23b9931e59241383e86089aece419084bf14b24,pausa
+Remove unused nv_stopped and nv_done strings,normal,FIXED,Firefox,030adbbe65b696a90525be5c704aac3f493f8af1f977f8c449c6cc8529560af2,pausa

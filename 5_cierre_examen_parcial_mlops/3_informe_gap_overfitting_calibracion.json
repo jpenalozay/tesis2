@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-06-12T23:23:22.592832+00:00",
+  "n_train": 280,
+  "n_eval": 400,
+  "n_holdout": 120,
+  "nota_metodologica": "Calibrador isotónico ajustado solo en train 280 (hashes ⊂ eval 400). Hold-out 120 es split disjunto del train; gap F1-stop eval vs holdout mide generalización. No hay re-entrenamiento LLM entre splits — predicciones fijas PASO 3.",
+  "gap_metricas_eval_vs_holdout": [
+    {
+      "variante": "Baseline",
+      "F1_stop_eval_n400": 0.3008,
+      "F1_stop_holdout120": 0.3256,
+      "delta_F1_stop_holdout_minus_eval": 0.0248,
+      "FNR_stop_eval": 0.3333,
+      "FNR_stop_holdout": 0.2222,
+      "interpretacion": "Gap eval/holdout acotado (<5pp F1-stop)"
+    },
+    {
+      "variante": "Var1",
+      "F1_stop_eval_n400": 0.0571,
+      "F1_stop_holdout120": 0.0,
+      "delta_F1_stop_holdout_minus_eval": -0.0571,
+      "FNR_stop_eval": 0.9667,
+      "FNR_stop_holdout": 1.0,
+      "interpretacion": "FNR-stop extremo por abstención D5 — no overfitting sino diseño Chow"
+    },
+    {
+      "variante": "Var2",
+      "F1_stop_eval_n400": 0.3908,
+      "F1_stop_holdout120": 0.5,
+      "delta_F1_stop_holdout_minus_eval": 0.1092,
+      "FNR_stop_eval": 0.4333,
+      "FNR_stop_holdout": 0.2222,
+      "interpretacion": "Holdout F1-stop superior (+0.109) — generalización favorable"
+    }
+  ],
+  "gap_calibracion": [
+    {
+      "variante": "Baseline",
+      "ECE_crudo_n400": 0.4477,
+      "ECE_isotonic_n400": 0.0032,
+      "ECE_isotonic_holdout120": 0.0106,
+      "gap_calibracion_n400_vs_holdout": 0.0074,
+      "fit_split": "train_280_only",
+      "overfitting_señal": "moderada"
+    },
+    {
+      "variante": "Var1",
+      "ECE_crudo_n400": 0.44,
+      "ECE_isotonic_n400": 0.035,
+      "ECE_isotonic_holdout120": 0.1167,
+      "gap_calibracion_n400_vs_holdout": 0.0817,
+      "fit_split": "train_280_only",
+      "overfitting_señal": "moderada"
+    },
+    {
+      "variante": "Var2",
+      "ECE_crudo_n400": 0.4193,
+      "ECE_isotonic_n400": 0.0261,
+      "ECE_isotonic_holdout120": 0.0869,
+      "gap_calibracion_n400_vs_holdout": 0.0608,
+      "fit_split": "train_280_only",
+      "overfitting_señal": "moderada"
+    }
+  ],
+  "senales_overfitting": [
+    "Var1 FNR-stop 97% en n=400 vs 100% holdout — colapso consistente fuera piloto",
+    "Var2 F1-stop holdout (0.50) > eval (0.39) — no hay overfitting clásico en Var2",
+    "ECE isotónica holdout > n400 en Var1/Var2 — calibrador puede sobreajustar train 280"
+  ],
+  "acciones_mitigacion": [
+    "Reportar siempre eval n=400 + holdout 120 + CV 5-fold (ya en PASO 3)",
+    "No extrapolar métricas piloto n=40 a n=400",
+    "Desplegar calibración isotónica solo tras validar en holdout (PASO 4 completado)"
+  ]
+}

@@ -1,0 +1,6 @@
+Fase,Antes,Después,Eliminados,% Retenido,Detalle
+FASE 0 — Eliminar registros sin severity/texto,88682,88667,15,100.0,Campos vacíos o nulos
+FASE 1 — Filtro Resolution=FIXED,88667,88667,0,100.0,Resolution no aplica o ya curado
+FASE 2 — Exclusión de Enhancement,88667,88667,0,100.0,"{'', 'nan', 'enhancement', '--', 'n/a', 'unspecified'}"
+FASE 3 — Deduplicación SHA-256,88667,88008,659,99.3,Texto normalizado idéntico
+FASE 4 — Mapeo Bugzilla → Play/Pausa/Stop,88008,88008,0,100.0,ninguna

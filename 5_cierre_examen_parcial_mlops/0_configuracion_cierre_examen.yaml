@@ -1,0 +1,33 @@
+# Configuración PASO 5 — Cierre examen parcial MLOps (IA08)
+
+seed: 42
+n_eval: 400
+n_train: 280
+n_holdout: 120
+n_piloto_crewai: 40
+
+paths:
+  paso0: ../0_etl_ingesta_preprocesamiento
+  paso1: ../1_ingenieria_atributos_y_recuperacion_rag
+  paso2: ../2_modulo_criticidad_gobernanza_adaptativa
+  paso3: ../3_protocolo_experimental_variantes
+  paso4: ../4_calibracion_diagnosticos_y_explicabilidad
+  metricas_set_minimo: ../3_protocolo_experimental_variantes/7_tabla_metricas_set_minimo_seis_por_variante.csv
+  metricas_holdout: ../3_protocolo_experimental_variantes/9_tabla_validacion_holdout_30_por_variante.csv
+  calibracion: ../4_calibracion_diagnosticos_y_explicabilidad/1_tabla_calibracion_ece_brier_antes_despues.csv
+  resumen_paso4: ../4_calibracion_diagnosticos_y_explicabilidad/8_informe_resumen_paso4.json
+  resumen_paso3: ../3_protocolo_experimental_variantes/16_informe_resumen_protocolo_experimental.json
+  sprint7_summary: ../../../docs/experiments/sprint7_hpo_random_bayes_criticidad_uni_n40/summary.json
+  winning_config: ../../../docs/experiments/sprint7_hpo_random_bayes_criticidad_uni_n40/winning_config.json
+  readme: ../README.md
+  informe: ../../informe/parcial_informe.md
+  presentacion: ../../presentacion/presentacion_parcial.md
+  informe_pdf: ../../parcial_informe.pdf
+  presentacion_pdf: ../../presentacion/presentacion_parcial.pdf
+
+honesty_notes:
+  - "Var1 = 10% CrewAI real (piloto D5) + 90% abstención pausa (Chow 1970) — diseño intencional."
+  - "No escalar CrewAI a n=400: costo API y evidencia desfavorable en piloto; Var2 = contribución principal."
+  - "HITL costo USD = supuesto documentado (5/20/3 min, $45/h), no medido en campo."
+  - "Proxy Bugzilla severity → play/pausa/stop ≠ FMEA operacional completo."
+  - "Calibración isotónica fit train 280; eval reportada n=400 + holdout 120 — gap documentado."

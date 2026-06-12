@@ -1,0 +1,4 @@
+par,discordancias_b,discordancias_c,mcnemar_stat,p_value_nominal,agreement_rate,nota
+Baseline vs Var1,46,157,59.6059,0.0,0.4675,p-value nominal; clases raras (stop n=30) limitan poder estadístico
+Var1 vs Var2,33,28,0.2623,0.877088,0.835,p-value nominal; clases raras (stop n=30) limitan poder estadístico
+Baseline vs Var2,37,143,61.25,0.0,0.5275,p-value nominal; clases raras (stop n=30) limitan poder estadístico

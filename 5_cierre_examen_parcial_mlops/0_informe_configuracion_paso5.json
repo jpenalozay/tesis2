@@ -1,0 +1,17 @@
+{
+  "paso": 5,
+  "ia08": true,
+  "seed": 42,
+  "timestamp": "2026-06-12T23:23:22.632528+00:00",
+  "paths_outputs": [
+    "1_tablero_experimentos_consolidado.csv",
+    "2_checklist_examen_final_ia08.csv",
+    "3_informe_gap_overfitting_calibracion.json",
+    "4_guia_demo_presentacion_10min.md",
+    "5_informe_auditoria_global_entregable_0_4.json",
+    "6_veredicto_final_entregable.md",
+    "8_informe_resumen_paso5.json"
+  ],
+  "checklist_pct": 100.0,
+  "veredicto_auditoria": "OK"
+}

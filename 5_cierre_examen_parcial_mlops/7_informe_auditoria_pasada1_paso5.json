@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-06-12T23:23:23.042136+00:00",
+  "pasada": 1,
+  "checks": {
+    "paso5_0_configuracion_cierre_examen.yaml": {
+      "path": "5_cierre_examen_parcial_mlops/0_configuracion_cierre_examen.yaml",
+      "exists": true
+    },
+    "paso5_0_informe_configuracion_paso5.json": {
+      "path": "5_cierre_examen_parcial_mlops/0_informe_configuracion_paso5.json",
+      "exists": true
+    },
+    "paso5_1_tablero_experimentos_consolidado.csv": {
+      "path": "5_cierre_examen_parcial_mlops/1_tablero_experimentos_consolidado.csv",
+      "exists": true,
+      "rows": 13
+    },
+    "paso5_2_checklist_examen_final_ia08.csv": {
+      "path": "5_cierre_examen_parcial_mlops/2_checklist_examen_final_ia08.csv",
+      "exists": true,
+      "rows": 27
+    },
+    "paso5_3_informe_gap_overfitting_calibracion.json": {
+      "path": "5_cierre_examen_parcial_mlops/3_informe_gap_overfitting_calibracion.json",
+      "exists": true
+    },
+    "paso5_4_guia_demo_presentacion_10min.md": {
+      "path": "5_cierre_examen_parcial_mlops/4_guia_demo_presentacion_10min.md",
+      "exists": true
+    },
+    "paso5_5_informe_auditoria_global_entregable_0_4.json": {
+      "path": "5_cierre_examen_parcial_mlops/5_informe_auditoria_global_entregable_0_4.json",
+      "exists": true
+    },
+    "paso5_6_veredicto_final_entregable.md": {
+      "path": "5_cierre_examen_parcial_mlops/6_veredicto_final_entregable.md",
+      "exists": true
+    },
+    "paso5_8_informe_resumen_paso5.json": {
+      "path": "5_cierre_examen_parcial_mlops/8_informe_resumen_paso5.json",
+      "exists": true
+    }
+  },
+  "global_audit_veredicto": "OK",
+  "gaps_detectados": [],
+  "veredicto": "OK"
+}

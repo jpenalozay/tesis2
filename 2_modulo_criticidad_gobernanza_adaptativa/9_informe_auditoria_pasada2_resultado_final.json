@@ -1,0 +1,98 @@
+{
+  "timestamp": "2026-06-12T23:08:18.104570+00:00",
+  "pasada": 2,
+  "items": [
+    {
+      "item": "paso0_eval_n400",
+      "veredicto": "✅",
+      "detail": {
+        "path": "0_etl_ingesta_preprocesamiento/8_conjunto_evaluacion_experimento_n400.csv",
+        "exists": true,
+        "rows": 400,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso0_lab_n400",
+      "veredicto": "✅",
+      "detail": {
+        "path": "0_etl_ingesta_preprocesamiento/4_muestra_laboratorio_n400.csv",
+        "exists": true,
+        "rows": 400,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso1_rag_2000",
+      "veredicto": "✅",
+      "detail": {
+        "path": "1_ingenieria_atributos_y_recuperacion_rag/7_tabla_recuperacion_hibrida_rrf_top5.csv",
+        "exists": true,
+        "rows": 2000,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso1_anti_fuga",
+      "veredicto": "✅",
+      "detail": {
+        "path": "1_ingenieria_atributos_y_recuperacion_rag/4_informe_auditoria_anti_fuga.json",
+        "exists": true
+      }
+    },
+    {
+      "item": "paso2_senales_400",
+      "veredicto": "✅",
+      "detail": {
+        "path": "2_modulo_criticidad_gobernanza_adaptativa/2_tabla_senales_por_ticket_n400.csv",
+        "exists": true,
+        "rows": 400,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso2_gate_a_400",
+      "veredicto": "✅",
+      "detail": {
+        "path": "2_modulo_criticidad_gobernanza_adaptativa/3_tabla_decisiones_politica_play_pausa_stop_n400.csv",
+        "exists": true,
+        "rows": 400,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso2_gate_b_400",
+      "veredicto": "✅",
+      "detail": {
+        "path": "2_modulo_criticidad_gobernanza_adaptativa/4_tabla_decisiones_gate_b_post_agente_simulado_n400.csv",
+        "exists": true,
+        "rows": 400,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso2_metricas",
+      "veredicto": "✅",
+      "detail": {
+        "path": "2_modulo_criticidad_gobernanza_adaptativa/6_tabla_metricas_modulo_criticidad_capa_a.csv",
+        "exists": true,
+        "rows": 9
+      }
+    },
+    {
+      "item": "anti_fuga_overlap",
+      "veredicto": "✅",
+      "detail": {
+        "history_eval_hash_overlap": 0,
+        "history_eval_hash_overlap_ok": true,
+        "vectorizer_fit_rows_equals_train": true,
+        "eval_rows_in_fit_zero": true,
+        "history_rows_in_fit_zero": true,
+        "train_subset_of_eval_lab": true,
+        "pgvector_connection_ok": true
+      }
+    }
+  ],
+  "gaps_restantes": [],
+  "veredicto_global": "✅"
+}

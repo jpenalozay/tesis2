@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-06-12T20:22:45.578939+00:00",
+  "seed": 42,
+  "checks": {
+    "history_eval_hash_overlap": 0,
+    "history_eval_hash_overlap_ok": true,
+    "vectorizer_fit_rows_equals_train": true,
+    "eval_rows_in_fit_zero": true,
+    "history_rows_in_fit_zero": true,
+    "train_subset_of_eval_lab": true,
+    "pgvector_connection_ok": true
+  },
+  "counts": {
+    "n_train": 280,
+    "n_eval": 400,
+    "n_history": 6000,
+    "n_corpus": 88008,
+    "pool_excl_eval": 87608
+  },
+  "history_meta": {
+    "pool_excl_eval_n": 87608,
+    "history_n": 6000,
+    "history_n_max": 6000,
+    "sampling": "stratified_fixed_seed",
+    "eval_hash_overlap": 0,
+    "chunk_policy": "chunk_size_1_full_document"
+  },
+  "fit_meta": {
+    "vectorizer_fit_rows": 280,
+    "eval_rows_in_fit": 0,
+    "history_rows_in_fit": 0,
+    "svd_fit_rows": 280,
+    "svd_dim_requested": 64,
+    "svd_dim_effective": 64,
+    "vocabulary_size": 307,
+    "mrl_note": "TruncatedSVD 64 como reducción dimensional estilo MRL"
+  },
+  "retrieval_backend": "tfidf_lexical+svd_dense_local+pgvector_sql→rrf→rerank",
+  "pgvector_insert": {
+    "run_id": 1,
+    "n_inserted": 6000,
+    "driver": "psycopg2",
+    "table": "entregable_rag.chunks"
+  },
+  "note": "TF-IDF/SVD fit en train 280; historial RAG corpus−eval; pgvector esquema entregable_rag."
+}

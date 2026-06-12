@@ -1,0 +1,859 @@
+2026-06-12 16:01:09,967 INFO Inicio PASO 3 mode=api-incremental run_api=True run_crewai=True deepseek_key=True max_api_bl=400 max_api_v1=40
+2026-06-12 16:01:12,752 INFO Using config path: /home/jlpy/.config/crewai/settings.json
+2026-06-12 16:01:14,144 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:15,077 INFO OpenAI API usage: {'prompt_tokens': 292, 'completion_tokens': 1, 'total_tokens': 293, 'cached_prompt_tokens': 256}
+2026-06-12 16:01:15,530 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:16,556 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:17,194 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:18,281 INFO OpenAI API usage: {'prompt_tokens': 274, 'completion_tokens': 3, 'total_tokens': 277, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:18,717 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:19,637 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:20,275 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:21,081 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 3, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:21,517 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:22,434 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:23,078 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:23,972 INFO OpenAI API usage: {'prompt_tokens': 295, 'completion_tokens': 3, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:24,421 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:24,915 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:25,543 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:26,136 INFO OpenAI API usage: {'prompt_tokens': 281, 'completion_tokens': 3, 'total_tokens': 284, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:26,580 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:27,101 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:27,752 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:28,183 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 1, 'total_tokens': 297, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:28,615 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:29,067 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:29,702 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:30,286 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 3, 'total_tokens': 297, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:30,735 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:31,549 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:37,677 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:38,169 INFO OpenAI API usage: {'prompt_tokens': 276, 'completion_tokens': 3, 'total_tokens': 279, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:38,620 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:39,225 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:39,781 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:40,345 INFO OpenAI API usage: {'prompt_tokens': 308, 'completion_tokens': 3, 'total_tokens': 311, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:40,789 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:41,591 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:41,599 INFO Progreso 10/400 | api_bl=6 cache_bl=4 | var1 crewai_api=9 metagpt=1 majority=0 api_v1=9/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:01:42,145 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:42,504 INFO OpenAI API usage: {'prompt_tokens': 299, 'completion_tokens': 1, 'total_tokens': 300, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:42,948 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:43,416 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:43,973 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:44,647 INFO OpenAI API usage: {'prompt_tokens': 274, 'completion_tokens': 3, 'total_tokens': 277, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:45,105 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:45,637 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:46,195 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:46,706 INFO OpenAI API usage: {'prompt_tokens': 292, 'completion_tokens': 3, 'total_tokens': 295, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:47,149 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:47,724 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:49,366 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:50,162 INFO OpenAI API usage: {'prompt_tokens': 299, 'completion_tokens': 3, 'total_tokens': 302, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:50,620 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:51,475 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:52,051 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:52,893 INFO OpenAI API usage: {'prompt_tokens': 325, 'completion_tokens': 3, 'total_tokens': 328, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:53,338 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:54,307 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:54,880 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:55,878 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 3, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:56,322 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:57,234 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:01:57,801 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:01:58,693 INFO OpenAI API usage: {'prompt_tokens': 294, 'completion_tokens': 3, 'total_tokens': 297, 'cached_prompt_tokens': 0}
+2026-06-12 16:01:59,148 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:00,080 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:00,633 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:01,774 INFO OpenAI API usage: {'prompt_tokens': 275, 'completion_tokens': 3, 'total_tokens': 278, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:02,240 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:03,172 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:03,181 INFO Progreso 20/400 | api_bl=10 cache_bl=10 | var1 crewai_api=17 metagpt=3 majority=0 api_v1=17/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:02:03,736 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:04,656 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 3, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:05,103 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:05,929 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:06,501 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:07,302 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 3, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:07,751 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:08,649 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:09,203 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:09,994 INFO OpenAI API usage: {'prompt_tokens': 313, 'completion_tokens': 1, 'total_tokens': 314, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:10,446 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:11,321 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:11,876 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:12,769 INFO OpenAI API usage: {'prompt_tokens': 295, 'completion_tokens': 1, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:13,202 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:14,081 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:14,710 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:15,652 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 3, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:16,112 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:17,050 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:17,611 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:18,403 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 1, 'total_tokens': 294, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:18,838 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:19,828 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:20,428 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:21,342 INFO OpenAI API usage: {'prompt_tokens': 300, 'completion_tokens': 3, 'total_tokens': 303, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:21,780 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:22,785 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:23,412 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:24,406 INFO OpenAI API usage: {'prompt_tokens': 303, 'completion_tokens': 1, 'total_tokens': 304, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:24,851 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:25,722 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:26,479 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:27,459 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 3, 'total_tokens': 299, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:27,894 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:28,845 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:28,852 INFO Progreso 30/400 | api_bl=13 cache_bl=17 | var1 crewai_api=26 metagpt=4 majority=0 api_v1=26/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:02:29,466 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:30,441 INFO OpenAI API usage: {'prompt_tokens': 295, 'completion_tokens': 3, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:30,890 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:31,834 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:32,387 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:33,293 INFO OpenAI API usage: {'prompt_tokens': 298, 'completion_tokens': 3, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:33,717 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:34,704 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:35,268 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:36,207 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 3, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:36,649 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:37,558 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:38,113 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:39,051 INFO OpenAI API usage: {'prompt_tokens': 265, 'completion_tokens': 1, 'total_tokens': 266, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:39,490 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:40,378 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:40,935 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:41,678 INFO OpenAI API usage: {'prompt_tokens': 305, 'completion_tokens': 3, 'total_tokens': 308, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:42,102 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:43,089 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:43,646 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:44,601 INFO OpenAI API usage: {'prompt_tokens': 302, 'completion_tokens': 3, 'total_tokens': 305, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:45,058 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:46,003 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:46,556 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:47,448 INFO OpenAI API usage: {'prompt_tokens': 302, 'completion_tokens': 1, 'total_tokens': 303, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:47,881 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:48,768 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:49,417 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:50,432 INFO OpenAI API usage: {'prompt_tokens': 296, 'completion_tokens': 1, 'total_tokens': 297, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:50,871 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:51,953 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:52,509 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:53,363 INFO OpenAI API usage: {'prompt_tokens': 291, 'completion_tokens': 1, 'total_tokens': 292, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:53,792 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:54,269 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:54,820 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:55,640 INFO OpenAI API usage: {'prompt_tokens': 293, 'completion_tokens': 3, 'total_tokens': 296, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:56,083 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:56,792 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:56,800 INFO Progreso 40/400 | api_bl=19 cache_bl=21 | var1 crewai_api=36 metagpt=4 majority=0 api_v1=36/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:02:57,349 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:57,947 INFO OpenAI API usage: {'prompt_tokens': 297, 'completion_tokens': 1, 'total_tokens': 298, 'cached_prompt_tokens': 0}
+2026-06-12 16:02:58,399 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:02:58,890 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:02:59,463 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:00,305 INFO OpenAI API usage: {'prompt_tokens': 300, 'completion_tokens': 3, 'total_tokens': 303, 'cached_prompt_tokens': 0}
+2026-06-12 16:03:00,751 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:01,233 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:03:01,795 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:02,486 INFO OpenAI API usage: {'prompt_tokens': 300, 'completion_tokens': 1, 'total_tokens': 301, 'cached_prompt_tokens': 0}
+2026-06-12 16:03:02,930 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:03,519 INFO OpenAI API usage: {'prompt_tokens': 149, 'completion_tokens': 1, 'total_tokens': 150, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:03:04,074 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:04,984 INFO OpenAI API usage: {'prompt_tokens': 323, 'completion_tokens': 3, 'total_tokens': 326, 'cached_prompt_tokens': 0}
+2026-06-12 16:03:05,421 INFO HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:03:06,140 INFO OpenAI API usage: {'prompt_tokens': 151, 'completion_tokens': 3, 'total_tokens': 154, 'cached_prompt_tokens': 128}
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2026-06-12 16:03:06,150 INFO Progreso 50/400 | api_bl=22 cache_bl=28 | var1 crewai_api=40 metagpt=7 majority=3 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,152 INFO Progreso 60/400 | api_bl=27 cache_bl=33 | var1 crewai_api=40 metagpt=9 majority=11 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,154 INFO Progreso 70/400 | api_bl=32 cache_bl=38 | var1 crewai_api=40 metagpt=10 majority=20 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,155 INFO Progreso 80/400 | api_bl=39 cache_bl=41 | var1 crewai_api=40 metagpt=11 majority=29 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,157 INFO Progreso 90/400 | api_bl=44 cache_bl=46 | var1 crewai_api=40 metagpt=12 majority=38 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,159 INFO Progreso 100/400 | api_bl=50 cache_bl=50 | var1 crewai_api=40 metagpt=14 majority=46 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,162 INFO Progreso 110/400 | api_bl=55 cache_bl=55 | var1 crewai_api=40 metagpt=15 majority=55 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,164 INFO Progreso 120/400 | api_bl=61 cache_bl=59 | var1 crewai_api=40 metagpt=15 majority=65 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,166 INFO Progreso 130/400 | api_bl=68 cache_bl=62 | var1 crewai_api=40 metagpt=16 majority=74 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,168 INFO Progreso 140/400 | api_bl=77 cache_bl=63 | var1 crewai_api=40 metagpt=16 majority=84 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,169 INFO Progreso 150/400 | api_bl=84 cache_bl=66 | var1 crewai_api=40 metagpt=17 majority=93 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,171 INFO Progreso 160/400 | api_bl=89 cache_bl=71 | var1 crewai_api=40 metagpt=19 majority=101 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,173 INFO Progreso 170/400 | api_bl=96 cache_bl=74 | var1 crewai_api=40 metagpt=21 majority=109 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,175 INFO Progreso 180/400 | api_bl=99 cache_bl=81 | var1 crewai_api=40 metagpt=21 majority=119 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,177 INFO Progreso 190/400 | api_bl=106 cache_bl=84 | var1 crewai_api=40 metagpt=21 majority=129 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,179 INFO Progreso 200/400 | api_bl=114 cache_bl=86 | var1 crewai_api=40 metagpt=22 majority=138 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,181 INFO Progreso 210/400 | api_bl=122 cache_bl=88 | var1 crewai_api=40 metagpt=23 majority=147 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,183 INFO Progreso 220/400 | api_bl=129 cache_bl=91 | var1 crewai_api=40 metagpt=23 majority=157 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,185 INFO Progreso 230/400 | api_bl=137 cache_bl=93 | var1 crewai_api=40 metagpt=24 majority=166 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,187 INFO Progreso 240/400 | api_bl=143 cache_bl=97 | var1 crewai_api=40 metagpt=26 majority=174 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,189 INFO Progreso 250/400 | api_bl=147 cache_bl=103 | var1 crewai_api=40 metagpt=28 majority=182 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,190 INFO Progreso 260/400 | api_bl=154 cache_bl=106 | var1 crewai_api=40 metagpt=28 majority=192 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,193 INFO Progreso 270/400 | api_bl=160 cache_bl=110 | var1 crewai_api=40 metagpt=31 majority=199 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,196 INFO Progreso 280/400 | api_bl=168 cache_bl=112 | var1 crewai_api=40 metagpt=31 majority=209 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,198 INFO Progreso 290/400 | api_bl=175 cache_bl=115 | var1 crewai_api=40 metagpt=32 majority=218 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,199 INFO Progreso 300/400 | api_bl=181 cache_bl=119 | var1 crewai_api=40 metagpt=34 majority=226 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,201 INFO Progreso 310/400 | api_bl=187 cache_bl=123 | var1 crewai_api=40 metagpt=36 majority=234 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,203 INFO Progreso 320/400 | api_bl=195 cache_bl=125 | var1 crewai_api=40 metagpt=36 majority=244 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,205 INFO Progreso 330/400 | api_bl=204 cache_bl=126 | var1 crewai_api=40 metagpt=36 majority=254 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,207 INFO Progreso 340/400 | api_bl=208 cache_bl=132 | var1 crewai_api=40 metagpt=37 majority=263 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,209 INFO Progreso 350/400 | api_bl=214 cache_bl=136 | var1 crewai_api=40 metagpt=39 majority=271 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,211 INFO Progreso 360/400 | api_bl=221 cache_bl=139 | var1 crewai_api=40 metagpt=39 majority=281 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,213 INFO Progreso 370/400 | api_bl=226 cache_bl=144 | var1 crewai_api=40 metagpt=39 majority=291 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,215 INFO Progreso 380/400 | api_bl=235 cache_bl=145 | var1 crewai_api=40 metagpt=39 majority=301 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,217 INFO Progreso 390/400 | api_bl=242 cache_bl=148 | var1 crewai_api=40 metagpt=40 majority=310 api_v1=40/40 | api_err_bl={} api_err_v1={}
+2026-06-12 16:03:06,219 INFO Progreso 400/400 | api_bl=246 cache_bl=154 | var1 crewai_api=40 metagpt=40 majority=320 api_v1=40/40 | api_err_bl={} api_err_v1={}
+Traceback (most recent call last):
+  File "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/3_protocolo_experimental_variantes/run_protocolo_experiment.py", line 375, in <module>
+    main()
+  File "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/3_protocolo_experimental_variantes/run_protocolo_experiment.py", line 281, in main
+    plot_confusion_matrices(
+  File "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/3_protocolo_experimental_variantes/metricas_protocolo_entregable.py", line 253, in plot_confusion_matrices
+    fig.tight_layout()
+  File "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/.venv/lib/python3.12/site-packages/matplotlib/figure.py", line 3647, in tight_layout
+    engine.execute(self)
+  File "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/.venv/lib/python3.12/site-packages/matplotlib/layout_engine.py", line 188, in execute
+    kwargs = get_tight_layout_figure(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/.venv/lib/python3.12/site-packages/matplotlib/_tight_layout.py", line 230, in get_tight_layout_figure
+    _api.warn_external(
+  File "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/.venv/lib/python3.12/site-packages/matplotlib/_api/__init__.py", line 405, in warn_external
+    warnings.warn(message, category, **kwargs)
+TypeError: _suppress_pydantic_deprecation_warnings.<locals>.filtered_warn() got an unexpected keyword argument 'skip_file_prefixes'

@@ -1,0 +1,187 @@
+{
+  "timestamp": "2026-06-12T23:09:15.557236+00:00",
+  "pasada": 2,
+  "items": [
+    {
+      "item": "paso0_eval_n400",
+      "veredicto": "✅",
+      "detail": {
+        "path": "0_etl_ingesta_preprocesamiento/8_conjunto_evaluacion_experimento_n400.csv",
+        "exists": true,
+        "rows": 400,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso1_rag_2000",
+      "veredicto": "✅",
+      "detail": {
+        "path": "1_ingenieria_atributos_y_recuperacion_rag/7_tabla_recuperacion_hibrida_rrf_top5.csv",
+        "exists": true,
+        "rows": 2000,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso2_gate_b_400",
+      "veredicto": "✅",
+      "detail": {
+        "path": "2_modulo_criticidad_gobernanza_adaptativa/4_tabla_decisiones_gate_b_post_agente_simulado_n400.csv",
+        "exists": true,
+        "rows": 400,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso3_0_informe_configuracion_protocolo_experimental.json",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/0_informe_configuracion_protocolo_experimental.json",
+        "exists": true
+      }
+    },
+    {
+      "item": "paso3_3_tabla_predicciones_baseline_amnesico_n400.csv",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/3_tabla_predicciones_baseline_amnesico_n400.csv",
+        "exists": true,
+        "rows": 400,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso3_4_tabla_predicciones_var1_crewai_rag_n400.csv",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/4_tabla_predicciones_var1_crewai_rag_n400.csv",
+        "exists": true,
+        "rows": 400,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso3_5_tabla_predicciones_var2_middleware_intercepta_n400.csv",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/5_tabla_predicciones_var2_middleware_intercepta_n400.csv",
+        "exists": true,
+        "rows": 400,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso3_6_tabla_predicciones_consolidada_tres_variantes_n400.csv",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/6_tabla_predicciones_consolidada_tres_variantes_n400.csv",
+        "exists": true,
+        "rows": 400,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso3_7_tabla_metricas_set_minimo_seis_por_variante.csv",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/7_tabla_metricas_set_minimo_seis_por_variante.csv",
+        "exists": true,
+        "rows": 3,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso3_8_tabla_metricas_extendidas_framework_por_variante.csv",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/8_tabla_metricas_extendidas_framework_por_variante.csv",
+        "exists": true,
+        "rows": 3,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso3_9_tabla_validacion_holdout_30_por_variante.csv",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/9_tabla_validacion_holdout_30_por_variante.csv",
+        "exists": true,
+        "rows": 3,
+        "rows_ok": true
+      }
+    },
+    {
+      "item": "paso3_10_tabla_validacion_cruzada_5fold_estratificada_n400.csv",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/10_tabla_validacion_cruzada_5fold_estratificada_n400.csv",
+        "exists": true,
+        "rows": 18
+      }
+    },
+    {
+      "item": "paso3_11_tabla_comparacion_pareada_mcnemar.csv",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/11_tabla_comparacion_pareada_mcnemar.csv",
+        "exists": true,
+        "rows": 3
+      }
+    },
+    {
+      "item": "paso3_12_informe_ejecucion_fuentes_cache_api.json",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/12_informe_ejecucion_fuentes_cache_api.json",
+        "exists": true
+      }
+    },
+    {
+      "item": "paso3_13_figura_ablacion_f1_macro_ec_fnr_stop.png",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/13_figura_ablacion_f1_macro_ec_fnr_stop.png",
+        "exists": true
+      }
+    },
+    {
+      "item": "paso3_14_figura_matrices_confusion_tres_variantes.png",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/14_figura_matrices_confusion_tres_variantes.png",
+        "exists": true
+      }
+    },
+    {
+      "item": "paso3_15_figura_curva_calibracion_ece_var2.png",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/15_figura_curva_calibracion_ece_var2.png",
+        "exists": true
+      }
+    },
+    {
+      "item": "paso3_16_informe_resumen_protocolo_experimental.json",
+      "veredicto": "✅",
+      "detail": {
+        "path": "3_protocolo_experimental_variantes/16_informe_resumen_protocolo_experimental.json",
+        "exists": true
+      }
+    },
+    {
+      "item": "anti_fuga_overlap",
+      "veredicto": "✅",
+      "detail": {
+        "history_eval_hash_overlap": 0,
+        "history_eval_hash_overlap_ok": true,
+        "vectorizer_fit_rows_equals_train": true,
+        "eval_rows_in_fit_zero": true,
+        "history_rows_in_fit_zero": true,
+        "train_subset_of_eval_lab": true,
+        "pgvector_connection_ok": true
+      }
+    }
+  ],
+  "gaps_restantes": [],
+  "veredicto_global": "✅"
+}

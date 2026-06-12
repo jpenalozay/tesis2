@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-12T23:20:12.833676+00:00",
+  "mode": "api-incremental",
+  "run_api": true,
+  "run_crewai": true,
+  "deepseek_key_present": true,
+  "api_calls_baseline": 0,
+  "api_calls_var1": 0,
+  "api_calls_var1_sesion": 0,
+  "api_calls_var1_historico": 0,
+  "crewai_pilot_cache_n": 40,
+  "crewai_pilot_api_first_run_n": 40,
+  "api_calls_baseline_sesion": 0,
+  "api_calls_baseline_historico": 246,
+  "api_errors_baseline": {},
+  "api_errors_var1": {},
+  "baseline_sources": {
+    "deepseek_api": 246,
+    "deepseek_cache": 154
+  },
+  "var1_sources": {
+    "abstencion_fuera_piloto_d5": 360,
+    "crewai_cache": 40
+  },
+  "var1_pilot_stratified_n": 40,
+  "var1_api_queue_n": 0,
+  "var2_override_rate": 0.165,
+  "cache_coverage": {
+    "deepseek_hits_n400": 154,
+    "deepseek_api_n400": 246,
+    "crewai_api_n400": 0,
+    "crewai_cache_n400": 40,
+    "majority_fallback_n400": 0,
+    "abstencion_fuera_piloto_n400": 360,
+    "abstencion_crewai_fallo_n400": 0,
+    "lexical_fallback_n400": 0
+  },
+  "tokens_total": {
+    "baseline": 80358,
+    "var1": 38364,
+    "var2": 38364
+  }
+}

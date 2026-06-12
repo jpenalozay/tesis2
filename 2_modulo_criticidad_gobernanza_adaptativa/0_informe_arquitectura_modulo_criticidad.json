@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-06-12T20:23:38.864453+00:00",
+  "seed": 42,
+  "n_eval": 400,
+  "decisiones_D1_D5": {
+    "D1_dual_gate": true,
+    "D2_rag_plugin_obligatorio_var2": true,
+    "D3_calibrar_gold_v2": true,
+    "D4_hitl_async_simulado_csv": true,
+    "D5_carpeta2_antes_paso3": true
+  },
+  "dual_gate": true,
+  "rag_plugin_obligatorio": true,
+  "policy_params_source": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/docs/experiments/sprint7_hpo_random_bayes_criticidad_uni_n40/winning_config.json",
+  "policy_mode": "stop_heavy",
+  "plugins": [
+    "0_interfaz_proveedor_senales.py",
+    "1_plugin_rag_recuperacion.py",
+    "2_plugin_costo_tokens_bucles.py",
+    "3_motor_politica_play_pausa_stop.py",
+    "4_puerta_hitl_sincrono_asincrono.py"
+  ],
+  "anti_fuga_ref": 0,
+  "agent_label_note": "Simulado desde mayoría RAG + risk (sin API CrewAI)",
+  "gold_v2": {
+    "enabled": true,
+    "path": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/data/criticidad_cases/casos_gold_criticidad_v2.jsonl",
+    "n_total_file": 300,
+    "n_subset": 50,
+    "accuracy_subset": 1.0,
+    "note": "Validación proxy 4D EN sobre requisitos ES gold v2 (limitación documentada)"
+  }
+}

@@ -1,0 +1,10 @@
+metrica_id,nombre,valor,gate
+C-01,F1-macro (Gate A),0.369658,A
+C-02,F1-stop (Gate A),0.4,A
+C-03,ECE (Gate A),0.338272,A
+C-04,EC ex-CEPA (Gate A),0.09205,A
+C-05,FNR-stop (Gate A),0.433333,A
+C-06,Override rate (Gate B),0.0,B
+C-01,F1-macro (Gate B),0.372463,B
+C-02,F1-stop (Gate B),0.4,B
+C-04,EC ex-CEPA (Gate B),0.09345,B

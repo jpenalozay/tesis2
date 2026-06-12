@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-06-12T23:20:12.832296+00:00",
+  "seed": 42,
+  "n_eval": 400,
+  "execution_mode": "api-incremental",
+  "run_api": true,
+  "run_crewai": true,
+  "decisiones_D1_D5": {
+    "D1_modo_inicial": "api-incremental",
+    "D2_fuente_rag_unica": "7_tabla_recuperacion_hibrida_rrf_top5.csv",
+    "D3_figura_ablacion": "F1+EC+FNR-stop",
+    "D4_middleware_local": true,
+    "D5_cobertura_min_var1": 0.1
+  },
+  "policy_params_source": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/docs/experiments/sprint7_hpo_random_bayes_criticidad_uni_n40/winning_config.json",
+  "cost_matrix": {
+    "pause_hitl": 0.08,
+    "stop_hitl": 0.18,
+    "false_negative_stop": 1.0
+  },
+  "anti_fuga_overlap": 0,
+  "upstream_refs": {
+    "eval": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/0_etl_ingesta_preprocesamiento/8_conjunto_evaluacion_experimento_n400.csv",
+    "holdout": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/0_etl_ingesta_preprocesamiento/6_conjunto_prueba_holdout_30.csv",
+    "train": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/0_etl_ingesta_preprocesamiento/5_conjunto_entrenamiento_holdout_70.csv",
+    "rag_hibrido": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/1_ingenieria_atributos_y_recuperacion_rag/7_tabla_recuperacion_hibrida_rrf_top5.csv",
+    "anti_fuga": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/1_ingenieria_atributos_y_recuperacion_rag/4_informe_auditoria_anti_fuga.json",
+    "gate_a": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/2_modulo_criticidad_gobernanza_adaptativa/3_tabla_decisiones_politica_play_pausa_stop_n400.csv",
+    "gate_b_ref": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/2_modulo_criticidad_gobernanza_adaptativa/4_tabla_decisiones_gate_b_post_agente_simulado_n400.csv",
+    "senales": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/2_modulo_criticidad_gobernanza_adaptativa/2_tabla_senales_por_ticket_n400.csv",
+    "winning_config": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/docs/experiments/sprint7_hpo_random_bayes_criticidad_uni_n40/winning_config.json",
+    "deepseek_cache_ext": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/docs/experiments/sprint6_metagpt_pgvector_deepseek_300/deepseek_cache.jsonl",
+    "crewai_cache_local": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/3_protocolo_experimental_variantes/2_cache_predicciones_var1_crewai_rag.jsonl",
+    "plugins_paso2": "/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/2_modulo_criticidad_gobernanza_adaptativa/plugins"
+  },
+  "honesty_notes": [
+    "Arquitectura: RAG→CrewAI(Var1)→Criticidad Gate B(Var2). Prompt CrewAI v2_permissive.",
+    "Baseline: deepseek cache+API ({'deepseek_api': 246, 'deepseek_cache': 154}).",
+    "Var1 piloto D5: crewai_cache+api ({'abstencion_fuera_piloto_d5': 360, 'crewai_cache': 40}); fuera piloto: abstención pausa (Chow 1970).",
+    "Var2: Gate B ampliado (riesgo 4D, incertidumbre, FN-stop); 0 API adicional; tokens heredados de Var1.",
+    "CV 5-fold: evaluación estratificada sobre predicciones cacheadas (no re-entrenamiento LLM).",
+    "HITL cost: supuesto operativo documentado en métricas extendidas (no medido en campo)."
+  ]
+}

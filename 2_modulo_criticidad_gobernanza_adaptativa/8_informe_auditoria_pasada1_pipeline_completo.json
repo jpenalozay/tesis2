@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-06-12T23:08:18.103448+00:00",
+  "pasada": 1,
+  "checks": {
+    "paso0_eval_n400": {
+      "path": "0_etl_ingesta_preprocesamiento/8_conjunto_evaluacion_experimento_n400.csv",
+      "exists": true,
+      "rows": 400,
+      "rows_ok": true
+    },
+    "paso0_lab_n400": {
+      "path": "0_etl_ingesta_preprocesamiento/4_muestra_laboratorio_n400.csv",
+      "exists": true,
+      "rows": 400,
+      "rows_ok": true
+    },
+    "paso1_rag_2000": {
+      "path": "1_ingenieria_atributos_y_recuperacion_rag/7_tabla_recuperacion_hibrida_rrf_top5.csv",
+      "exists": true,
+      "rows": 2000,
+      "rows_ok": true
+    },
+    "paso1_anti_fuga": {
+      "path": "1_ingenieria_atributos_y_recuperacion_rag/4_informe_auditoria_anti_fuga.json",
+      "exists": true
+    },
+    "paso2_senales_400": {
+      "path": "2_modulo_criticidad_gobernanza_adaptativa/2_tabla_senales_por_ticket_n400.csv",
+      "exists": true,
+      "rows": 400,
+      "rows_ok": true
+    },
+    "paso2_gate_a_400": {
+      "path": "2_modulo_criticidad_gobernanza_adaptativa/3_tabla_decisiones_politica_play_pausa_stop_n400.csv",
+      "exists": true,
+      "rows": 400,
+      "rows_ok": true
+    },
+    "paso2_gate_b_400": {
+      "path": "2_modulo_criticidad_gobernanza_adaptativa/4_tabla_decisiones_gate_b_post_agente_simulado_n400.csv",
+      "exists": true,
+      "rows": 400,
+      "rows_ok": true
+    },
+    "paso2_metricas": {
+      "path": "2_modulo_criticidad_gobernanza_adaptativa/6_tabla_metricas_modulo_criticidad_capa_a.csv",
+      "exists": true,
+      "rows": 9
+    }
+  },
+  "anti_fuga": {
+    "history_eval_hash_overlap": 0,
+    "history_eval_hash_overlap_ok": true,
+    "vectorizer_fit_rows_equals_train": true,
+    "eval_rows_in_fit_zero": true,
+    "history_rows_in_fit_zero": true,
+    "train_subset_of_eval_lab": true,
+    "pgvector_connection_ok": true
+  },
+  "metricas_capa_a_gate_a": [
+    {
+      "metrica_id": "C-01",
+      "nombre": "F1-macro (Gate A)",
+      "valor": 0.369658,
+      "gate": "A"
+    },
+    {
+      "metrica_id": "C-02",
+      "nombre": "F1-stop (Gate A)",
+      "valor": 0.4,
+      "gate": "A"
+    },
+    {
+      "metrica_id": "C-03",
+      "nombre": "ECE (Gate A)",
+      "valor": 0.338272,
+      "gate": "A"
+    },
+    {
+      "metrica_id": "C-04",
+      "nombre": "EC ex-CEPA (Gate A)",
+      "valor": 0.09205,
+      "gate": "A"
+    },
+    {
+      "metrica_id": "C-05",
+      "nombre": "FNR-stop (Gate A)",
+      "valor": 0.433333,
+      "gate": "A"
+    }
+  ],
+  "gaps_detectados": [],
+  "veredicto": "OK"
+}

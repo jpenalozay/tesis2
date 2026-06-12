@@ -1,0 +1,28 @@
+id,requisito,seccion_informe,artefacto_evidencia,estado,notas
+IA08-01,MLOps ligero: seed fija reproducible,Protocolo,README + configs YAML,CUMPLIDO,seed=42 en PASO 0→4
+IA08-02,config.yaml por paso,Protocolo,0_configuracion_*.yaml,CUMPLIDO,PASO 2/3/4/5
+IA08-03,Artefactos versionados (modelo/métricas/figs),Anexos,entregable/0→4/,CUMPLIDO,CSV/JSON/PNG numerados
+IA08-04,Tablero central de experimentos,Anexos,1_tablero_experimentos_consolidado.csv,CUMPLIDO,PASO 5
+IA08-05,Tracking params + métricas por corrida,Protocolo,16_informe_resumen_protocolo_experimental.json,CUMPLIDO,PASO 3
+IA08-06,Análisis gap train/val/overfitting,Resultados,3_informe_gap_overfitting_calibracion.json,CUMPLIDO,PASO 5
+IA08-07,Curvas calibración + Brier,Resultados,1_tabla_calibracion_ece_brier_antes_despues.csv,CUMPLIDO,PASO 4
+IA08-08,Validación coherente (CV + hold-out),Protocolo,9_tabla_validacion_holdout_30 + 10_tabla CV,CUMPLIDO,PASO 3
+IA08-09,Política comparación justa (mismo split/seed),Protocolo,0_configuracion_protocolo_experimental.yaml,CUMPLIDO,Alineado
+IA08-10,Top-k corridas documentadas,Análisis,1_tablero + sprint7 summary,CUMPLIDO,Var2 mejor F1-stop n=400
+IA08-11,Demo 10-12 min (guía),Anexos,4_guia_demo_presentacion_10min.md,CUMPLIDO,PASO 5
+IA08-12,HPO referenciado (sprint7),Protocolo,winning_config.json trial 68,CUMPLIDO,Middleware params
+INF-01,"Introducción: problema, objetivos, hipótesis",§1-4,../../informe/parcial_informe.md,CUMPLIDO,Secciones 1-4 presentes
+INF-02,Marco teórico breve SOTA,§6,../../informe/parcial_informe.md,CUMPLIDO,"Chow, Elkan, EU AI Act, RAG"
+INF-03,"Datos: origen, licencia, preprocesamiento",§7,0_etl + parcial_informe §7,CUMPLIDO,BugsRepo n=400
+INF-04,Protocolo experimental + CV + métricas,§8,3_protocolo + informe §8,CUMPLIDO,Baseline/Var1/Var2
+INF-05,Ingeniería de atributos,§9,1_ingenieria + 2_modulo,CUMPLIDO,4D + RAG + fuzzy
+INF-06,Resultados validación por fold/hold-out,§10.1-10.3,7_tabla_metricas + CV CSV,CUMPLIDO,n=400 + holdout 120
+INF-07,Ablaciones clave,§10.6,3_tabla_ablacion_componentes_middleware.csv,CUMPLIDO,PASO 4
+INF-08,Análisis resultados + riesgos mitigación,§10.4,honesty_notes + gaps docs,CUMPLIDO,Salvedad D5 documentada
+INF-09,Conclusiones + trabajo futuro,§10.5,../../informe/parcial_informe.md,CUMPLIDO,Var2 contribución principal
+INF-10,Referencias bibliográficas,Referencias,../../informe/parcial_informe.md,CUMPLIDO,≥8 referencias
+AUD-01,Anti-fuga RAG verificada,Anexos,4_informe_auditoria_anti_fuga.json,CUMPLIDO,overlap=0
+AUD-02,Auditoría doble PASO 0→4,Anexos,run_auditoria_* + JSON pasada2,CUMPLIDO,PASO 5 global
+AUD-03,Métricas CSV = README = informe = PPT,Anexos,5_informe_auditoria_global,CUMPLIDO,veredicto=OK
+AUD-04,PDFs alineados con markdown,Entrega,parcial_informe.pdf + presentacion_parcial.pdf,CUMPLIDO,Regenerables
+AUD-05,Salvedad D5/Chow en docs clave,Honestidad,README + informe + presentación,CUMPLIDO,3/3 docs con D5/Chow

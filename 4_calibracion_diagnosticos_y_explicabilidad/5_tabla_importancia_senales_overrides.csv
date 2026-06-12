@@ -1,0 +1,9 @@
+senal,importancia_perm_media,importancia_perm_std,coef_logistic_override,peso_hpo_referencia,target
+rag_uncertainty,0.028106,0.022741,-1.471102,0.142225,override_gate_b
+class_consensus,0.002787,0.00601,-0.427506,0.103324,override_gate_b
+I_mem,0.001355,0.001165,-0.262493,0.0,override_gate_b
+I_sec,5.1e-05,0.000847,0.102503,0.0,override_gate_b
+I_dat,-1.2e-05,0.000722,0.139154,0.0,override_gate_b
+neighbor_entropy,-0.00028,0.002464,-0.057799,0.071112,override_gate_b
+I_db,-0.008888,0.020283,1.299887,0.0,override_gate_b
+risk_4d,-0.008999,0.012259,0.937956,0.230524,override_gate_b

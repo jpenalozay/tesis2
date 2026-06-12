@@ -1,0 +1,24 @@
+{
+  "paso": 5,
+  "ia08": true,
+  "timestamp": "2026-06-12T23:23:22.630525+00:00",
+  "n_experimentos_tablero": 13,
+  "checklist_cumplimiento_pct": 100.0,
+  "checklist_cumplidos": 27,
+  "checklist_total": 27,
+  "auditoria_global_veredicto": "OK",
+  "gaps_auditoria": [],
+  "gap_overfitting_resumen": [
+    "Var1 FNR-stop 97% en n=400 vs 100% holdout — colapso consistente fuera piloto",
+    "Var2 F1-stop holdout (0.50) > eval (0.39) — no hay overfitting clásico en Var2",
+    "ECE isotónica holdout > n400 en Var1/Var2 — calibrador puede sobreajustar train 280"
+  ],
+  "honesty_notes": [
+    "Var1 = 10% CrewAI real (piloto D5) + 90% abstención pausa (Chow 1970) — diseño intencional.",
+    "No escalar CrewAI a n=400: costo API y evidencia desfavorable en piloto; Var2 = contribución principal.",
+    "HITL costo USD = supuesto documentado (5/20/3 min, $45/h), no medido en campo.",
+    "Proxy Bugzilla severity → play/pausa/stop ≠ FMEA operacional completo.",
+    "Calibración isotónica fit train 280; eval reportada n=400 + holdout 120 — gap documentado."
+  ],
+  "veredicto": "PASO 5 completado — entregable listo examen parcial"
+}

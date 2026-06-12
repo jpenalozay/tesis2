@@ -1,0 +1,76 @@
+# Configuración protocolo experimental — PASO 3 entregable parcial3
+# Modo api-incremental: cache sprint6 + API DeepSeek para casos faltantes
+
+seed: 42
+n_eval: 400
+n_holdout: 120
+top_k: 5
+
+# Decisiones confirmadas (alineadas ANALISIS_PASO2_PASADA2)
+decisiones:
+  D1_modo_inicial: api-incremental
+  D2_fuente_rag_unica: "7_tabla_recuperacion_hibrida_rrf_top5.csv"
+  D3_figura_ablacion: "F1+EC+FNR-stop"
+  D4_middleware_local: true
+  D5_cobertura_min_var1: 0.10
+
+# Modos: dry-run | cache-only | api-incremental | full-api
+execution:
+  mode: api-incremental
+  run_api: true
+  run_crewai: true
+  max_new_api_calls_baseline: 400
+  max_new_api_calls_var1: 40
+  cache_first: true
+  log_every_n: 10
+
+# Rutas upstream (relativas a esta carpeta)
+paths:
+  eval: ../0_etl_ingesta_preprocesamiento/8_conjunto_evaluacion_experimento_n400.csv
+  holdout: ../0_etl_ingesta_preprocesamiento/6_conjunto_prueba_holdout_30.csv
+  train: ../0_etl_ingesta_preprocesamiento/5_conjunto_entrenamiento_holdout_70.csv
+  rag_hibrido: ../1_ingenieria_atributos_y_recuperacion_rag/7_tabla_recuperacion_hibrida_rrf_top5.csv
+  anti_fuga: ../1_ingenieria_atributos_y_recuperacion_rag/4_informe_auditoria_anti_fuga.json
+  gate_a: ../2_modulo_criticidad_gobernanza_adaptativa/3_tabla_decisiones_politica_play_pausa_stop_n400.csv
+  gate_b_ref: ../2_modulo_criticidad_gobernanza_adaptativa/4_tabla_decisiones_gate_b_post_agente_simulado_n400.csv
+  senales: ../2_modulo_criticidad_gobernanza_adaptativa/2_tabla_senales_por_ticket_n400.csv
+  winning_config: ../../../docs/experiments/sprint7_hpo_random_bayes_criticidad_uni_n40/winning_config.json
+  deepseek_cache_ext: ../../../docs/experiments/sprint6_metagpt_pgvector_deepseek_300/deepseek_cache.jsonl
+  # metagpt_cache_ext: deprecated — MetaGPT es experimento futuro separado, no flujo Var1
+  crewai_cache_local: 2_cache_predicciones_var1_crewai_rag.jsonl
+  plugins_paso2: ../2_modulo_criticidad_gobernanza_adaptativa/plugins
+
+# Matriz de costos Elkan (EC / FNR-stop)
+cost_matrix:
+  pause_hitl: 0.08
+  stop_hitl: 0.18
+  false_negative_stop: 1.0
+
+# Métricas
+metrics:
+  ece_bins: 10
+  cv_folds: 5
+  set_minimo:
+    - F1-macro
+    - F1-stop
+    - ECE
+    - EC
+    - FNR-stop
+    - confusion_matrix_3x3
+
+# Política criticidad (fallback si no existe winning_config)
+policy:
+  mode: stop_heavy
+  weights:
+    base: 0.286902432989298
+    risk: 0.23052429958817053
+    p_stop: 0.10332395538353709
+    uncertainty: 0.1422249502458552
+    rag_gap: 0.052460633052286126
+    fuzzy_stop: 0.18456372874085303
+  threshold_stop: 0.64
+  threshold_pausa: 0.2
+  risk_stop_floor: 0.4
+  p_stop_floor: 0.52
+  stop_cost_threshold: 0.46
+  pause_uncertainty: 0.38

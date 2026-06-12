@@ -1,0 +1,44 @@
+{
+  "paso": 4,
+  "ia06": true,
+  "n_eval_protocolo": 400,
+  "n_piloto_crewai": 40,
+  "calibracion_resumen": {
+    "Baseline": {
+      "ECE_antes": 0.44775,
+      "ECE_despues_isotonic": 0.003183,
+      "Brier_antes": 0.4052,
+      "Brier_despues_isotonic": 0.250007,
+      "delta_ECE": -0.444567
+    },
+    "Var1": {
+      "ECE_antes": 0.44,
+      "ECE_despues_isotonic": 0.035,
+      "Brier_antes": 0.3125,
+      "Brier_despues_isotonic": 0.17,
+      "delta_ECE": -0.405
+    },
+    "Var2": {
+      "ECE_antes": 0.41925,
+      "ECE_despues_isotonic": 0.026071,
+      "Brier_antes": 0.2998,
+      "Brier_despues_isotonic": 0.176423,
+      "delta_ECE": -0.393179
+    }
+  },
+  "ablacion_peor_F1_stop": "sin_gate_b",
+  "senales_top_override": [
+    "rag_uncertainty",
+    "class_consensus",
+    "I_mem"
+  ],
+  "piloto_n": 40,
+  "honesty_notes": [
+    "Var1 = 10% CrewAI real (piloto D5) + 90% abstención pausa (Chow 1970) — diseño intencional.",
+    "No escalar CrewAI a n=400 antes de IA06: costo API y evidencia desfavorable en piloto; Var2 demuestra valor middleware.",
+    "Sub-análisis n=40 documenta capacidad agente sin invalidar protocolo n=400.",
+    "Calibración post-hoc sobre predicciones cacheadas PASO 3 — sin re-API."
+  ],
+  "veredicto": "PASO 4 completado sobre cache PASO 3 — sin re-API",
+  "timestamp": "2026-06-12T23:22:52.067310+00:00"
+}

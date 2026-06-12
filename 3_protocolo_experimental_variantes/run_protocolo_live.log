@@ -1,0 +1,297 @@
+2026-06-12 15:43:01,745 INFO Inicio PASO 3 mode=api-incremental run_api=True deepseek_key=True max_api_bl=400
+2026-06-12 15:43:02,229 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:03,594 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:04,746 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:06,103 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:07,296 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:08,529 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:09,709 INFO Progreso 10/400 | api_bl=6 cache_bl=4 fallback_bl=0 api_err={}
+2026-06-12 15:43:09,710 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:11,126 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:12,607 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:13,767 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:14,897 INFO Progreso 20/400 | api_bl=10 cache_bl=10 fallback_bl=0 api_err={}
+2026-06-12 15:43:14,898 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:15,880 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:16,984 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:18,248 INFO Progreso 30/400 | api_bl=13 cache_bl=17 fallback_bl=0 api_err={}
+2026-06-12 15:43:18,248 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:19,449 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:23,011 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:24,412 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:25,791 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:27,277 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:28,770 INFO Progreso 40/400 | api_bl=19 cache_bl=21 fallback_bl=0 api_err={}
+2026-06-12 15:43:28,772 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:29,819 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:30,894 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:32,134 INFO Progreso 50/400 | api_bl=22 cache_bl=28 fallback_bl=0 api_err={}
+2026-06-12 15:43:32,135 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:33,325 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:34,548 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:35,707 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:36,887 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:38,257 INFO Progreso 60/400 | api_bl=27 cache_bl=33 fallback_bl=0 api_err={}
+2026-06-12 15:43:38,258 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:39,660 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:40,955 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:42,508 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:43,947 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:45,346 INFO Progreso 70/400 | api_bl=32 cache_bl=38 fallback_bl=0 api_err={}
+2026-06-12 15:43:45,347 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:46,611 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:47,748 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:49,182 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:50,355 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:51,768 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:52,979 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:54,338 INFO Progreso 80/400 | api_bl=39 cache_bl=41 fallback_bl=0 api_err={}
+2026-06-12 15:43:54,339 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:55,789 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:57,200 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:43:58,559 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:05,077 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:06,575 INFO Progreso 90/400 | api_bl=44 cache_bl=46 fallback_bl=0 api_err={}
+2026-06-12 15:44:06,576 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:07,991 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:09,408 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:10,568 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:11,764 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:12,982 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:14,315 INFO Progreso 100/400 | api_bl=50 cache_bl=50 fallback_bl=0 api_err={}
+2026-06-12 15:44:14,315 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:15,807 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:17,022 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:18,475 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:19,777 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:21,387 INFO Progreso 110/400 | api_bl=55 cache_bl=55 fallback_bl=0 api_err={}
+2026-06-12 15:44:21,388 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:22,894 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:23,988 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:25,352 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:26,513 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:27,654 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:28,969 INFO Progreso 120/400 | api_bl=61 cache_bl=59 fallback_bl=0 api_err={}
+2026-06-12 15:44:28,970 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:30,401 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:31,549 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:32,718 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:33,808 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:34,844 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:35,989 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:38,495 INFO Progreso 130/400 | api_bl=68 cache_bl=62 fallback_bl=0 api_err={}
+2026-06-12 15:44:38,496 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:39,758 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:40,993 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:42,120 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:43,632 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:45,045 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:46,208 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:47,584 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:49,084 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:50,250 INFO Progreso 140/400 | api_bl=77 cache_bl=63 fallback_bl=0 api_err={}
+2026-06-12 15:44:50,251 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:51,576 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:53,050 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:54,321 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:55,608 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:56,881 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:58,164 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:44:59,758 INFO Progreso 150/400 | api_bl=84 cache_bl=66 fallback_bl=0 api_err={}
+2026-06-12 15:44:59,759 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:01,207 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:02,399 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:08,857 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:10,589 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:11,651 INFO Progreso 160/400 | api_bl=89 cache_bl=71 fallback_bl=0 api_err={}
+2026-06-12 15:45:11,652 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:12,824 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:14,044 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:15,300 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:16,767 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:18,032 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:19,114 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:20,583 INFO Progreso 170/400 | api_bl=96 cache_bl=74 fallback_bl=0 api_err={}
+2026-06-12 15:45:20,584 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:21,830 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:23,282 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:24,358 INFO Progreso 180/400 | api_bl=99 cache_bl=81 fallback_bl=0 api_err={}
+2026-06-12 15:45:24,359 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:25,497 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:26,823 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:28,100 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:29,316 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:30,620 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:32,060 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:33,146 INFO Progreso 190/400 | api_bl=106 cache_bl=84 fallback_bl=0 api_err={}
+2026-06-12 15:45:33,147 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:34,270 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:35,414 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:36,755 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:38,084 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:39,467 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:40,636 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:42,054 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:43,501 INFO Progreso 200/400 | api_bl=114 cache_bl=86 fallback_bl=0 api_err={}
+2026-06-12 15:45:43,501 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:44,715 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:45,797 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:46,958 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:48,168 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:49,352 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:50,526 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:51,677 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:53,097 INFO Progreso 210/400 | api_bl=122 cache_bl=88 fallback_bl=0 api_err={}
+2026-06-12 15:45:53,097 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:54,219 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:55,313 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:56,519 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:57,608 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:45:58,769 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:00,142 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:01,320 INFO Progreso 220/400 | api_bl=129 cache_bl=91 fallback_bl=0 api_err={}
+2026-06-12 15:46:01,320 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:02,662 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:03,990 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:05,143 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:06,448 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:07,844 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:09,217 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:10,929 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:12,241 INFO Progreso 230/400 | api_bl=137 cache_bl=93 fallback_bl=0 api_err={}
+2026-06-12 15:46:12,242 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:13,476 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:14,827 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:16,249 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:17,628 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:19,009 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:20,487 INFO Progreso 240/400 | api_bl=143 cache_bl=97 fallback_bl=0 api_err={}
+2026-06-12 15:46:20,487 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:21,785 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:23,088 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:24,436 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:25,480 INFO Progreso 250/400 | api_bl=147 cache_bl=103 fallback_bl=0 api_err={}
+2026-06-12 15:46:25,481 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:26,611 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:28,316 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:29,503 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:30,882 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:32,405 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:33,863 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:35,133 INFO Progreso 260/400 | api_bl=154 cache_bl=106 fallback_bl=0 api_err={}
+2026-06-12 15:46:35,133 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:36,472 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:38,032 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:39,063 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:40,458 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:41,567 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:42,979 INFO Progreso 270/400 | api_bl=160 cache_bl=110 fallback_bl=0 api_err={}
+2026-06-12 15:46:42,979 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:44,352 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:45,495 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:46,888 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:48,164 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:49,490 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:50,567 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:51,846 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:53,329 INFO Progreso 280/400 | api_bl=168 cache_bl=112 fallback_bl=0 api_err={}
+2026-06-12 15:46:53,330 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:54,607 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:46:55,722 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:02,091 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:03,592 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:05,140 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:06,493 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:07,969 INFO Progreso 290/400 | api_bl=175 cache_bl=115 fallback_bl=0 api_err={}
+2026-06-12 15:47:07,970 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:09,655 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:10,989 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:12,474 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:13,890 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:15,361 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:16,603 INFO Progreso 300/400 | api_bl=181 cache_bl=119 fallback_bl=0 api_err={}
+2026-06-12 15:47:16,603 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:18,001 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:19,149 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:20,462 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:22,023 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:23,431 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:24,864 INFO Progreso 310/400 | api_bl=187 cache_bl=123 fallback_bl=0 api_err={}
+2026-06-12 15:47:24,865 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:26,055 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:27,468 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:28,791 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:30,152 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:31,338 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:32,476 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:33,871 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:35,335 INFO Progreso 320/400 | api_bl=195 cache_bl=125 fallback_bl=0 api_err={}
+2026-06-12 15:47:35,336 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:36,861 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:38,487 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:39,930 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:41,675 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:43,027 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:44,159 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:45,561 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:47,577 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:48,687 INFO Progreso 330/400 | api_bl=204 cache_bl=126 fallback_bl=0 api_err={}
+2026-06-12 15:47:48,687 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:49,913 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:51,401 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:52,780 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:53,780 INFO Progreso 340/400 | api_bl=208 cache_bl=132 fallback_bl=0 api_err={}
+2026-06-12 15:47:53,780 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:55,288 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:56,487 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:57,632 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:58,766 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:47:59,913 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:01,052 INFO Progreso 350/400 | api_bl=214 cache_bl=136 fallback_bl=0 api_err={}
+2026-06-12 15:48:01,053 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:02,514 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:03,881 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:05,137 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:06,289 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:12,480 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:13,747 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:14,976 INFO Progreso 360/400 | api_bl=221 cache_bl=139 fallback_bl=0 api_err={}
+2026-06-12 15:48:14,977 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:16,109 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:17,198 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:18,455 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:19,553 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:20,787 INFO Progreso 370/400 | api_bl=226 cache_bl=144 fallback_bl=0 api_err={}
+2026-06-12 15:48:20,787 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:21,840 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:22,817 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:24,135 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:25,418 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:26,478 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:27,567 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:28,734 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:30,046 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:31,143 INFO Progreso 380/400 | api_bl=235 cache_bl=145 fallback_bl=0 api_err={}
+2026-06-12 15:48:31,143 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:32,370 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:33,770 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:35,074 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:36,412 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:37,527 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:38,863 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:40,248 INFO Progreso 390/400 | api_bl=242 cache_bl=148 fallback_bl=0 api_err={}
+2026-06-12 15:48:40,249 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:41,501 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:42,966 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:44,027 INFO LLM Client initialized: deepseek/deepseek-chat
+2026-06-12 15:48:45,223 INFO Progreso 400/400 | api_bl=246 cache_bl=154 fallback_bl=0 api_err={}
+/home/jlpy/Documents/4Semestre/Proyecto de Investigacion 2/Tesis/tesis2/parcial3/entregable/3_protocolo_experimental_variantes/metricas_protocolo_entregable.py:253: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  fig.tight_layout()
+2026-06-12 15:48:46,088 INFO Finalizado. Baseline sources: {'deepseek_api': 246, 'deepseek_cache': 154}
+2026-06-12 15:48:46,089 INFO Métricas:
+   variante  ...  FNR-stop (False Negative Rate stop)
+0  Baseline  ...                             0.333333
+1      Var1  ...                             0.300000
+2      Var2  ...                             0.300000
+
+[3 rows x 4 columns]

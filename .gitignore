@@ -1,0 +1,17 @@
+# Rama parcial: solo entregable examen (PASO 0→5)
+/*
+!/.gitignore
+!/README.md
+!/0_etl_ingesta_preprocesamiento/
+!/1_ingenieria_atributos_y_recuperacion_rag/
+!/2_modulo_criticidad_gobernanza_adaptativa/
+!/3_protocolo_experimental_variantes/
+!/4_calibracion_diagnosticos_y_explicabilidad/
+!/5_cierre_examen_parcial_mlops/
+
+**/__pycache__/
+**/*.pyc
+.venv/
+venv/
+**/.env
+**/.env.*
